@@ -7,12 +7,19 @@
         "Pages": [
           {
             "TextLines": [
-              "1. É proibido utilizar qualquer tipo de hack, programa ilegal ou bugs. (Penalidade: Ban permanente)",
-			  "2. É proibido pedir qualquer tipo de auxilio, por exemplo, teleport, itens, mudar o horário on game... aos membros da staff.",
-			  "3. Como o servidor é limitado a 50 players é proibido guardar vaga, jogadores que estiverem afk serão kickados por inatividade.",
-			  "4. Nenhum membro da staff irá usar a sua autoridade ou comandos de adm enquanto estiver logado como player, jogando normalmente. Caso isso ocorra deverá ser encaminhada uma denúncia.",
+			  " ",
+              "1. É proibido utilizar qualquer tipo de hack, programa ilegal ou bugs.",
+			  "(Penalidade: Ban permanente)",
+			  "2. É proibido pedir qualquer tipo de auxilio aos membros da staff.", 
+			  "Ex.: teleport, itens, mudar horário on game",
+			  "3. Como o servidor é limitado a 50 players é proibido guardar vaga,", 
+			  "jogadores que estiverem afk serão kickados por inatividade.",
+			  "4. Nenhum membro da staff irá usar a sua autoridade ou comandos de adm enquanto", 
+			  "estiver logado como player, jogando normalmente.", 
+			  "Caso isso ocorra, envie denuncia aos outros membros da STAFF.",
 			  "5. É proibido propagandas de outros servidores ou de qualquer outra coisa.",
-			  "6. Lembrem-se, isto é apena"
+			  "6. Seja educado. SEMPRE!",
+			  "7. Lembrem-se, isto é apenas um jogo. DIVIRTAM-SE"
             ],
             "ImageSettings": []
           },
@@ -45,15 +52,41 @@
         "Pages": [
           {
             "TextLines": [
-              "/kit starter, comando para receber um kit basico inicial, você tem 5 kit",
-              "Add some text here by adding more lines.",
-              "You should replace all default text lines with whatever you feel up to",
-              "type <color=red> /info </color> to open this window",
-              "You may add more pages in config file."
+              "/kit starter, comando para receber um kit basico inicial",
+              "Você tem 5 kits, use com sabedoria, não haverá outros.",
+			  " ",
+              "/bsl <numero>, comando para acessar a loja.",
+              "Mude o número para navegar nas páginas da loja.",
+			  " ",
+              "/buy 'nome do item' <quantidade>, comando para comprar itens da loja.",
+              "Ex.: /buy 'caixa grande' 5",
+			  " ",
+              "Caso queira a BluePrint do item, utilize:",
+              "/buy 'nome do item_bp' <quantidade>",
+              "Ex.: /buy 'caixa grande_bp' 1", 
+			  " ",
+              "/balance, comando para ver seu saldo no jogo",
+			  " ",
+			  "/transfer 'nome do player' <quantidade>, comando para realizar transferência de dinheiro.",
+			  " ",
+			  "/tpr 'nome do player', comando para pedir teleporte para outro player",
+			  "/tpa, comando para aceitar o teleporte feito por outro player",
+			  " ",
+			  "/sethome 'nome ou numero da home', comando para salvar local como sua casa",
+			  "/home 'nome ou numero da home', comando para se teleportar para sua casa",
+			  " "
+			  
             ],
             "ImageSettings": []
           },
-		  
+		  {
+            "TextLines": [
+              "/sethome 'nome ou numero da home', comando para salvar local como sua casa",
+			  "/home 'nome ou numero da home', comando para se teleportar para sua casa",
+			  " "
+            ],
+            "ImageSettings": []
+          },
 		  {
             "TextLines": [
               "This is second tab, first page.",
@@ -133,7 +166,7 @@
       "MaxY": 0.9
     },
     "BackgroundImage": {
-      "Enabled": true,
+      "Enabled": false,
       "Position": {
         "MinX": 0.0,
         "MaxX": 1.0,
@@ -143,7 +176,7 @@
       "Url": "http://7-themes.com/data_images/out/13/6813131-textured-backgrounds.jpg",
       "TransparencyInPercent": 20
     },
-    "ActiveButtonColor": "#00FFFFFF",
+    "ActiveButtonColor": "#000000",
     "InactiveButtonColor": "#7F7F7FFF",
     "CloseButtonColor": "#7F7F7FFF",
     "NextPageButtonColor": "#7F7F7FFF",
