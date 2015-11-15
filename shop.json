@@ -1,0 +1,428 @@
+{
+    "Commands": {
+        "Buy": "buy",
+        "List": "bsl",
+        "Sell": "sell"
+    },
+    "Generate": {
+        "Blueprint_Modificator": 2,
+        "FileName": "PriceList",
+        "Generate_Ingredients": false,
+        "List_Items_Per_Page": 6,
+        "New_Price_List": false,
+        "Sell_Modificator": 0.9
+    },
+    "Message": {
+        "Blueprint_Indicator": "_bp",
+        "Buy_Error": "Você não tem dinheiro suficiente (ainda precisam de R$ %s)!",
+        "Buy_Error2": "Você não tem espaço suficiente no seu inventário!",
+        "Buy_Not": "Este item não pode ser comprado.",
+        "Buy_Price": "O preço deste item de compra é R$ %s",
+        "Buy_Succes": "Obrigado pela sua compra! (Você gastou R$ %s)",
+        "ChatFormat": "<color=#af5>[Loja]</color> %s",
+        "ChatPlayerIcon": true,
+        "Help": [
+            "/sell \"item\" -- Mostra o preço de venda",
+            "/sell \"item\" <quantidade> - ponto de venda",
+            "/buy \"item\" -- Mostra o preço de compra",
+            "/buy \"item\" <quantidade> - Comprar produto",
+            "/buy \"item_bp\" <quantidade> - Comprar modelo de produto",
+            "/bsl [<pag>] -- Mostra uma lista de preços de uma página específica"
+        ],
+        "List": "Item: {Name}, P.Comprar R$ {PPrice}, P.Vender R$ {SPrice}, Bp R$ {BPrice}",
+        "List_Beg": "------------------- PAG   %s  -------------------",
+        "List_End": "-------------------------------------------------",
+        "List_No_Blueprint": "no",
+        "List_No_Purchase": "no",
+        "List_No_Sale": "no",
+        "Matches": "Encontrados varios itens parecidos com %s",
+        "Not_Find": "O item com esse nome não pode ser encontrado na loja!",
+        "Sell_Error": "Você não pode vender o que você não tem!",
+        "Sell_Not": "Este item não pode ser vendido.",
+        "Sell_Price": "O Preço de venda deste item é R$ %s",
+        "Sell_Succes": "Você vendeu este item por R$ %s!",
+        "Syntax_Error": "Syntax Error! /%s [\"item\" ou \"item_bp\"] [<amount>]"
+    },
+    "PriceList": {
+        "base": {
+            "Animal Fat": 150,
+            "Anti-Radiation Pills": 200,
+            "Apple": 10,
+            "Battery - Small": 50
+        },
+        "generated": {
+            "3655341": [
+                10,
+                0.07,
+                1,
+                "Madeira"
+            ],
+            "28178745": [
+                650,
+                300,
+                1500,
+                "Combustivel"
+            ],
+            "50834473": [
+                25,
+                12,
+                40,
+                "Couro"
+            ],
+            "94756378": [
+                25,
+                12,
+                40,
+                "Tecido"
+            ],
+            "102672084": [
+                1000,
+                500,
+                2000,
+                "Poncho-Pele"
+            ],
+            "106433500": [
+                2500,
+                1250,
+                3500,
+                "Calça"
+            ],
+            "109552593": [
+                3500,
+                1200,
+                4500,
+                "Sub-metralhadora"
+            ],
+            "115739308": [
+                1000,
+                500,
+                1500,
+                "Luvas de couro"
+            ],
+            "124310981": [
+                550,
+                255,
+                850,
+                "Cocar de Lobo"
+            ],
+            "271534758": [
+                2500,
+                1250,
+                4000,
+                "Caixa Grande"
+            ],
+            "277631078": [
+                9150,
+                4300,
+                18500,
+                "Turbina de vento"
+            ],
+            "449771810": [
+                30,
+                15,
+                500,
+                "Bala Incendiária 5.56"
+            ],
+            "470729623": [
+                6150,
+                3300,
+                12500,
+                "Refinaria"
+            ],
+            "548699316": [
+                4250,
+                2150,
+                9500,
+                "Pistola Semi-Automatica"
+            ],
+            "586484018": [
+                650,
+                300,
+                1600,
+                "Seringa Médica"
+            ],
+            "698310895": [
+                125,
+                12,
+                0,
+                "Machado"
+            ],
+            "805088543": [
+                30,
+                15,
+                500,
+                "Bala Explosiva 5.56"
+            ],
+            "815896488": [
+                20,
+                10,
+                500,
+                "Bala Normal 5.56"
+            ],
+            "1024486167": [
+                3000,
+                1500,
+                4000,
+                "Barricada-Madeira"
+            ],
+            "1046072789": [
+                500,
+                150,
+                900,
+                "Armadilha"
+            ],
+            "1057685737": [
+                2500,
+                1250,
+                4000,
+                "Luva anti-radiação"
+            ],
+            "1079752220": [
+                2500,
+                1150,
+                3500,
+                "Capacete anti-radiação"
+            ],
+            "1133046397": [
+                2500,
+                1250,
+                3500,
+                "Jaqueta anti-radiação"
+            ],
+            "1152393492": [
+                30,
+                15,
+                500,
+                "Bala alta velocidade 5.56"
+            ],
+            "1186854727": [
+                150,
+                15,
+                150,
+                "Jaqueta de Ossos"
+            ],
+            "1213686767": [
+                2050,
+                1000,
+                3500,
+                "Silenciador"
+            ],
+            "1260209393": [
+                550,
+                250,
+                1150,
+                "Capacete de balde"
+            ],
+            "1293049486": [
+                150,
+                300,
+                850,
+                "Explosivo Pesquisa"
+            ],
+            "1351589500": [
+                95,
+                50,
+                300,
+                "Fragmento Blueprint"
+            ],
+            "1416106479": [
+                2500,
+                1220,
+                3000,
+                "Jaqueta Neve Preta"
+            ],
+            "1734319168": [
+                100,
+                12,
+                0,
+                "Cochinha"
+            ],
+            "1817873886": [
+                2000,
+                1000,
+                3500,
+                "Coletor de água g"
+            ],
+            "1824679850": [
+                1000,
+                500,
+                2000,
+                "Coletor de água p"
+            ],
+            "2057749608": [
+                2000,
+                1000,
+                4000,
+                "Prateleiras"
+            ],
+            "2107229499": [
+                2500,
+                1250,
+                3500,
+                "Botas"
+            ],
+            "-1009492144": [
+                6500,
+                3000,
+                8500,
+                "Escopeta"
+            ],
+            "-1021702157": [
+                1500,
+                800,
+                2000,
+                "Janela-Metal"
+            ],
+            "-1026117678": [
+                2000,
+                1000,
+                3000,
+                "Mesa-Reparo"
+            ],
+            "-1034048911": [
+                150,
+                80,
+                385,
+                "Gordura Animal"
+            ],
+            "-1035059994": [
+                50,
+                25,
+                500,
+                "Bala Calibre 12"
+            ],
+            "-1066276787": [
+                2500,
+                1250,
+                3500,
+                "Calça anti-radiação"
+            ],
+            "-1078788046": [
+                2500,
+                1250,
+                3500,
+                "Botas anti-radiação"
+            ],
+            "-1167640370": [
+                2500,
+                1250,
+                3000,
+                "Jaqueta"
+            ],
+            "-1211618504": [
+                1500,
+                700,
+                2000,
+                "Moletom Capuz"
+            ],
+            "-1221200300": [
+                850,
+                400,
+                1650,
+                "Barricada_Pedras"
+            ],
+            "-1227787393": [
+                1500,
+                750,
+                2000,
+                "Portao-Externo-Madeira"
+            ],
+            "-1308622549": [
+                1250,
+                650,
+                2250,
+                "Granada"
+            ],
+            "-1411620422": [
+                12150,
+                6300,
+                28500,
+                "Mineradora"
+            ],
+            "-1461508848": [
+                10000,
+                5000,
+                12500,
+                "Rifle AK"
+            ],
+            "-1571725662": [
+                2000,
+                1000,
+                4000,
+                "Porta Blindada"
+            ],
+            "-1779401418": [
+                2000,
+                1000,
+                4000,
+                "Portão-Externo-Pedra"
+            ],
+            "-2104481870": [
+                2000,
+                1000,
+                4000,
+                "Janela Reforçada"
+            ],
+            "-337261910": [
+                105,
+                12,
+                0,
+                "Bandage"
+            ],
+            "-402507101": [
+                2000,
+                1000,
+                4000,
+                "Janela Reforçada"
+            ],
+            "-465236267": [
+                1250,
+                625,
+                3000,
+                "Mira holográfica"
+            ],
+            "-496055048": [
+                2150,
+                1000,
+                4500,
+                "Parede-Externa-Pedra"
+            ],
+            "-533875561": [
+                20,
+                10,
+                50,
+                "Bala Normal Pistola"
+            ],
+            "-55660037": [
+                10000,
+                5000,
+                12500,
+                "Rifle Longo Alcance"
+            ],
+            "-578028723": [
+                125,
+                12,
+                0,
+                "Picareta"
+            ],
+            "-758925787": [
+                9150,
+                4300,
+                18500,
+                "Bomba de Petróleo"
+            ],
+            "-789202811": [
+                1200,
+                625,
+                2250,
+                "Kit Medico"
+            ],
+            "-892070738": [
+                10,
+                0.07,
+                1,
+                "Pedra"
+            ]
+        }
+    }
+}
