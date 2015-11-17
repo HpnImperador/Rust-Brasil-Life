@@ -1,0 +1,7 @@
+{
+  "ChancePerConsumption": 5.0,
+  "CharcoalChanceModifier": 5.0,
+  "CharcoalProductionModifier": 5.0,
+  "DontOvercookMeat": true,
+  "ProductionModifier": 5.0
+}
