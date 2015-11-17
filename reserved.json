@@ -1,0 +1,18 @@
+{
+  "Messages": {
+    "AlreadyAdded": "{player} ({steamid}) is already on the reserved list!",
+    "ChatHelp": "Use '/reserved add|remove|slots player|steamid|#'",
+    "InvalidTarget": "Invalid player or Steam ID! Please try again",
+    "NoPermission": "You do not have permission to use this command!",
+    "NotReserved": "{player} ({steamid}) is not on the reserved list!",
+    "PlayerAdded": "{player} ({steamid}) has been added to the reserved list!",
+    "PlayerRemoved": "{player} ({steamid}) has been removed from the reserved list!",
+    "Rejected": "Sorry, the maximum number of players are connected!",
+    "ReservedSlots": "Reserved slots set to {number}!",
+    "UnknownAction": "Unknown command action! Use add, remove, or slots"
+  },
+  "Settings": {
+    "Command": "reserved",
+    "ReservedSlots": 75
+  }
+}
