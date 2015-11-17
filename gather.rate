@@ -1,0 +1,53 @@
+gather.rate pickup Crude Oil
+
+
+gather.rate survey "Crude Oil" 5
+gather.rate survey "High Quality Metal" 5
+gather.rate survey "Sulfur" 5
+gather.rate survey "Metal Fragments" 5
+gather.rate survey "Metal Ore" 5
+gather.rate survey "High Quality Metal Ore" 5
+gather.rate survey "Sulfur Ore" 5
+gather.rate survey "Stones" 5
+gather.rate survey "Wood" 5
+gather.rate survey "Charcoal" 5
+gather.rate survey * 5
+
+gather.rate dispenser "Charcoal" 5
+gather.rate dispenser "Wood" 5
+gather.rate dispenser "Crude Oil" 5
+gather.rate dispenser "High Quality Metal" 5
+gather.rate dispenser "Sulfur" 5
+gather.rate dispenser "Metal Fragments" 5
+gather.rate dispenser "Metal Ore" 5
+gather.rate dispenser "High Quality Metal Ore" 5
+gather.rate dispenser "Sulfur Ore" 5
+gather.rate dispenser * 5
+
+gather.rate pickup "Charcoal" 5
+gather.rate pickup "Wood" 5
+gather.rate pickup "Stones" 5
+gather.rate pickup "Crude Oil" 5
+gather.rate pickup "High Quality Metal" 5
+gather.rate pickup "Sulfur" 5
+gather.rate pickup "Metal Fragments" 5
+gather.rate pickup "Metal Ore" 5
+gather.rate pickup "High Quality Metal Ore" 5
+gather.rate pickup * 5
+
+Pork
+Raw Chicken Breast
+Cloth
+Corn
+Animal Fat
+Raw Human Meat
+Leather
+Bear Meat
+
+Small Water Bottle
+Stones
+Sulfur
+Sulfur Ore
+Targeting Computer
+Water
+Wood
