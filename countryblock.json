@@ -1,0 +1,33 @@
+{
+  "Messages": {
+    "AlreadyAdded": "{country} is already on the country list!",
+    "ChatHelp": [
+      "Use /country add countrycode to add a country to the list",
+      "Use /country remove countrycode to remove a country from the list",
+      "Use /country list to list all the countries on the list"
+    ],
+    "CountryAdded": "{country} has been added to the country list!",
+    "CountryRemoved": "{country} has been removed from the country list!",
+    "ListTypeChanged": "Country list type changed to {listtype}",
+    "NoPermission": "You do not have permission to use this command!",
+    "NotListed": "{country} is not on the country list! Please Contact ADM TS 187.58.224.15",
+    "PlayerKicked": "",
+    "Rejected": "Sorry, this server doesn't allow players from your country! Please Contact ADM TS 187.58.224.15 ",
+    "UnknownAction": "Unknown command action! Use add, remove, list, or type",
+    "UnknownListType": "Unknown list type! Use blacklist or whitelist"
+  },
+  "Settings": {
+    "AdminExcluded": "true",
+    "AuthLevel": 2,
+    "Broadcast": "true",
+    "ChatCommand": "country",
+    "ChatName": "SERVER",
+    "ChatNameHelp": "HELP",
+    "ConsoleCommand": "country.block",
+    "CountryList": [
+      "BR",
+      "AR"
+    ],
+    "ListType": "whitelist"
+  }
+}
