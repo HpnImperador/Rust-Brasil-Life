@@ -1,0 +1,66 @@
+{
+  "AntiSpam": {
+    "Enabled": false,
+    "MaxCharacters": 85
+  },
+  "mod": {
+    "ConsoleFormatting": "{Title} {Name}: {Message}",
+    "Formatting": "{Title} {Name}<color={TextColor}>:</color> {Message}",
+    "NameColor": "#FF7F50",
+    "Permission": "color_mod",
+    "Rank": 3,
+    "TextColor": "white",
+    "Title": "[MOD] ",
+    "TitleColor": "#008080ff"
+  },
+  "owner": {
+    "ConsoleFormatting": "{Title} {Name}: {Message}",
+    "Formatting": "{Title} {Name}<color={TextColor}>:</color> {Message}",
+    "NameColor": "#FF7F50",
+    "Permission": "color_owner",
+    "Rank": 4,
+    "TextColor": "white",
+    "Title": ">>> ",
+    "TitleColor": "#008080ff"
+  },
+  "player": {
+    "ConsoleFormatting": "{Title} {Name}: {Message}",
+    "Formatting": "{Title} {Name}<color={TextColor}>:</color> {Message}",
+    "NameColor": "#6687ff",
+    "Permission": "color_player",
+    "Rank": 1,
+    "TextColor": "white",
+    "Title": " ",
+    "TitleColor": "#6687ff"
+  },
+  "STAFF": {
+    "ConsoleFormatting": "{Title} {Name}: {Message}",
+    "Formatting": "{Title} {Name}<color={TextColor}>:</color> {Message}",
+    "NameColor": "#008080ff",
+    "Permission": "color_staff",
+    "Rank": 1,
+    "TextColor": "white",
+    "Title": "[staff] ",
+    "TitleColor": "#ffa500ff"
+  },
+  "vip": {
+    "ConsoleFormatting": "{Title} {Name}: {Message}",
+    "Formatting": "{Title} {Name}<color={TextColor}>:</color> {Message}",
+    "NameColor": "#6687ff",
+    "Permission": "color_vip",
+    "Rank": 2,
+    "TextColor": "white",
+    "Title": "",
+    "TitleColor": "#6687ff"
+  },
+  "WordFilter": {
+    "CustomReplacement": "Unicorn",
+    "Enabled": false,
+    "FilterList": [
+      "fuck",
+      "bitch",
+      "faggot"
+    ],
+    "UseCustomReplacement": false
+  }
+}
