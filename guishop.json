@@ -1,846 +1,869 @@
 {
-  "Message - Bought": "Você comprou com sucesso {0}x de {1}",
-  "Message - Error - Item Doesnt Exist": "AVISO: O item que você está tentando comprar não parece existir",
-  "Message - Error - Item Not Set Properly": "AVISO: O administrador não definiu corretamente este item! (item)",
-  "Message - Error - Item Not Valid": "AVISO: Parece que esse não é um item válido",
-  "Message - Error - No Action In Shop": "Você não tem permissão para {0} nesta loja",
-  "Message - Error - No Action Item": "Você não tem permissão para {0} este item aqui",
-  "Message - Error - No Buy Price": "AVISO: Item sem preço de compra. Avise o Admin, você não pode comprar este item",
-  "Message - Error - No Chat Shop": "Você não pode usar a loja pelo chat. Você pode precisar encontrar as Lojas com NPC no mapa.",
-  "Message - Error - No Econonomics": "Couldn't get informations out of Economics. Is it installed?",
-  "Message - Error - No NPC": "O NPC não foi encontrado perto de você",
-  "Message - Error - No Sell Price": "AVISO: O admin não colocaou preço de venda, você não pode vender este item",
-  "Message - Error - No Shop": "This shop doesn't seem to exist.",
-  "Message - Error - Not Enough Items": "Você não tem o suficiente para comprar este item.",
-  "Message - Error - Not Enough Money": "Você Precisa R$ {0} para comrar {1} de {2}",
-  "Message - Error - Redeem Kit": "WARNING: There was an error while giving you this kit",
-  "Message - Sold": "Você vendeu com sucesso {0}x {1}",
-  "Shop - Shop Categories": {
-    "12 Gauge Buckshot": {
-      "buy": "10",
-      "img": "http://vignette1.wikia.nocookie.net/play-rust/images/2/2f/12_gauge_buckshot_icon.png/revision/latest/scale-to-width-down/100?cb=20151106061114",
-      "item": "12 Gauge Buckshot",
-      "sell": "8"
-    },
-    "12 Gauge Slug": {
-      "buy": "",
-      "img": "http://vignette3.wikia.nocookie.net/play-rust/images/1/1a/12_gauge_slug_icon.png/revision/latest/scale-to-width-down/100?cb=20151106061838",
-      "item": "12 Gauge Slug",
-      "sell": "8"
-    },
-    "5.56 Rifle Ammo": {
-      "buy": "915",
-      "img": "http://vignette1.wikia.nocookie.net/play-rust/images/4/49/5.56_Rifle_Ammo_icon.png",
-      "item": "5.56 Rifle Ammo",
-      "sell": "8"
-    },
-    "Animal Fat": {
-      "buy": "440",
-      "img": "http://vignette1.wikia.nocookie.net/play-rust/images/d/d5/Animal_Fat_icon.png",
-      "item": "Animal Fat",
-      "sell": "228"
-    },
-    "Anti-Radiation Pills": {
-      "buy": "20",
-      "img": "http://vignette2.wikia.nocookie.net/play-rust/images/0/0e/anti-radiation_pills_icon.png/revision/latest/scale-to-width-down/100?cb=20151106060926",
-      "item": "Anti-Radiation Pills",
-      "sell": "5"
-    },
-    "Apple": {
-      "buy": "2",
-      "img": "http://vignette2.wikia.nocookie.net/play-rust/images/d/dc/apple_icon.png/revision/latest/scale-to-width-down/100?cb=20150405103640",
-      "item": "Apple",
-      "sell": "1"
-    },
-    "Armored Door": {
-      "buy": "40",
-      "img": "http://vignette2.wikia.nocookie.net/play-rust/images/b/bc/armored_door_icon.png/revision/latest/scale-to-width-down/100?cb=20151106231419",
-      "item": "Armored Door",
-      "sell": "8"
-    },
-    "Assault Rifle": {
-      "buy": "15000",
-      "img": "http://vignette3.wikia.nocookie.net/play-rust/images/d/d1/Assault_Rifle_icon.png",
-      "item": "Assault Rifle",
-      "sell": "8"
-    },
-    "Auto Turret": {
-      "buy": "2400000",
-      "img": "http://vignette2.wikia.nocookie.net/play-rust/images/f/f9/Auto_Turret_icon.png",
-      "item": "Auto Turret",
-      "sell": "8"
-    },
-    "Bandage": {
-      "buy": "15",
-      "img": "http://vignette3.wikia.nocookie.net/play-rust/images/f/f8/bandage_icon.png/revision/latest/scale-to-width-down/100?cb=20151106061541",
-      "item": "Bandage",
-      "sell": "8"
-    },
-    "Barbed Wooden Barricade": {
-      "buy": "5040",
-      "img": "http://vignette1.wikia.nocookie.net/play-rust/images/7/7b/barbed_wooden_barricade_icon.png",
-      "item": "Barbed Wooden Barricade",
-      "sell": "2500"
-    },
-    "Baseball Cap": {
-      "buy": "15",
-      "img": "http://vignette2.wikia.nocookie.net/play-rust/images/7/77/baseball_cap_icon.png/revision/latest/scale-to-width-down/100?cb=20151106230420",
-      "item": "Baseball Cap",
-      "sell": "8"
-    },
-    "Bed": {
-      "buy": "40",
-      "img": "http://vignette3.wikia.nocookie.net/play-rust/images/f/fe/Bed_icon.png/revision/latest/scale-to-width-down/100?cb=20151106061212",
-      "item": "Bed",
-      "sell": "8"
-    },
-    "Beenie Hat": {
-      "buy": "18",
-      "img": "http://vignette1.wikia.nocookie.net/play-rust/images/c/c1/beenie_hat_icon.png/revision/latest/scale-to-width-down/100?cb=20151106230442",
-      "item": "Beenie Hat",
-      "sell": "8"
-    },
-    "Blood": {
-      "buy": "100",
-      "img": "http://vignette3.wikia.nocookie.net/play-rust/images/a/a3/Blood_icon.png/revision/latest/scale-to-width-down/100?cb=20151106061721",
-      "item": "Blood",
-      "sell": "50"
-    },
-    "Blueberries": {
-      "buy": "1",
-      "img": "http://vignette1.wikia.nocookie.net/play-rust/images/f/f8/blueberries_icon.png/revision/latest/scale-to-width-down/100?cb=20150405111338",
-      "item": "Blueberries",
-      "sell": "9"
-    },
-    "Blueprint Fragment": {
-      "buy": "10",
-      "img": "http://vignette1.wikia.nocookie.net/play-rust/images/0/0e/blueprint_fragment_icon.png/revision/latest/scale-to-width-down/100?cb=20151106061217",
-      "item": "Blueprint Fragment",
-      "sell": "0.05"
-    },
-    "Bolt Action Rifle": {
-      "buy": "14500",
-      "img": "http://vignette1.wikia.nocookie.net/play-rust/images/5/55/Bolt_Action_Rifle_icon.png",
-      "item": "Bolt Action Rifle",
-      "sell": "8"
-    },
-    "Bone Armor Pants": {
-      "buy": "60",
-      "img": "http://vignette2.wikia.nocookie.net/play-rust/images/4/49/bone_armor_pants_icon.png/revision/latest/scale-to-width-down/100?cb=20151106061828",
-      "item": "Bone Armor Pants",
-      "sell": "8"
-    },
-    "Bone Jacket": {
-      "buy": "70",
-      "img": "http://vignette1.wikia.nocookie.net/play-rust/images/f/f7/bone_jacket_icon.png/revision/latest/scale-to-width-down/100?cb=20151106061054",
-      "item": "Bone Jacket",
-      "sell": "8"
-    },
-    "Boonie Hat": {
-      "buy": "15",
-      "img": "http://vignette2.wikia.nocookie.net/play-rust/images/8/88/boonie_hat_icon.png/revision/latest/scale-to-width-down/100?cb=20151106230359",
-      "item": "Boonie Hat",
-      "sell": "8"
-    },
-    "Boots": {
-      "buy": "30",
-      "img": "http://vignette1.wikia.nocookie.net/play-rust/images/b/b3/Boots_icon.png/revision/latest/scale-to-width-down/100?cb=20151106230354",
-      "item": "Boots",
-      "sell": "8"
-    },
-    "Bucket Helmet": {
-      "buy": "80",
-      "img": "http://vignette1.wikia.nocookie.net/play-rust/images/a/a5/bucket_helmet_icon.png/revision/latest/scale-to-width-down/100?cb=20151106061537",
-      "item": "Bucket Helmet",
-      "sell": "8"
-    },
-    "Build Kit": {
-      "buy": "10",
-      "img": "http://oxidemod.org/data/resource_icons/0/715.jpg?1425682952",
-      "item": "kitbuild",
-      "sell": "8"
-    },
-    "Building Plan": {
-      "buy": "40",
-      "img": "http://vignette2.wikia.nocookie.net/play-rust/images/b/ba/Building_Plan_icon.png/revision/latest/scale-to-width-down/100?cb=20151106061847",
-      "item": "Building Plan",
-      "sell": "8"
-    },
-    "Burlap Headwrap": {
-      "buy": "10",
-      "img": "http://vignette2.wikia.nocookie.net/play-rust/images/c/c4/burlap_headwrap_icon.png/revision/latest/scale-to-width-down/100?cb=20151106061044",
-      "item": "Burlap Headwrap",
-      "sell": "8"
-    },
-    "Burlap Shirt": {
-      "buy": "10",
-      "img": "http://vignette2.wikia.nocookie.net/play-rust/images/d/d7/burlap_shirt_icon.png/revision/latest/scale-to-width-down/100?cb=20151106061347",
-      "item": "Burlap Shirt",
-      "sell": "8"
-    },
-    "Burlap Trousers": {
-      "buy": "10",
-      "img": "http://vignette4.wikia.nocookie.net/play-rust/images/e/e5/burlap_trousers_icon.png/revision/latest/scale-to-width-down/100?cb=20151106054430",
-      "item": "Burlap Trousers",
-      "sell": "8"
-    },
-    "Can of Beans": {
-      "buy": "15",
-      "img": "http://vignette2.wikia.nocookie.net/play-rust/images/e/e5/can_of_beans_icon.png/revision/latest/scale-to-width-down/100?cb=20151106060935",
-      "item": "Can of Beans",
-      "sell": "8"
-    },
-    "Can of Tuna": {
-      "buy": "10",
-      "img": "http://vignette4.wikia.nocookie.net/play-rust/images/2/2d/can_of_tuna_icon.png/revision/latest/scale-to-width-down/100?cb=20151106061943",
-      "item": "Can of Tuna",
-      "sell": "8"
-    },
-    "Chocolate Bar": {
-      "buy": "13",
-      "img": "http://vignette1.wikia.nocookie.net/play-rust/images/4/45/chocolate_bar_icon.png/revision/latest/scale-to-width-down/100?cb=20151106061914",
-      "item": "Chocolate Bar",
-      "sell": "8"
-    },
-    "Cloth": {
-      "buy": "410",
-      "img": "http://vignette1.wikia.nocookie.net/play-rust/images/f/f7/Cloth_icon.png",
-      "item": "Cloth",
-      "sell": "21"
-    },
-    "Code Lock": {
-      "buy": "40",
-      "img": "http://vignette2.wikia.nocookie.net/play-rust/images/0/0c/code_Lock_icon.png/revision/latest/scale-to-width-down/100?cb=20151106061407",
-      "item": "Code Lock",
-      "sell": "8"
-    },
-    "Coffee Can Helmet": {
-      "buy": "110",
-      "img": "http://vignette4.wikia.nocookie.net/play-rust/images/4/44/coffee_can_helmet_icon.png/revision/latest/scale-to-width-down/100?cb=20151106061305",
-      "item": "Coffee Can Helmet",
-      "sell": "8"
-    },
-    "Concrete Barricade": {
-      "buy": "40",
-      "img": "http://vignette2.wikia.nocookie.net/play-rust/images/b/b3/concrete_barricade_icon.png/revision/latest/scale-to-width-down/100?cb=20151106061124",
-      "item": "Concrete Barricade",
-      "sell": "8"
-    },
-    "Corn": {
-      "buy": "1",
-      "img": "http://vignette1.wikia.nocookie.net/play-rust/images/0/0a/Corn_icon.png/revision/latest/scale-to-width-down/100?cb=20151106061809",
-      "item": "Corn",
-      "sell": "7"
-    },
-    "Crude Oil": {
-      "buy": "10",
-      "img": "http://vignette1.wikia.nocookie.net/play-rust/images/3/3c/crude_oil_icon.png/revision/latest/scale-to-width-down/100?cb=20151106054451",
-      "item": "Crude Oil",
-      "sell": "3"
-    },
-    "Custom SMG": {
-      "buy": "12000",
-      "img": "http://vignette1.wikia.nocookie.net/play-rust/images/9/95/custom_smg_icon.png",
-      "item": "Custom SMG",
-      "sell": "8"
-    },
-    
+    "Message - Bought": "Você comprou com sucesso {0}x de {1}",
+    "Message - Error - Item Doesnt Exist": "AVISO: O item que você está tentando comprar não parece existir",
+    "Message - Error - Item Not Set Properly": "AVISO: O administrador não definiu corretamente este item! (item)",
+    "Message - Error - Item Not Valid": "AVISO: Parece que esse não é um item válido",
+    "Message - Error - No Action In Shop": "Você não tem permissão para {0} nesta loja",
+    "Message - Error - No Action Item": "Você não tem permissão para {0} este item aqui",
+    "Message - Error - No Buy Price": "AVISO: Item sem preço de compra. Avise o Admin, você não pode comprar este item",
+    "Message - Error - No Chat Shop": "Você não pode usar a loja pelo chat. Você pode precisar encontrar as Lojas com NPC no mapa.",
+    "Message - Error - No Econonomics": "Couldn't get informations out of Economics. Is it installed?",
+    "Message - Error - No NPC": "O NPC não foi encontrado perto de você",
+    "Message - Error - No Sell Price": "AVISO: O admin não colocaou preço de venda, você não pode vender este item",
+    "Message - Error - No Shop": "This shop doesn't seem to exist.",
+    "Message - Error - Not Enough Items": "Você não tem o suficiente para comprar este item.",
+    "Message - Error - Not Enough Money": "Você Precisa R$ {0} para comrar {1} de {2}",
+    "Message - Error - Redeem Kit": "WARNING: There was an error while giving you this kit",
+    "Message - Sold": "Você vendeu com sucesso {0}x {1}",
+    "Shop - Shop Categories": {
+        "12 Gauge Buckshot": {
+            "buy": "10",
+            "img": "http://vignette1.wikia.nocookie.net/play-rust/images/2/2f/12_gauge_buckshot_icon.png/revision/latest/scale-to-width-down/100?cb=20151106061114",
+            "item": "12 Gauge Buckshot",
+            "sell": "8"
+        },
+        "12 Gauge Slug": {
+            "buy": "",
+            "img": "http://vignette3.wikia.nocookie.net/play-rust/images/1/1a/12_gauge_slug_icon.png/revision/latest/scale-to-width-down/100?cb=20151106061838",
+            "item": "12 Gauge Slug",
+            "sell": "8"
+        },
+        "5.56 Rifle Ammo": {
+            "buy": "915",
+            "img": "http://vignette1.wikia.nocookie.net/play-rust/images/4/49/5.56_Rifle_Ammo_icon.png",
+            "item": "5.56 Rifle Ammo",
+            "sell": "8"
+        },
+        "Animal Fat": {
+            "buy": "440",
+            "img": "http://vignette1.wikia.nocookie.net/play-rust/images/d/d5/Animal_Fat_icon.png",
+            "item": "Animal Fat",
+            "sell": "228"
+        },
+        "Anti-Radiation Pills": {
+            "buy": "20",
+            "img": "http://vignette2.wikia.nocookie.net/play-rust/images/0/0e/anti-radiation_pills_icon.png/revision/latest/scale-to-width-down/100?cb=20151106060926",
+            "item": "Anti-Radiation Pills",
+            "sell": "5"
+        },
+        "Apple": {
+            "buy": "2",
+            "img": "http://vignette2.wikia.nocookie.net/play-rust/images/d/dc/apple_icon.png/revision/latest/scale-to-width-down/100?cb=20150405103640",
+            "item": "Apple",
+            "sell": "1"
+        },
+        "Armored Door": {
+            "buy": "40",
+            "img": "http://vignette2.wikia.nocookie.net/play-rust/images/b/bc/armored_door_icon.png/revision/latest/scale-to-width-down/100?cb=20151106231419",
+            "item": "Armored Door",
+            "sell": "8"
+        },
+        "Assault Rifle": {
+            "buy": "15000",
+            "img": "http://vignette3.wikia.nocookie.net/play-rust/images/d/d1/Assault_Rifle_icon.png",
+            "item": "Assault Rifle",
+            "sell": "8"
+        },
+        "Auto Turret": {
+            "buy": "2400000",
+            "img": "http://vignette2.wikia.nocookie.net/play-rust/images/f/f9/Auto_Turret_icon.png",
+            "item": "Auto Turret",
+            "sell": "8"
+        },
+        "Bandage": {
+            "buy": "15",
+            "img": "http://vignette3.wikia.nocookie.net/play-rust/images/f/f8/bandage_icon.png/revision/latest/scale-to-width-down/100?cb=20151106061541",
+            "item": "Bandage",
+            "sell": "8"
+        },
+        "Barbed Wooden Barricade": {
+            "buy": "5040",
+            "img": "http://vignette1.wikia.nocookie.net/play-rust/images/7/7b/barbed_wooden_barricade_icon.png",
+            "item": "Barbed Wooden Barricade",
+            "sell": "2500"
+        },
+        "Baseball Cap": {
+            "buy": "15",
+            "img": "http://vignette2.wikia.nocookie.net/play-rust/images/7/77/baseball_cap_icon.png/revision/latest/scale-to-width-down/100?cb=20151106230420",
+            "item": "Baseball Cap",
+            "sell": "8"
+        },
+        "Bed": {
+            "buy": "40",
+            "img": "http://vignette3.wikia.nocookie.net/play-rust/images/f/fe/Bed_icon.png/revision/latest/scale-to-width-down/100?cb=20151106061212",
+            "item": "Bed",
+            "sell": "8"
+        },
+        "Beenie Hat": {
+            "buy": "18",
+            "img": "http://vignette1.wikia.nocookie.net/play-rust/images/c/c1/beenie_hat_icon.png/revision/latest/scale-to-width-down/100?cb=20151106230442",
+            "item": "Beenie Hat",
+            "sell": "8"
+        },
+        "Blood": {
+            "buy": "100",
+            "img": "http://vignette3.wikia.nocookie.net/play-rust/images/a/a3/Blood_icon.png/revision/latest/scale-to-width-down/100?cb=20151106061721",
+            "item": "Blood",
+            "sell": "50"
+        },
+        "Blueberries": {
+            "buy": "1",
+            "img": "http://vignette1.wikia.nocookie.net/play-rust/images/f/f8/blueberries_icon.png/revision/latest/scale-to-width-down/100?cb=20150405111338",
+            "item": "Blueberries",
+            "sell": "9"
+        },
+        "Blueprint Fragment": {
+            "buy": "10",
+            "img": "http://vignette1.wikia.nocookie.net/play-rust/images/0/0e/blueprint_fragment_icon.png/revision/latest/scale-to-width-down/100?cb=20151106061217",
+            "item": "Blueprint Fragment",
+            "sell": "0.05"
+        },
+        "Bolt Action Rifle": {
+            "buy": "14500",
+            "img": "http://vignette1.wikia.nocookie.net/play-rust/images/5/55/Bolt_Action_Rifle_icon.png",
+            "item": "Bolt Action Rifle",
+            "sell": "8"
+        },
+        "Bone Armor Pants": {
+            "buy": "60",
+            "img": "http://vignette2.wikia.nocookie.net/play-rust/images/4/49/bone_armor_pants_icon.png/revision/latest/scale-to-width-down/100?cb=20151106061828",
+            "item": "Bone Armor Pants",
+            "sell": "8"
+        },
+        "Bone Jacket": {
+            "buy": "70",
+            "img": "http://vignette1.wikia.nocookie.net/play-rust/images/f/f7/bone_jacket_icon.png/revision/latest/scale-to-width-down/100?cb=20151106061054",
+            "item": "Bone Jacket",
+            "sell": "8"
+        },
+        "Boonie Hat": {
+            "buy": "15",
+            "img": "http://vignette2.wikia.nocookie.net/play-rust/images/8/88/boonie_hat_icon.png/revision/latest/scale-to-width-down/100?cb=20151106230359",
+            "item": "Boonie Hat",
+            "sell": "8"
+        },
+        "Boots": {
+            "buy": "30",
+            "img": "http://vignette1.wikia.nocookie.net/play-rust/images/b/b3/Boots_icon.png/revision/latest/scale-to-width-down/100?cb=20151106230354",
+            "item": "Boots",
+            "sell": "8"
+        },
+        "Bucket Helmet": {
+            "buy": "80",
+            "img": "http://vignette1.wikia.nocookie.net/play-rust/images/a/a5/bucket_helmet_icon.png/revision/latest/scale-to-width-down/100?cb=20151106061537",
+            "item": "Bucket Helmet",
+            "sell": "8"
+        },
+        "Build Kit": {
+            "buy": "10",
+            "img": "http://oxidemod.org/data/resource_icons/0/715.jpg?1425682952",
+            "item": "kitbuild",
+            "sell": "8"
+        },
+        "Building Plan": {
+            "buy": "40",
+            "img": "http://vignette2.wikia.nocookie.net/play-rust/images/b/ba/Building_Plan_icon.png/revision/latest/scale-to-width-down/100?cb=20151106061847",
+            "item": "Building Plan",
+            "sell": "8"
+        },
+        "Burlap Headwrap": {
+            "buy": "10",
+            "img": "http://vignette2.wikia.nocookie.net/play-rust/images/c/c4/burlap_headwrap_icon.png/revision/latest/scale-to-width-down/100?cb=20151106061044",
+            "item": "Burlap Headwrap",
+            "sell": "8"
+        },
+        "Burlap Shirt": {
+            "buy": "10",
+            "img": "http://vignette2.wikia.nocookie.net/play-rust/images/d/d7/burlap_shirt_icon.png/revision/latest/scale-to-width-down/100?cb=20151106061347",
+            "item": "Burlap Shirt",
+            "sell": "8"
+        },
+        "Burlap Trousers": {
+            "buy": "10",
+            "img": "http://vignette4.wikia.nocookie.net/play-rust/images/e/e5/burlap_trousers_icon.png/revision/latest/scale-to-width-down/100?cb=20151106054430",
+            "item": "Burlap Trousers",
+            "sell": "8"
+        },
+        "Can of Beans": {
+            "buy": "15",
+            "img": "http://vignette2.wikia.nocookie.net/play-rust/images/e/e5/can_of_beans_icon.png/revision/latest/scale-to-width-down/100?cb=20151106060935",
+            "item": "Can of Beans",
+            "sell": "8"
+        },
+        "Can of Tuna": {
+            "buy": "10",
+            "img": "http://vignette4.wikia.nocookie.net/play-rust/images/2/2d/can_of_tuna_icon.png/revision/latest/scale-to-width-down/100?cb=20151106061943",
+            "item": "Can of Tuna",
+            "sell": "8"
+        },
+        "Chocolate Bar": {
+            "buy": "13",
+            "img": "http://vignette1.wikia.nocookie.net/play-rust/images/4/45/chocolate_bar_icon.png/revision/latest/scale-to-width-down/100?cb=20151106061914",
+            "item": "Chocolate Bar",
+            "sell": "8"
+        },
+        "Cloth": {
+            "buy": "410",
+            "img": "http://vignette1.wikia.nocookie.net/play-rust/images/f/f7/Cloth_icon.png",
+            "item": "Cloth",
+            "sell": "21"
+        },
+        "Code Lock": {
+            "buy": "40",
+            "img": "http://vignette2.wikia.nocookie.net/play-rust/images/0/0c/code_Lock_icon.png/revision/latest/scale-to-width-down/100?cb=20151106061407",
+            "item": "Code Lock",
+            "sell": "8"
+        },
+        "Coffee Can Helmet": {
+            "buy": "110",
+            "img": "http://vignette4.wikia.nocookie.net/play-rust/images/4/44/coffee_can_helmet_icon.png/revision/latest/scale-to-width-down/100?cb=20151106061305",
+            "item": "Coffee Can Helmet",
+            "sell": "8"
+        },
+        "Concrete Barricade": {
+            "buy": "40",
+            "img": "http://vignette2.wikia.nocookie.net/play-rust/images/b/b3/concrete_barricade_icon.png/revision/latest/scale-to-width-down/100?cb=20151106061124",
+            "item": "Concrete Barricade",
+            "sell": "8"
+        },
+        "Corn": {
+            "buy": "1",
+            "img": "http://vignette1.wikia.nocookie.net/play-rust/images/0/0a/Corn_icon.png/revision/latest/scale-to-width-down/100?cb=20151106061809",
+            "item": "Corn",
+            "sell": "7"
+        },
+        "Crude Oil": {
+            "buy": "10",
+            "img": "http://vignette1.wikia.nocookie.net/play-rust/images/3/3c/crude_oil_icon.png/revision/latest/scale-to-width-down/100?cb=20151106054451",
+            "item": "Crude Oil",
+            "sell": "3"
+        },
+        "Custom SMG": {
+            "buy": "12000",
+            "img": "http://vignette1.wikia.nocookie.net/play-rust/images/9/95/custom_smg_icon.png",
+            "item": "Custom SMG",
+            "sell": "8"
+        },
         "Custom SMG bp": {
-      "buy": "32000",
-      "img": "http://vignette1.wikia.nocookie.net/play-rust/images/9/95/custom_smg_icon.png",
-      "item": "Custom SMG bp",
-      "sell": "8"
-    },
-    
-    "Eoka Pistol": {
-      "buy": "500",
-      "img": "http://vignette2.wikia.nocookie.net/play-rust/images/b/b5/eoka_pistol_icon.png/revision/latest/scale-to-width-down/100?cb=20151106061104",
-      "item": "Eoka Pistol",
-      "sell": "8"
-    },
-    "Explosive 5.56 Rifle Ammo": {
-      "buy": "25",
-      "img": "http://vignette3.wikia.nocookie.net/play-rust/images/3/31/explosive_5.56_rifle_ammo_icon.png/revision/latest/scale-to-width-down/100?cb=20151106061449",
-      "item": "Explosive 5.56 Rifle Ammo",
-      "sell": "8"
-    },
-    "F1 Grenade": {
-      "buy": "9515",
-      "img": "http://vignette3.wikia.nocookie.net/play-rust/images/5/52/F1_Grenade_icon.png",
-      "item": "F1 Grenade",
-      "sell": "8"
-    },
-    "Granola Bar": {
-      "buy": "15",
-      "img": "http://vignette3.wikia.nocookie.net/play-rust/images/6/6c/granola_bar_icon.png/revision/latest/scale-to-width-down/100?cb=20151106060916",
-      "item": "Granola Bar",
-      "sell": "8"
-    },
-    "Handmade Shell": {
-      "buy": "5",
-      "img": "http://vignette2.wikia.nocookie.net/play-rust/images/0/0d/handmade_shell_icon.png/revision/latest/scale-to-width-down/100?cb=20151106061522",
-      "item": "Handmade Shell",
-      "sell": "8"
-    },
-    "Hatchet": {
-      "buy": "5400",
-      "img": "http://vignette1.wikia.nocookie.net/play-rust/images/0/06/Hatchet_icon.png",
-      "item": "Hatchet",
-      "sell": "8"
-    },
-    "Hazmat Gloves": {
-      "buy": "25",
-      "img": "http://vignette3.wikia.nocookie.net/play-rust/images/a/aa/hazmat_gloves_icon.png/revision/latest/scale-to-width-down/100?cb=20151106061629",
-      "item": "Hazmat Gloves",
-      "sell": "8"
-    },
-    "Hide Boots": {
-      "buy": "10",
-      "img": "http://vignette1.wikia.nocookie.net/play-rust/images/5/57/hide_Boots_icon.png/revision/latest/scale-to-width-down/100?cb=20151106060954",
-      "item": "Hide Boots",
-      "sell": "8"
-    },
-    "Hide Pants": {
-      "buy": "10",
-      "img": "http://vignette2.wikia.nocookie.net/play-rust/images/e/e4/hide_pants_icon.png/revision/latest/scale-to-width-down/100?cb=20151106061352",
-      "item": "Hide Pants",
-      "sell": "8"
-    },
-    "Hide Poncho": {
-      "buy": "10",
-      "img": "http://vignette4.wikia.nocookie.net/play-rust/images/7/7f/hide_poncho_icon.png/revision/latest/scale-to-width-down/100?cb=20151106061141",
-      "item": "Hide Poncho",
-      "sell": "8"
-    },
-    "Hide Vest": {
-      "buy": "10",
-      "img": "http://vignette3.wikia.nocookie.net/play-rust/images/c/c0/hide_vest_icon.png/revision/latest/scale-to-width-down/100?cb=20151106061337",
-      "item": "Hide Vest",
-      "sell": "8"
-    },
-    "High External Stone Gate": {
-      "buy": "5000",
-      "img": "http://vignette2.wikia.nocookie.net/play-rust/images/8/85/High_External_Stone_Gate_icon.png",
-      "item": "High External Stone Gate",
-      "sell": "2500"
-    },
-    "High External Stone Wall": {
-      "buy": "5000",
-      "img": "http://vignette1.wikia.nocookie.net/play-rust/images/b/b6/high_external_stone_wall_icon.png",
-      "item": "High External Stone Wall",
-      "sell": "2500"
-    },
-    "High External Wooden Gate": {
-      "buy": "3000",
-      "img": "http://vignette2.wikia.nocookie.net/play-rust/images/5/53/high_external_wooden_gate_icon.png",
-      "item": "High External Wooden Gate",
-      "sell": "1500"
-    },
-    "High External Wooden Wall": {
-      "buy": "3000",
-      "img": "http://vignette3.wikia.nocookie.net/play-rust/images/9/96/High_External_Wooden_Wall_icon.png",
-      "item": "High External Wooden Wall",
-      "sell": "1500"
-    },
-    "High Quality Metal": {
-      "buy": "10",
-      "img": "http://vignette4.wikia.nocookie.net/play-rust/images/a/a1/high_quality_metal_icon.png/revision/latest/scale-to-width-down/100?cb=20151106061156",
-      "item": "High Quality Metal",
-      "sell": "0.1"
-    },
-    "High Velocity Arrow": {
-      "buy": "5",
-      "img": "http://vignette3.wikia.nocookie.net/play-rust/images/e/e5/high_velocity_arrow_icon.png/revision/latest/scale-to-width-down/100?cb=20151106054350",
-      "item": "High Velocity Arrow",
-      "sell": "8"
-    },
-    "High Velocity Rocket": {
-      "buy": "350",
-      "img": "http://vignette3.wikia.nocookie.net/play-rust/images/f/f4/high_velocity_Rocket_icon.png/revision/latest/scale-to-width-down/100?cb=20151106054436",
-      "item": "High Velocity Rocket",
-      "sell": "8"
-    },
-    "Holosight": {
-      "buy": "4900",
-      "img": "http://vignette4.wikia.nocookie.net/play-rust/images/4/45/Holosight_icon.png",
-      "item": "Holosight",
-      "sell": "1"
-    },
-    "Hoodie": {
-      "buy": "20",
-      "img": "http://vignette1.wikia.nocookie.net/play-rust/images/b/b5/hoodie_icon.png/revision/latest/scale-to-width-down/100?cb=20151106230348",
-      "item": "Hoodie",
-      "sell": "8"
-    },
-    "HV 5.56 Rifle Ammo": {
-      "buy": "20",
-      "img": "http://vignette2.wikia.nocookie.net/play-rust/images/d/df/hv_5.56_rifle_ammo_icon.png/revision/latest/scale-to-width-down/100?cb=20150612151932",
-      "item": "HV 5.56 Rifle Ammo",
-      "sell": "8"
-    },
-    "HV Pistol Ammo": {
-      "buy": "20",
-      "img": "http://vignette4.wikia.nocookie.net/play-rust/images/e/e5/hv_pistol_ammo_icon.png/revision/latest/scale-to-width-down/100?cb=20151106061857",
-      "item": "HV Pistol Ammo",
-      "sell": "8"
-    },
-    "Improvised Balaclava": {
-      "buy": "15",
-      "img": "http://vignette1.wikia.nocookie.net/play-rust/images/5/52/improvised_balaclava_icon.png/revision/latest/scale-to-width-down/100?cb=20151106230404",
-      "item": "Improvised Balaclava",
-      "sell": "8"
-    },
-    "Incendiary 5.56 Rifle Ammo": {
-      "buy": "25",
-      "img": "http://vignette2.wikia.nocookie.net/play-rust/images/e/e1/incendiary_5.56_rifle_ammo_icon.png/revision/latest/scale-to-width-down/100?cb=20150603140753",
-      "item": "Incendiary 5.56 Rifle Ammo",
-      "sell": "8"
-    },
-    "Incendiary Pistol Bullet": {
-      "buy": "20",
-      "img": "http://vignette4.wikia.nocookie.net/play-rust/images/3/31/incendiary_pistol_bullet_icon.png/revision/latest/scale-to-width-down/100?cb=20151106054326",
-      "item": "Incendiary Pistol Bullet",
-      "sell": "8"
-    },
-    "Incendiary Rocket": {
-      "buy": "450",
-      "img": "http://vignette1.wikia.nocookie.net/play-rust/images/f/f9/incendiary_Rocket_icon.png/revision/latest/scale-to-width-down/100?cb=20151106061939",
-      "item": "Incendiary Rocket",
-      "sell": "8"
-    },
-    "Jacket": {
-      "buy": "40",
-      "img": "http://vignette2.wikia.nocookie.net/play-rust/images/f/f0/desert_jacket_icon.png/revision/latest/scale-to-width-down/100?cb=20151106230059",
-      "item": "Jacket",
-      "sell": "8"
-    },
-    "Land Mine": {
-      "buy": "40",
-      "img": "http://vignette3.wikia.nocookie.net/play-rust/images/8/83/Land_Mine_icon.png/revision/latest/scale-to-width-down/100?cb=20150702222020",
-      "item": "Land Mine",
-      "sell": "8"
-    },
-    "Large Banner Hanging": {
-      "buy": "19000",
-      "img": "http://vignette3.wikia.nocookie.net/play-rust/images/2/29/Large_Banner_Hanging_icon.png",
-      "item": "Large Banner Hanging",
-      "sell": "8"
-    },
-    "Large Banner on pole": {
-      "buy": "30000",
-      "img": "http://vignette2.wikia.nocookie.net/play-rust/images/1/16/Large_Banner_on_pole_icon.png",
-      "item": "Large Banner on pole",
-      "sell": "8"
-    },
-    "Large Furnace": {
-      "buy": "45000",
-      "img": "http://vignette3.wikia.nocookie.net/play-rust/images/e/ee/Large_Furnace_icon.png",
-      "item": "Large Furnace",
-      "sell": "1000"
-    },
-    "Large Medkit": {
-      "buy": "80",
-      "img": "http://vignette3.wikia.nocookie.net/play-rust/images/9/99/large_medkit_icon.png/revision/latest/scale-to-width-down/100?cb=20151106054425",
-      "item": "Large Medkit",
-      "sell": "8"
-    },
-    "Large Water Catcher": {
-      "buy": "40",
-      "img": "http://vignette2.wikia.nocookie.net/play-rust/images/3/35/large_water_catcher_icon.png/revision/latest/scale-to-width-down/100?cb=20151106061049",
-      "item": "Large Water Catcher",
-      "sell": "8"
-    },
-    "Large Wood Box": {
-      "buy": "4000",
-      "img": "http://vignette1.wikia.nocookie.net/play-rust/images/b/b2/Large_Wood_Box_icon.png",
-      "item": "Large Wood Box",
-      "sell": "200"
-    },
-    "Leather": {
-      "buy": "410",
-      "img": "http://vignette2.wikia.nocookie.net/play-rust/images/9/9a/Leather_icon.png",
-      "item": "Leather",
-      "sell": "220"
-    },
-    "Leather Gloves": {
-      "buy": "10",
-      "img": "http://vignette2.wikia.nocookie.net/play-rust/images/a/a1/leather_gloves_icon.png/revision/latest/scale-to-width-down/100?cb=20151106060759",
-      "item": "Leather Gloves",
-      "sell": "8"
-    },
-    "Lock": {
-      "buy": "40",
-      "img": "http://vignette1.wikia.nocookie.net/play-rust/images/9/9e/Lock_icon.png/revision/latest/scale-to-width-down/100?cb=20151106061620",
-      "item": "Lock",
-      "sell": "8"
-    },
-    "Longsleeve T-Shirt": {
-      "buy": "15",
-      "img": "http://vignette1.wikia.nocookie.net/play-rust/images/5/57/longsleeve_t-shirt_icon.png/revision/latest/scale-to-width-down/100?cb=20151106230448",
-      "item": "Longsleeve T-Shirt",
-      "sell": "8"
-    },
-    "Low Grade Fuel": {
-      "buy": "1440",
-      "img": "http://vignette4.wikia.nocookie.net/play-rust/images/2/26/Low_Grade_Fuel_icon.png",
-      "item": "Low Grade Fuel",
-      "sell": "728"
-    },
-    "M249": {
-      "buy": "10000",
-      "img": "http://vignette1.wikia.nocookie.net/play-rust/images/c/c6/M249_icon.png/revision/latest/scale-to-width-down/100?cb=20151112221315",
-      "item": "M249",
-      "sell": "8"
-    },
-    "Medical Syringe": {
-      "buy": "30",
-      "img": "http://vignette3.wikia.nocookie.net/play-rust/images/9/99/medical_syringe_icon.png/revision/latest/scale-to-width-down/100?cb=20151106061059",
-      "item": "Medical Syringe",
-      "sell": "8"
-    },
-    "Metal Barricade": {
-      "buy": "5000",
-      "img": "http://vignette3.wikia.nocookie.net/play-rust/images/b/bb/Metal_Barricade_icon.png",
-      "item": "Metal Barricade",
-      "sell": "2500"
-    },
-    "Metal Facemask": {
-      "buy": "30",
-      "img": "http://vignette1.wikia.nocookie.net/play-rust/images/1/1f/metal_facemask_icon.png/revision/latest/scale-to-width-down/100?cb=20151106061432",
-      "item": "Metal Facemask",
-      "sell": "8"
-    },
-    "Metal horizontal embrasure": {
-      "buy": "40",
-      "img": "http://vignette3.wikia.nocookie.net/play-rust/images/5/5d/metal_horizontal_embrasure_icon.png/revision/latest/scale-to-width-down/100?cb=20151106231425",
-      "item": "Metal horizontal embrasure",
-      "sell": "8"
-    },
-    "Metal Vertical embrasure": {
-      "buy": "40",
-      "img": "http://vignette1.wikia.nocookie.net/play-rust/images/8/88/metal_vertical_embrasure_icon.png/revision/latest/scale-to-width-down/100?cb=20151106231451",
-      "item": "Metal Vertical embrasure",
-      "sell": "8"
-    },
-    "Mining Quarry": {
-      "buy": "340000",
-      "img": "http://vignette1.wikia.nocookie.net/play-rust/images/b/b8/Mining_Quarry_icon.png",
-      "item": "Mining Quarry",
-      "sell": "8"
-    },
-    "Pants": {
-      "buy": "20",
-      "img": "http://vignette1.wikia.nocookie.net/play-rust/images/3/3f/pants_icon.png/revision/latest/scale-to-width-down/100?cb=20150821195647",
-      "item": "Pants",
-      "sell": "8"
-    },
-    "Pick Axe": {
-      "buy": "5400",
-      "img": "http://vignette4.wikia.nocookie.net/play-rust/images/8/86/Pick_Axe_icon.png",
-      "item": "Pick Axe",
-      "sell": "8"
-    },
-    "Pistol Bullet": {
-      "buy": "310",
-      "img": "http://vignette2.wikia.nocookie.net/play-rust/images/c/c8/9mm_Ammo_%28Legacy%29_icon.png",
-      "item": "Pistol Bullet",
-      "sell": "8"
-    },
-    "Pump Jack": {
-      "buy": "440000",
-      "img": "http://vignette2.wikia.nocookie.net/play-rust/images/c/c9/pump_jack_icon.png",
-      "item": "Pump Jack",
-      "sell": "8"
-    },
-    "Pump Shotgun": {
-      "buy": "3000",
-      "img": "http://vignette3.wikia.nocookie.net/play-rust/images/6/60/pump_shotgun_icon.png/revision/latest/scale-to-width-down/100?cb=20151106060736",
-      "item": "Pump Shotgun",
-      "sell": "8"
-    },
-    "Pumpkin": {
-      "buy": "1",
-      "img": "http://vignette3.wikia.nocookie.net/play-rust/images/4/4c/Pumpkin_icon.png/revision/latest/scale-to-width-down/100?cb=20151106061814",
-      "item": "Pumpkin",
-      "sell": "5"
-    },
-    "Raw Human Meat": {
-      "buy": "10",
-      "img": "http://vignette1.wikia.nocookie.net/play-rust/images/2/26/raw_human_meat_icon.png/revision/latest/scale-to-width-down/100?cb=20151106061310",
-      "item": "Raw Human Meat",
-      "sell": "2"
-    },
-    "Reinforced Window Bars": {
-      "buy": "2500",
-      "img": "http://vignette2.wikia.nocookie.net/play-rust/images/e/e5/wooden_barricade_icon.png",
-      "item": "Wooden Barricade",
-      "sell": "1250"
-    },
-    "Revolver": {
-      "buy": "800",
-      "img": "http://vignette1.wikia.nocookie.net/play-rust/images/5/58/Revolver_icon.png/revision/latest/scale-to-width-down/100?cb=20151106061412",
-      "item": "Revolver",
-      "sell": "8"
-    },
-    "Riot Helmet": {
-      "buy": "100",
-      "img": "http://vignette4.wikia.nocookie.net/play-rust/images/4/4e/riot_helmet_icon.png/revision/latest/scale-to-width-down/100?cb=20151106060949",
-      "item": "Riot Helmet",
-      "sell": "8"
-    },
-    "Road Sign Jacket": {
-      "buy": "150",
-      "img": "http://vignette1.wikia.nocookie.net/play-rust/images/8/84/road_sign_jacket_icon.png/revision/latest/scale-to-width-down/100?cb=20151106054408",
-      "item": "Road Sign Jacket",
-      "sell": "8"
-    },
-    "Road Sign Kilt": {
-      "buy": "130",
-      "img": "http://vignette3.wikia.nocookie.net/play-rust/images/3/31/road_sign_kilt_icon.png/revision/latest/scale-to-width-down/100?cb=20150717104118",
-      "item": "Road Sign Kilt",
-      "sell": "8"
-    },
-    "Rocket": {
-      "buy": "275",
-      "img": "http://vignette1.wikia.nocookie.net/play-rust/images/9/95/Rocket_icon.png/revision/latest/scale-to-width-down/100?cb=20151106061039",
-      "item": "Rocket",
-      "sell": "8"
-    },
-    "Rocket Launcher": {
-      "buy": "10000",
-      "img": "http://vignette3.wikia.nocookie.net/play-rust/images/0/06/Rocket_launcher_icon.png/revision/latest/scale-to-width-down/100?cb=20151106061852",
-      "item": "Rocket Launcher",
-      "sell": "8"
-    },
-    "Salvaged Shelves": {
-      "buy": "9900",
-      "img": "http://vignette2.wikia.nocookie.net/play-rust/images/a/a5/Salvaged_Shelves_icon.png",
-      "item": "Salvaged Shelves",
-      "sell": "4500"
-    },
-    "Sandbag Barricade": {
-      "buy": "40",
-      "img": "http://vignette4.wikia.nocookie.net/play-rust/images/a/a7/sandbag_barricade_icon.png/revision/latest/scale-to-width-down/100?cb=20151106061417",
-      "item": "Sandbag Barricade",
-      "sell": "8"
-    },
-    "Semi-Automatic Pistol": {
-      "buy": "1000",
-      "img": "http://vignette2.wikia.nocookie.net/play-rust/images/6/6b/Semi-Automatic_Pistol_icon.png",
-      "item": "Semi-Automatic Pistol",
-      "sell": "8"
-    },
-    "Silencer": {
-      "buy": "5900",
-      "img": "http://vignette3.wikia.nocookie.net/play-rust/images/9/9f/Silencer_icon.png",
-      "item": "Silencer",
-      "sell": "1"
-    },
-    "Small Oil Refinery": {
-      "buy": "18000",
-      "img": "http://vignette2.wikia.nocookie.net/play-rust/images/a/ac/Small_Oil_Refinery_icon.png",
-      "item": "Small Oil Refinery",
-      "sell": "900"
-    },
-    "Small Water Catcher": {
-      "buy": "40",
-      "img": "http://vignette2.wikia.nocookie.net/play-rust/images/0/04/Small_Water_Catcher_icon.png/revision/latest/scale-to-width-down/100?cb=20151106061919",
-      "item": "Small Water Catcher",
-      "sell": "8"
-    },
-    "Snap Trap": {
-      "buy": "40",
-      "img": "http://vignette1.wikia.nocookie.net/play-rust/images/b/b0/Snap_Trap_icon.png/revision/latest/scale-to-width-down/100?cb=20151106061711",
-      "item": "Snap Trap",
-      "sell": "8"
-    },
-    "Snow Jacket - Red": {
-      "buy": "30",
-      "img": "http://vignette3.wikia.nocookie.net/play-rust/images/0/04/snow_jacket_-_red_icon.png/revision/latest/scale-to-width-down/100?cb=20151106230431",
-      "item": "Snow Jacket - Red",
-      "sell": "8"
-    },
-    "Stone Barricade": {
-      "buy": "1250",
-      "img": "http://vignette2.wikia.nocookie.net/play-rust/images/c/cc/stone_barricade_icon.png",
-      "item": "Stone Barricade",
-      "sell": "650"
-    },
-    "stones": {
-      "buy": "30",
-      "img": "http://vignette4.wikia.nocookie.net/play-rust/images/8/85/Stones_icon.png",
-      "item": "stones",
-      "sell": "0.15"
-    },
-    "Survey Charge": {
-      "buy": "3950",
-      "img": "http://vignette2.wikia.nocookie.net/play-rust/images/9/9a/Survey_Charge_icon.png",
-      "item": "Survey Charge",
-      "sell": "1900"
-    },
-    "Thompson": {
-      "buy": "1500",
-      "img": "http://vignette3.wikia.nocookie.net/play-rust/images/4/4e/Thompson_icon.png/revision/latest/scale-to-width-down/100?cb=20151106061328",
-      "item": "Thompson",
-      "sell": "8"
-    },
-    "wood": {
-      "buy": "25",
-      "img": "http://vignette4.wikia.nocookie.net/play-rust/images/f/f2/Wood_icon.png",
-      "item": "wood",
-      "sell": "0.18"
-    },
-    "Wooden Window Bars": {
-      "buy": "40",
-      "img": "http://vignette4.wikia.nocookie.net/play-rust/images/2/27/Wooden_Window_Bars_icon.png/revision/latest/scale-to-width-down/100?cb=20151106231407",
-      "item": "Wooden Window Bars",
-      "sell": "8"
-    },
-    "XL Picture Frame": {
-      "buy": "20000",
-      "img": "http://vignette2.wikia.nocookie.net/play-rust/images/b/bf/XL_Picture_Frame_icon.png",
-      "item": "XL Picture Frame",
-      "sell": "8"
-    },
-    "XXL Picture Frame": {
-      "buy": "35000",
-      "img": "http://vignette1.wikia.nocookie.net/play-rust/images/7/7e/Wooden_Door_icon.png/revision/latest/scale-to-width-down/100?cb=20151106231357",
-      "item": "XXL Picture Frame",
-      "sell": "8"
+            "buy": "32000",
+            "img": "http://vignette1.wikia.nocookie.net/play-rust/images/9/95/custom_smg_icon.png",
+            "item": "Custom SMG bp",
+            "sell": "8"
+        },
+        "Eoka Pistol": {
+            "buy": "500",
+            "img": "http://vignette2.wikia.nocookie.net/play-rust/images/b/b5/eoka_pistol_icon.png/revision/latest/scale-to-width-down/100?cb=20151106061104",
+            "item": "Eoka Pistol",
+            "sell": "8"
+        },
+        "Explosive 5.56 Rifle Ammo": {
+            "buy": "25",
+            "img": "http://vignette3.wikia.nocookie.net/play-rust/images/3/31/explosive_5.56_rifle_ammo_icon.png/revision/latest/scale-to-width-down/100?cb=20151106061449",
+            "item": "Explosive 5.56 Rifle Ammo",
+            "sell": "8"
+        },
+        "F1 Grenade": {
+            "buy": "9515",
+            "img": "http://vignette3.wikia.nocookie.net/play-rust/images/5/52/F1_Grenade_icon.png",
+            "item": "F1 Grenade",
+            "sell": "8"
+        },
+        "Granola Bar": {
+            "buy": "15",
+            "img": "http://vignette3.wikia.nocookie.net/play-rust/images/6/6c/granola_bar_icon.png/revision/latest/scale-to-width-down/100?cb=20151106060916",
+            "item": "Granola Bar",
+            "sell": "8"
+        },
+        "Handmade Shell": {
+            "buy": "5",
+            "img": "http://vignette2.wikia.nocookie.net/play-rust/images/0/0d/handmade_shell_icon.png/revision/latest/scale-to-width-down/100?cb=20151106061522",
+            "item": "Handmade Shell",
+            "sell": "8"
+        },
+        "Hatchet": {
+            "buy": "5400",
+            "img": "http://vignette1.wikia.nocookie.net/play-rust/images/0/06/Hatchet_icon.png",
+            "item": "Hatchet",
+            "sell": "8"
+        },
+        "Hazmat Gloves": {
+            "buy": "25",
+            "img": "http://vignette3.wikia.nocookie.net/play-rust/images/a/aa/hazmat_gloves_icon.png/revision/latest/scale-to-width-down/100?cb=20151106061629",
+            "item": "Hazmat Gloves",
+            "sell": "8"
+        },
+        "Hide Boots": {
+            "buy": "10",
+            "img": "http://vignette1.wikia.nocookie.net/play-rust/images/5/57/hide_Boots_icon.png/revision/latest/scale-to-width-down/100?cb=20151106060954",
+            "item": "Hide Boots",
+            "sell": "8"
+        },
+        "Hide Pants": {
+            "buy": "10",
+            "img": "http://vignette2.wikia.nocookie.net/play-rust/images/e/e4/hide_pants_icon.png/revision/latest/scale-to-width-down/100?cb=20151106061352",
+            "item": "Hide Pants",
+            "sell": "8"
+        },
+        "Hide Poncho": {
+            "buy": "10",
+            "img": "http://vignette4.wikia.nocookie.net/play-rust/images/7/7f/hide_poncho_icon.png/revision/latest/scale-to-width-down/100?cb=20151106061141",
+            "item": "Hide Poncho",
+            "sell": "8"
+        },
+        "Hide Vest": {
+            "buy": "10",
+            "img": "http://vignette3.wikia.nocookie.net/play-rust/images/c/c0/hide_vest_icon.png/revision/latest/scale-to-width-down/100?cb=20151106061337",
+            "item": "Hide Vest",
+            "sell": "8"
+        },
+        "High External Stone Gate": {
+            "buy": "5000",
+            "img": "http://vignette2.wikia.nocookie.net/play-rust/images/8/85/High_External_Stone_Gate_icon.png",
+            "item": "High External Stone Gate",
+            "sell": "2500"
+        },
+        "High External Stone Wall": {
+            "buy": "5000",
+            "img": "http://vignette1.wikia.nocookie.net/play-rust/images/b/b6/high_external_stone_wall_icon.png",
+            "item": "High External Stone Wall",
+            "sell": "2500"
+        },
+        "High External Wooden Gate": {
+            "buy": "3000",
+            "img": "http://vignette2.wikia.nocookie.net/play-rust/images/5/53/high_external_wooden_gate_icon.png",
+            "item": "High External Wooden Gate",
+            "sell": "1500"
+        },
+        "High External Wooden Wall": {
+            "buy": "3000",
+            "img": "http://vignette3.wikia.nocookie.net/play-rust/images/9/96/High_External_Wooden_Wall_icon.png",
+            "item": "High External Wooden Wall",
+            "sell": "1500"
+        },
+        "High Quality Metal": {
+            "buy": "10",
+            "img": "http://vignette4.wikia.nocookie.net/play-rust/images/a/a1/high_quality_metal_icon.png/revision/latest/scale-to-width-down/100?cb=20151106061156",
+            "item": "High Quality Metal",
+            "sell": "0.1"
+        },
+        "High Velocity Arrow": {
+            "buy": "5",
+            "img": "http://vignette3.wikia.nocookie.net/play-rust/images/e/e5/high_velocity_arrow_icon.png/revision/latest/scale-to-width-down/100?cb=20151106054350",
+            "item": "High Velocity Arrow",
+            "sell": "8"
+        },
+        "High Velocity Rocket": {
+            "buy": "350",
+            "img": "http://vignette3.wikia.nocookie.net/play-rust/images/f/f4/high_velocity_Rocket_icon.png/revision/latest/scale-to-width-down/100?cb=20151106054436",
+            "item": "High Velocity Rocket",
+            "sell": "8"
+        },
+        "Holosight": {
+            "buy": "4900",
+            "img": "http://vignette4.wikia.nocookie.net/play-rust/images/4/45/Holosight_icon.png",
+            "item": "Holosight",
+            "sell": "1"
+        },
+        "Hoodie": {
+            "buy": "20",
+            "img": "http://vignette1.wikia.nocookie.net/play-rust/images/b/b5/hoodie_icon.png/revision/latest/scale-to-width-down/100?cb=20151106230348",
+            "item": "Hoodie",
+            "sell": "8"
+        },
+        "HV 5.56 Rifle Ammo": {
+            "buy": "20",
+            "img": "http://vignette2.wikia.nocookie.net/play-rust/images/d/df/hv_5.56_rifle_ammo_icon.png/revision/latest/scale-to-width-down/100?cb=20150612151932",
+            "item": "HV 5.56 Rifle Ammo",
+            "sell": "8"
+        },
+        "HV Pistol Ammo": {
+            "buy": "20",
+            "img": "http://vignette4.wikia.nocookie.net/play-rust/images/e/e5/hv_pistol_ammo_icon.png/revision/latest/scale-to-width-down/100?cb=20151106061857",
+            "item": "HV Pistol Ammo",
+            "sell": "8"
+        },
+        "Improvised Balaclava": {
+            "buy": "15",
+            "img": "http://vignette1.wikia.nocookie.net/play-rust/images/5/52/improvised_balaclava_icon.png/revision/latest/scale-to-width-down/100?cb=20151106230404",
+            "item": "Improvised Balaclava",
+            "sell": "8"
+        },
+        "Incendiary 5.56 Rifle Ammo": {
+            "buy": "25",
+            "img": "http://vignette2.wikia.nocookie.net/play-rust/images/e/e1/incendiary_5.56_rifle_ammo_icon.png/revision/latest/scale-to-width-down/100?cb=20150603140753",
+            "item": "Incendiary 5.56 Rifle Ammo",
+            "sell": "8"
+        },
+        "Incendiary Pistol Bullet": {
+            "buy": "20",
+            "img": "http://vignette4.wikia.nocookie.net/play-rust/images/3/31/incendiary_pistol_bullet_icon.png/revision/latest/scale-to-width-down/100?cb=20151106054326",
+            "item": "Incendiary Pistol Bullet",
+            "sell": "8"
+        },
+        "Incendiary Rocket": {
+            "buy": "450",
+            "img": "http://vignette1.wikia.nocookie.net/play-rust/images/f/f9/incendiary_Rocket_icon.png/revision/latest/scale-to-width-down/100?cb=20151106061939",
+            "item": "Incendiary Rocket",
+            "sell": "8"
+        },
+        "Jacket": {
+            "buy": "40",
+            "img": "http://vignette2.wikia.nocookie.net/play-rust/images/f/f0/desert_jacket_icon.png/revision/latest/scale-to-width-down/100?cb=20151106230059",
+            "item": "Jacket",
+            "sell": "8"
+        },
+        "Land Mine": {
+            "buy": "40",
+            "img": "http://vignette3.wikia.nocookie.net/play-rust/images/8/83/Land_Mine_icon.png/revision/latest/scale-to-width-down/100?cb=20150702222020",
+            "item": "Land Mine",
+            "sell": "8"
+        },
+        "Large Banner Hanging": {
+            "buy": "19000",
+            "img": "http://vignette3.wikia.nocookie.net/play-rust/images/2/29/Large_Banner_Hanging_icon.png",
+            "item": "Large Banner Hanging",
+            "sell": "8"
+        },
+        "Large Banner on pole": {
+            "buy": "30000",
+            "img": "http://vignette2.wikia.nocookie.net/play-rust/images/1/16/Large_Banner_on_pole_icon.png",
+            "item": "Large Banner on pole",
+            "sell": "8"
+        },
+        "Large Furnace": {
+            "buy": "45000",
+            "img": "http://vignette3.wikia.nocookie.net/play-rust/images/e/ee/Large_Furnace_icon.png",
+            "item": "Large Furnace",
+            "sell": "1000"
+        },
+        "Large Medkit": {
+            "buy": "80",
+            "img": "http://vignette3.wikia.nocookie.net/play-rust/images/9/99/large_medkit_icon.png/revision/latest/scale-to-width-down/100?cb=20151106054425",
+            "item": "Large Medkit",
+            "sell": "8"
+        },
+        "Large Water Catcher": {
+            "buy": "40",
+            "img": "http://vignette2.wikia.nocookie.net/play-rust/images/3/35/large_water_catcher_icon.png/revision/latest/scale-to-width-down/100?cb=20151106061049",
+            "item": "Large Water Catcher",
+            "sell": "8"
+        },
+        "Large Wood Box": {
+            "buy": "4000",
+            "img": "http://vignette1.wikia.nocookie.net/play-rust/images/b/b2/Large_Wood_Box_icon.png",
+            "item": "Large Wood Box",
+            "sell": "200"
+        },
+        "Leather": {
+            "buy": "410",
+            "img": "http://vignette2.wikia.nocookie.net/play-rust/images/9/9a/Leather_icon.png",
+            "item": "Leather",
+            "sell": "220"
+        },
+        "Leather Gloves": {
+            "buy": "10",
+            "img": "http://vignette2.wikia.nocookie.net/play-rust/images/a/a1/leather_gloves_icon.png/revision/latest/scale-to-width-down/100?cb=20151106060759",
+            "item": "Leather Gloves",
+            "sell": "8"
+        },
+        "Lock": {
+            "buy": "40",
+            "img": "http://vignette1.wikia.nocookie.net/play-rust/images/9/9e/Lock_icon.png/revision/latest/scale-to-width-down/100?cb=20151106061620",
+            "item": "Lock",
+            "sell": "8"
+        },
+        "Longsleeve T-Shirt": {
+            "buy": "15",
+            "img": "http://vignette1.wikia.nocookie.net/play-rust/images/5/57/longsleeve_t-shirt_icon.png/revision/latest/scale-to-width-down/100?cb=20151106230448",
+            "item": "Longsleeve T-Shirt",
+            "sell": "8"
+        },
+        "Low Grade Fuel": {
+            "buy": "1440",
+            "img": "http://vignette4.wikia.nocookie.net/play-rust/images/2/26/Low_Grade_Fuel_icon.png",
+            "item": "Low Grade Fuel",
+            "sell": "728"
+        },
+        "M249": {
+            "buy": "10000",
+            "img": "http://vignette1.wikia.nocookie.net/play-rust/images/c/c6/M249_icon.png/revision/latest/scale-to-width-down/100?cb=20151112221315",
+            "item": "M249",
+            "sell": "8"
+        },
+        "Medical Syringe": {
+            "buy": "30",
+            "img": "http://vignette3.wikia.nocookie.net/play-rust/images/9/99/medical_syringe_icon.png/revision/latest/scale-to-width-down/100?cb=20151106061059",
+            "item": "Medical Syringe",
+            "sell": "8"
+        },
+        "Metal Barricade": {
+            "buy": "5000",
+            "img": "http://vignette3.wikia.nocookie.net/play-rust/images/b/bb/Metal_Barricade_icon.png",
+            "item": "Metal Barricade",
+            "sell": "2500"
+        },
+        "Metal Facemask": {
+            "buy": "30",
+            "img": "http://vignette1.wikia.nocookie.net/play-rust/images/1/1f/metal_facemask_icon.png/revision/latest/scale-to-width-down/100?cb=20151106061432",
+            "item": "Metal Facemask",
+            "sell": "8"
+        },
+        "Metal horizontal embrasure": {
+            "buy": "40",
+            "img": "http://vignette3.wikia.nocookie.net/play-rust/images/5/5d/metal_horizontal_embrasure_icon.png/revision/latest/scale-to-width-down/100?cb=20151106231425",
+            "item": "Metal horizontal embrasure",
+            "sell": "8"
+        },
+        "Metal Vertical embrasure": {
+            "buy": "40",
+            "img": "http://vignette1.wikia.nocookie.net/play-rust/images/8/88/metal_vertical_embrasure_icon.png/revision/latest/scale-to-width-down/100?cb=20151106231451",
+            "item": "Metal Vertical embrasure",
+            "sell": "8"
+        },
+        "Mining Quarry": {
+            "buy": "340000",
+            "img": "http://vignette1.wikia.nocookie.net/play-rust/images/b/b8/Mining_Quarry_icon.png",
+            "item": "Mining Quarry",
+            "sell": "8"
+        },
+        "Pants": {
+            "buy": "20",
+            "img": "http://vignette1.wikia.nocookie.net/play-rust/images/3/3f/pants_icon.png/revision/latest/scale-to-width-down/100?cb=20150821195647",
+            "item": "Pants",
+            "sell": "8"
+        },
+        "Pick Axe": {
+            "buy": "5400",
+            "img": "http://vignette4.wikia.nocookie.net/play-rust/images/8/86/Pick_Axe_icon.png",
+            "item": "Pick Axe",
+            "sell": "8"
+        },
+        "Pistol Bullet": {
+            "buy": "310",
+            "img": "http://vignette2.wikia.nocookie.net/play-rust/images/c/c8/9mm_Ammo_%28Legacy%29_icon.png",
+            "item": "Pistol Bullet",
+            "sell": "8"
+        },
+        "Pump Jack": {
+            "buy": "440000",
+            "img": "http://vignette2.wikia.nocookie.net/play-rust/images/c/c9/pump_jack_icon.png",
+            "item": "Pump Jack",
+            "sell": "8"
+        },
+        "Pump Shotgun": {
+            "buy": "3000",
+            "img": "http://vignette3.wikia.nocookie.net/play-rust/images/6/60/pump_shotgun_icon.png/revision/latest/scale-to-width-down/100?cb=20151106060736",
+            "item": "Pump Shotgun",
+            "sell": "8"
+        },
+        "Pumpkin": {
+            "buy": "1",
+            "img": "http://vignette3.wikia.nocookie.net/play-rust/images/4/4c/Pumpkin_icon.png/revision/latest/scale-to-width-down/100?cb=20151106061814",
+            "item": "Pumpkin",
+            "sell": "5"
+        },
+        "Raw Human Meat": {
+            "buy": "10",
+            "img": "http://vignette1.wikia.nocookie.net/play-rust/images/2/26/raw_human_meat_icon.png/revision/latest/scale-to-width-down/100?cb=20151106061310",
+            "item": "Raw Human Meat",
+            "sell": "2"
+        },
+        "Reinforced Window Bars": {
+            "buy": "2500",
+            "img": "http://vignette2.wikia.nocookie.net/play-rust/images/e/e5/wooden_barricade_icon.png",
+            "item": "Wooden Barricade",
+            "sell": "1250"
+        },
+        "Revolver": {
+            "buy": "800",
+            "img": "http://vignette1.wikia.nocookie.net/play-rust/images/5/58/Revolver_icon.png/revision/latest/scale-to-width-down/100?cb=20151106061412",
+            "item": "Revolver",
+            "sell": "8"
+        },
+        "Riot Helmet": {
+            "buy": "100",
+            "img": "http://vignette4.wikia.nocookie.net/play-rust/images/4/4e/riot_helmet_icon.png/revision/latest/scale-to-width-down/100?cb=20151106060949",
+            "item": "Riot Helmet",
+            "sell": "8"
+        },
+        "Road Sign Jacket": {
+            "buy": "150",
+            "img": "http://vignette1.wikia.nocookie.net/play-rust/images/8/84/road_sign_jacket_icon.png/revision/latest/scale-to-width-down/100?cb=20151106054408",
+            "item": "Road Sign Jacket",
+            "sell": "8"
+        },
+        "Road Sign Kilt": {
+            "buy": "130",
+            "img": "http://vignette3.wikia.nocookie.net/play-rust/images/3/31/road_sign_kilt_icon.png/revision/latest/scale-to-width-down/100?cb=20150717104118",
+            "item": "Road Sign Kilt",
+            "sell": "8"
+        },
+        "Rocket": {
+            "buy": "275",
+            "img": "http://vignette1.wikia.nocookie.net/play-rust/images/9/95/Rocket_icon.png/revision/latest/scale-to-width-down/100?cb=20151106061039",
+            "item": "Rocket",
+            "sell": "8"
+        },
+        "Rocket Launcher": {
+            "buy": "10000",
+            "img": "http://vignette3.wikia.nocookie.net/play-rust/images/0/06/Rocket_launcher_icon.png/revision/latest/scale-to-width-down/100?cb=20151106061852",
+            "item": "Rocket Launcher",
+            "sell": "8"
+        },
+        "Salvaged Shelves": {
+            "buy": "9900",
+            "img": "http://vignette2.wikia.nocookie.net/play-rust/images/a/a5/Salvaged_Shelves_icon.png",
+            "item": "Salvaged Shelves",
+            "sell": "4500"
+        },
+        "Sandbag Barricade": {
+            "buy": "40",
+            "img": "http://vignette4.wikia.nocookie.net/play-rust/images/a/a7/sandbag_barricade_icon.png/revision/latest/scale-to-width-down/100?cb=20151106061417",
+            "item": "Sandbag Barricade",
+            "sell": "8"
+        },
+        "Semi-Automatic Pistol": {
+            "buy": "1000",
+            "img": "http://vignette2.wikia.nocookie.net/play-rust/images/6/6b/Semi-Automatic_Pistol_icon.png",
+            "item": "Semi-Automatic Pistol",
+            "sell": "8"
+        },
+        "Silencer": {
+            "buy": "5900",
+            "img": "http://vignette3.wikia.nocookie.net/play-rust/images/9/9f/Silencer_icon.png",
+            "item": "Silencer",
+            "sell": "1"
+        },
+        "Small Oil Refinery": {
+            "buy": "18000",
+            "img": "http://vignette2.wikia.nocookie.net/play-rust/images/a/ac/Small_Oil_Refinery_icon.png",
+            "item": "Small Oil Refinery",
+            "sell": "900"
+        },
+        "Small Water Catcher": {
+            "buy": "40",
+            "img": "http://vignette2.wikia.nocookie.net/play-rust/images/0/04/Small_Water_Catcher_icon.png/revision/latest/scale-to-width-down/100?cb=20151106061919",
+            "item": "Small Water Catcher",
+            "sell": "8"
+        },
+        "Snap Trap": {
+            "buy": "40",
+            "img": "http://vignette1.wikia.nocookie.net/play-rust/images/b/b0/Snap_Trap_icon.png/revision/latest/scale-to-width-down/100?cb=20151106061711",
+            "item": "Snap Trap",
+            "sell": "8"
+        },
+        "Snow Jacket - Red": {
+            "buy": "30",
+            "img": "http://vignette3.wikia.nocookie.net/play-rust/images/0/04/snow_jacket_-_red_icon.png/revision/latest/scale-to-width-down/100?cb=20151106230431",
+            "item": "Snow Jacket - Red",
+            "sell": "8"
+        },
+        "Stone Barricade": {
+            "buy": "1250",
+            "img": "http://vignette2.wikia.nocookie.net/play-rust/images/c/cc/stone_barricade_icon.png",
+            "item": "Stone Barricade",
+            "sell": "650"
+        },
+        "stones": {
+            "buy": "30",
+            "img": "http://vignette4.wikia.nocookie.net/play-rust/images/8/85/Stones_icon.png",
+            "item": "stones",
+            "sell": "0.15"
+        },
+        "Survey Charge": {
+            "buy": "3950",
+            "img": "http://vignette2.wikia.nocookie.net/play-rust/images/9/9a/Survey_Charge_icon.png",
+            "item": "Survey Charge",
+            "sell": "1900"
+        },
+        "Thompson": {
+            "buy": "1500",
+            "img": "http://vignette3.wikia.nocookie.net/play-rust/images/4/4e/Thompson_icon.png/revision/latest/scale-to-width-down/100?cb=20151106061328",
+            "item": "Thompson",
+            "sell": "8"
+        },
+        "wood": {
+            "buy": "25",
+            "img": "http://vignette4.wikia.nocookie.net/play-rust/images/f/f2/Wood_icon.png",
+            "item": "wood",
+            "sell": "0.18"
+        },
+        "Wooden Window Bars": {
+            "buy": "40",
+            "img": "http://vignette4.wikia.nocookie.net/play-rust/images/2/27/Wooden_Window_Bars_icon.png/revision/latest/scale-to-width-down/100?cb=20151106231407",
+            "item": "Wooden Window Bars",
+            "sell": "8"
+        },
+        "XL Picture Frame": {
+            "buy": "20000",
+            "img": "http://vignette2.wikia.nocookie.net/play-rust/images/b/bf/XL_Picture_Frame_icon.png",
+            "item": "XL Picture Frame",
+            "sell": "8"
+        },
+        "XXL Picture Frame": {
+            "buy": "35000",
+            "img": "http://vignette1.wikia.nocookie.net/play-rust/images/7/7e/Wooden_Door_icon.png/revision/latest/scale-to-width-down/100?cb=20151106231357",
+            "item": "XXL Picture Frame",
+            "sell": "8"
+        },
+        "Holosight pb": {
+            "buy": "19500",
+            "img": "http://www.proforma.net.br/wp-content/uploads/2015/11/Silencer-BP.png",
+            "item": "Holosight pb",
+            "sell": "0"
+        },
+        "Large Medkit bp": {
+            "buy": "9500",
+            "img": "http://www.proforma.net.br/wp-content/uploads/2015/11/med.png",
+            "item": "Large Medkit bp",
+            "sell": "0"
+        },
+        "Large Wood Box bp": {
+            "buy": "9500",
+            "img": "http://www.proforma.net.br/wp-content/uploads/2015/11/Large-Wood-Box-BP.png",
+            "item": "Large Wood Box bp",
+            "sell": "0"
+        }
+    },
+    "Shop - Shop List": {
+        "1442550611": {
+            "buy": [
+                "Holosight pb",
+                "Large Wood Box bp",
+                "Large Medkit bp",
+                "Custom SMG bp"
+            ],
+            "description": "Você está atualmente com R$ {0} para gastar em nossa Loja de Blueprint",
+            "name": "Loja de Blueprint Brasil-Life",
+            "sell": []
+        },
+        "824020328": {
+            "buy": [
+                "Holosight",
+                "Silencer",
+                "Semi-Automatic Pistol ",
+                "Custom SMG",
+                "Assault Rifle",
+                "Bolt Action Rifle",
+                "F1 Grenade",
+                "5.56 Rifle Ammo",
+                "Pistol Bullet",
+                "Auto Turret"
+            ],
+            "description": "Você está atualmente com R$ {0} para gastar em nossa Loja",
+            "name": "Loja de Armas Brasil-Life",
+            "sell": [
+                "Holosight",
+                "Silencer",
+                "Semi-Automatic Pistol",
+                "Custom SMG",
+                "Assault Rifle",
+                "Bolt Action Rifle",
+                "F1 Grenade",
+                "5.56 Rifle Ammo",
+                "Pistol Bullet",
+                "Auto Turret"
+            ]
+        },
+        "1495080730": {
+            "buy": [
+                "Holosight",
+                "Silencer",
+                "Semi-Automatic Pistol",
+                "Custom SMG",
+                "Assault Rifle",
+                "Bolt Action Rifle",
+                "F1 Grenade",
+                "5.56 Rifle Ammo",
+                "Pistol Bullet",
+                "Auto Turret"
+            ],
+            "description": "Você está atualmente com R$ {0} para gastar em nossa Loja de Armas",
+            "name": "Loja de Armas Brasil-Life",
+            "sell": [
+                "Holosight",
+                "Silencer",
+                "Semi-Automatic Pistol",
+                "Custom SMG",
+                "Assault Rifle",
+                "Bolt Action Rifle",
+                "F1 Grenade",
+                "5.56 Rifle Ammo",
+                "Pistol Bullet",
+                "Auto Turret"
+            ]
+        },
+        "2128425991": {
+            "buy": [
+                "Metal Window Bars",
+                "High External Wooden Wall",
+                "High External Stone Wall",
+                "High External Wooden Gate",
+                "High External Stone Gate",
+                "Reinforced Window Bars",
+                "Metal Barricade",
+                "Barbed Wooden Barricade",
+                "Stone Barricade",
+                "Large Furnace",
+                "Small Oil Refinery",
+                "Large Wood Box",
+                "Salvaged Shelves",
+                "Survey Charge",
+                "XL Picture Frame",
+                "XXL Picture Frame",
+                "Large Banner Hanging",
+                "Large Banner on pole",
+                "Hatchet",
+                "Pick Axe"
+            ],
+            "description": "Você está atualmente com R$ {0} para gastar em nossa Loja de Armas",
+            "name": "Loja de Construção",
+            "sell": [
+                "Metal Window Bars",
+                "High External Wooden Wall",
+                "High External Stone Wall",
+                "High External Wooden Gate",
+                "High External Stone Gate",
+                "Reinforced Window Bars",
+                "Metal Barricade",
+                "Barbed Wooden Barricade",
+                "Stone Barricade",
+                "Large Furnace",
+                "Small Oil Refinery",
+                "Large Wood Box",
+                "Salvaged Shelves",
+                "Survey Charge",
+                "XL Picture Frame",
+                "XXL Picture Frame",
+                "Large Banner Hanging",
+                "Large Banner on pole",
+                "Hatchet",
+                "Pick Axe"
+            ]
+        },
+        "chat": {
+            "buy": [
+                "stones",
+                "wood",
+                "Cloth",
+                "Pump Jack",
+                "Mining Quarry",
+                "Leather",
+                "Animal Fat",
+                "Low Grade Fuel"
+            ],
+            "description": "Você está atualmente com R$ {0} para gastar em nossa Loja",
+            "name": "Mercado Brasil-Life",
+            "sell": [
+                "stones",
+                "wood",
+                "Cloth",
+                "Pump Jack",
+                "Mining Quarry",
+                "Leather",
+                "Animal Fat",
+                "Low Grade Fuel"
+            ]
+        }
     }
-  },
-  "Shop - Shop List": {
-    "1495080730": {
-      "buy": [
-        "Holosight",
-        "Silencer",
-        "Semi-Automatic Pistol",
-        "Custom SMG",
-        "Custom SMG bp",
-        "Assault Rifle",
-        "Bolt Action Rifle",
-        "F1 Grenade",
-        "5.56 Rifle Ammo",
-        "Pistol Bullet",
-        "Auto Turret"
-      ],
-      "description": "Você está atualmente com R$ {0} para gastar em nossa Loja de Armas",
-      "name": "Loja de Armas Brasil-Life",
-      "sell": [
-        "Holosight",
-        "Silencer",
-        "Semi-Automatic Pistol",
-        "Custom SMG",
-        "Custom SMG bp",
-        "Assault Rifle",
-        "Bolt Action Rifle",
-        "F1 Grenade",
-        "5.56 Rifle Ammo",
-        "Pistol Bullet",
-        "Auto Turret"
-      ]
-    },
-    "2128425991": {
-      "buy": [
-        "Metal Window Bars",
-        "High External Wooden Wall",
-        "High External Stone Wall",
-        "High External Wooden Gate",
-        "High External Stone Gate",
-        "Reinforced Window Bars",
-        "Metal Barricade",
-        "Barbed Wooden Barricade",
-        "Stone Barricade",
-        "Large Furnace",
-        "Small Oil Refinery",
-        "Large Wood Box",
-        "Salvaged Shelves",
-        "Survey Charge",
-        "XL Picture Frame",
-        "XXL Picture Frame",
-        "Large Banner Hanging",
-        "Large Banner on pole",
-        "Hatchet",
-        "Pick Axe"
-      ],
-      "description": "Você está atualmente com R$ {0} para gastar em nossa Loja de Armas",
-      "name": "Loja de Construção",
-      "sell": [
-        "Metal Window Bars",
-        "High External Wooden Wall",
-        "High External Stone Wall",
-        "High External Wooden Gate",
-        "High External Stone Gate",
-        "Reinforced Window Bars",
-        "Metal Barricade",
-        "Barbed Wooden Barricade",
-        "Stone Barricade",
-        "Large Furnace",
-        "Small Oil Refinery",
-        "Large Wood Box",
-        "Salvaged Shelves",
-        "Survey Charge",
-        "XL Picture Frame",
-        "XXL Picture Frame",
-        "Large Banner Hanging",
-        "Large Banner on pole",
-        "Hatchet",
-        "Pick Axe"
-      ]
-    },
-    "824020328": {
-      "buy": [
-        "Holosight",
-        "Silencer",
-        "Semi-Automatic Pistol ",
-        "Custom SMG",
-        "Custom SMG bp",
-        "Assault Rifle",
-        "Bolt Action Rifle",
-        "F1 Grenade",
-        "5.56 Rifle Ammo",
-        "Pistol Bullet",
-        "Auto Turret"
-      ],
-      "description": "Você está atualmente com R$ {0} para gastar em nossa Loja",
-      "name": "Loja de Armas Brasil-Life",
-      "sell": [
-        "Holosight",
-        "Silencer",
-        "Semi-Automatic Pistol",
-        "Custom SMG",
-        "Custom SMG bp",
-        "Assault Rifle",
-        "Bolt Action Rifle",
-        "F1 Grenade",
-        "5.56 Rifle Ammo",
-        "Pistol Bullet",
-        "Auto Turret"
-      ]
-    },
-    "chat": {
-      "buy": [
-        "stones",
-        "wood",
-        "Cloth",
-        "Pump Jack",
-        "Mining Quarry",
-        "Leather",
-        "Animal Fat",
-        "Low Grade Fuel"
-      ],
-      "description": "Você está atualmente com R$ {0} para gastar em nossa Loja",
-      "name": "Mercado Brasil-Life",
-      "sell": [
-        "stones",
-        "wood",
-        "Cloth",
-        "Pump Jack",
-        "Mining Quarry",
-        "Leather",
-        "Animal Fat",
-        "Low Grade Fuel"
-      ]
-    }
-  }
 }
