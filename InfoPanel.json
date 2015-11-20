@@ -27,12 +27,9 @@
   },
   "Messages": [
     "Seja Bem Vindo!",
+    "WIPE 19/11/2015 16:40 - Atualização do Rust.",
     "(INICIANTE) use [/kit starter] kit básico inicial",
-    "Acesse a loja /shop - ou vá até uma de nossas lojas.",
-    "LOJA DE ARMAS NO AERO",
-    "LOJA DE CONSTRUÇÃO NO ARMAZEM",
-    "LOJA DE BP NA ARMAZEM",
-    "LOJA DE ARMAS NA CIDADE RODOVIÁRIA",
+    "Acesse a loja /shop.",
     "Maiores informacoes use /info"
   ],
   "Panels": {
