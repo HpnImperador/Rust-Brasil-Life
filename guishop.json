@@ -78,7 +78,7 @@
     },
     "Barbed Wooden Barricade": {
       "buy": "5040",
-      "img": "http://vignette1.wikia.nocookie.net/play-rust/images/7/7b/barbed_wooden_barricade_icon.png",
+      "img": "http://vignette1.wikia.nocookie.net/play-rust/images/7/7b/Barbed_Wooden_Barricade_icon.png",
       "item": "Barbed Wooden Barricade",
       "sell": "2500"
     },
@@ -240,7 +240,7 @@
     },
     "Custom SMG": {
       "buy": "12000",
-      "img": "http://vignette1.wikia.nocookie.net/play-rust/images/9/95/custom_smg_icon.png",
+      "img": "http://vignette1.wikia.nocookie.net/play-rust/images/9/95/Custom_SMG_icon.png",
       "item": "Custom SMG",
       "sell": "8"
     },
@@ -324,13 +324,13 @@
     },
     "High External Stone Wall": {
       "buy": "5000",
-      "img": "http://vignette1.wikia.nocookie.net/play-rust/images/b/b6/high_external_stone_wall_icon.png",
+      "img": "http://vignette1.wikia.nocookie.net/play-rust/images/b/b6/High_External_Stone_Wall_icon.png",
       "item": "High External Stone Wall",
       "sell": "2500"
     },
     "High External Wooden Gate": {
       "buy": "3000",
-      "img": "http://vignette2.wikia.nocookie.net/play-rust/images/5/53/high_external_wooden_gate_icon.png",
+      "img": "http://vignette2.wikia.nocookie.net/play-rust/images/5/53/High_External_Wooden_Gate_icon.png",
       "item": "High External Wooden Gate",
       "sell": "1500"
     },
@@ -564,7 +564,7 @@
     },
     "Pump Jack": {
       "buy": "440000",
-      "img": "http://vignette2.wikia.nocookie.net/play-rust/images/c/c9/pump_jack_icon.png",
+      "img": "http://vignette2.wikia.nocookie.net/play-rust/images/c/c9/Pump_Jack_icon.png",
       "item": "Pump Jack",
       "sell": "8"
     },
@@ -588,7 +588,7 @@
     },
     "Reinforced Window Bars": {
       "buy": "2500",
-      "img": "http://vignette2.wikia.nocookie.net/play-rust/images/e/e5/wooden_barricade_icon.png",
+      "img": "http://vignette1.wikia.nocookie.net/play-rust/images/e/eb/Reinforced_Window_Bars_icon.png",
       "item": "Wooden Barricade",
       "sell": "1250"
     },
@@ -678,7 +678,7 @@
     },
     "Stone Barricade": {
       "buy": "1250",
-      "img": "http://vignette2.wikia.nocookie.net/play-rust/images/c/cc/stone_barricade_icon.png",
+      "img": "http://vignette2.wikia.nocookie.net/play-rust/images/c/cc/Stone_Barricade_icon.png",
       "item": "Stone Barricade",
       "sell": "650"
     },
