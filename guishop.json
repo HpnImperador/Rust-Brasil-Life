@@ -203,7 +203,7 @@
       "sell": "8"
     },
     "Cloth": {
-      "buy": "410",
+      "buy": "810",
       "img": "http://vignette1.wikia.nocookie.net/play-rust/images/f/f7/Cloth_icon.png",
       "item": "Cloth",
       "sell": "21"
@@ -473,7 +473,7 @@
       "sell": "0"
     },
     "Leather": {
-      "buy": "410",
+      "buy": "810",
       "img": "http://vignette2.wikia.nocookie.net/play-rust/images/9/9a/Leather_icon.png",
       "item": "Leather",
       "sell": "220"
@@ -497,16 +497,16 @@
       "sell": "8"
     },
     "Low Grade Fuel": {
-      "buy": "4440",
+      "buy": "8440",
       "img": "http://vignette4.wikia.nocookie.net/play-rust/images/2/26/Low_Grade_Fuel_icon.png",
       "item": "Low Grade Fuel",
       "sell": "100"
     },
     "M249": {
-      "buy": "10000",
-      "img": "http://vignette1.wikia.nocookie.net/play-rust/images/c/c6/M249_icon.png/revision/latest/scale-to-width-down/100?cb=20151112221315",
+      "buy": "4500000",
+      "img": "http://vignette1.wikia.nocookie.net/play-rust/images/c/c6/M249_icon.png",
       "item": "M249",
-      "sell": "8"
+      "sell": "0"
     },
     "Medical Syringe": {
       "buy": "30",
@@ -874,7 +874,6 @@
         "stones",
         "wood",
         "Cloth",
-        "Pump Jack",
         "Mining Quarry",
         "Leather",
         "Animal Fat",
@@ -883,9 +882,9 @@
         "Silencer",
         "Semi-Automatic Pistol",
         "Custom SMG",
+        "M249",
         "Assault Rifle",
         "Bolt Action Rifle",
-        "F1 Grenade",
         "5.56 Rifle Ammo",
         "Pistol Bullet",
         "Auto Turret",
@@ -915,12 +914,11 @@
         "Custom SMG bp"
       ],
       "description": "Você está atualmente com R$ {0} para gastar em nossa Loja",
-      "name": "Acesse nossa loja Virtual em: rust-life.com.br",
+      "name": "Acesse nossa loja Virtual em: www.rust-life.com.br",
       "sell": [
         "stones",
         "wood",
         "Cloth",
-        "Pump Jack",
         "Mining Quarry",
         "Leather",
         "Animal Fat",
@@ -929,9 +927,9 @@
         "Silencer",
         "Semi-Automatic Pistol",
         "Custom SMG",
+        "M249",
         "Assault Rifle",
         "Bolt Action Rifle",
-        "F1 Grenade",
         "5.56 Rifle Ammo",
         "Pistol Bullet",
         "Auto Turret",
