@@ -359,7 +359,7 @@
       "sell": "8"
     },
     "Holosight": {
-      "buy": "4900",
+      "buy": "9900",
       "img": "http://vignette4.wikia.nocookie.net/play-rust/images/4/45/Holosight_icon.png",
       "item": "Holosight",
       "sell": "1"
@@ -647,7 +647,7 @@
       "sell": "8"
     },
     "Silencer": {
-      "buy": "5900",
+      "buy": "15900",
       "img": "http://vignette3.wikia.nocookie.net/play-rust/images/9/9f/Silencer_icon.png",
       "item": "Silencer",
       "sell": "1"
@@ -907,11 +907,7 @@
         "Large Banner Hanging",
         "Large Banner on pole",
         "Hatchet",
-        "Pick Axe",
-        "Holosight pb",
-        "Large Wood Box bp",
-        "Large Medkit bp",
-        "Custom SMG bp"
+        "Pick Axe"
       ],
       "description": "Você está atualmente com R$ {0} para gastar em nossa Loja",
       "name": "Acesse nossa loja Virtual em: www.rust-life.com.br",
