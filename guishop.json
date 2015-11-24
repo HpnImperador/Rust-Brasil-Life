@@ -30,7 +30,7 @@
     },
     "5.56 Rifle Ammo": {
       "buy": "915",
-      "img": "http://vignette1.wikia.nocookie.net/play-rust/images/4/49/5.56_Rifle_Ammo_icon.png",
+      "img": "http://www.proforma.net.br/wp-content/uploads/2015/11/5.56_Rifle_Ammo_icon.png",
       "item": "5.56 Rifle Ammo",
       "sell": "8"
     },
@@ -60,14 +60,20 @@
     },
     "Assault Rifle": {
       "buy": "15000",
-      "img": "http://vignette3.wikia.nocookie.net/play-rust/images/d/d1/Assault_Rifle_icon.png",
+      "img": "http://rust-life.com.br/wp-content/uploads/2015/11/Assault_Rifle_icon.png",
       "item": "Assault Rifle",
       "sell": "8"
     },
     "Auto Turret": {
       "buy": "2400000",
-      "img": "http://vignette2.wikia.nocookie.net/play-rust/images/f/f9/Auto_Turret_icon.png",
+      "img": "http://rust-life.com.br/wp-content/uploads/2015/11/Auto_Turret_icon.png",
       "item": "Auto Turret",
+      "sell": "8"
+    },
+    "Auto Turret bp": {
+      "buy": "3500000",
+      "img": "",
+      "item": "Auto Turret bp",
       "sell": "8"
     },
     "Bandage": {
@@ -78,7 +84,7 @@
     },
     "Barbed Wooden Barricade": {
       "buy": "5040",
-      "img": "http://vignette1.wikia.nocookie.net/play-rust/images/7/7b/Barbed_Wooden_Barricade_icon.png",
+      "img": "http://rust-life.com.br/wp-content/uploads/2015/11/Barbed_Wooden_Barricade_icon.png",
       "item": "Barbed Wooden Barricade",
       "sell": "2500"
     },
@@ -120,7 +126,7 @@
     },
     "Bolt Action Rifle": {
       "buy": "14500",
-      "img": "http://vignette1.wikia.nocookie.net/play-rust/images/5/55/Bolt_Action_Rifle_icon.png",
+      "img": "http://rust-life.com.br/wp-content/uploads/2015/11/Bolt_Action_Rifle_icon.png",
       "item": "Bolt Action Rifle",
       "sell": "8"
     },
@@ -129,6 +135,12 @@
       "img": "http://vignette2.wikia.nocookie.net/play-rust/images/4/49/bone_armor_pants_icon.png/revision/latest/scale-to-width-down/100?cb=20151106061828",
       "item": "Bone Armor Pants",
       "sell": "8"
+    },
+    "Bone Armor Pants bp": {
+      "buy": "9500",
+      "img": "",
+      "item": "Bone Armor Pants bp",
+      "sell": "0"
     },
     "Bone Jacket": {
       "buy": "70",
@@ -153,6 +165,12 @@
       "img": "http://vignette1.wikia.nocookie.net/play-rust/images/a/a5/bucket_helmet_icon.png/revision/latest/scale-to-width-down/100?cb=20151106061537",
       "item": "Bucket Helmet",
       "sell": "8"
+    },
+    "Bucket Helmet bp": {
+      "buy": "3500",
+      "img": "",
+      "item": "Bucket Helmet bp",
+      "sell": "0"
     },
     "Build Kit": {
       "buy": "10",
@@ -246,7 +264,7 @@
     },
     "Custom SMG bp": {
       "buy": "32000",
-      "img": "http://www.proforma.net.br/wp-content/uploads/2015/11/Custom-SMG-BP.png",
+      "img": "http://rust-life.com.br/wp-content/uploads/2015/11/Custom_SMG_icon.png",
       "item": "Custom SMG bp",
       "sell": "8"
     },
@@ -286,6 +304,12 @@
       "item": "Hatchet",
       "sell": "8"
     },
+    "Hatchet bp": {
+      "buy": "9500",
+      "img": "",
+      "item": "Hatchet bp",
+      "sell": "0"
+    },
     "Hazmat Gloves": {
       "buy": "25",
       "img": "http://vignette3.wikia.nocookie.net/play-rust/images/a/aa/hazmat_gloves_icon.png/revision/latest/scale-to-width-down/100?cb=20151106061629",
@@ -318,25 +342,25 @@
     },
     "High External Stone Gate": {
       "buy": "5000",
-      "img": "http://vignette2.wikia.nocookie.net/play-rust/images/8/85/High_External_Stone_Gate_icon.png",
+      "img": "http://rust-life.com.br/wp-content/uploads/2015/11/High_External_Stone_Gate_icon.png",
       "item": "High External Stone Gate",
       "sell": "2500"
     },
     "High External Stone Wall": {
       "buy": "5000",
-      "img": "http://vignette1.wikia.nocookie.net/play-rust/images/b/b6/High_External_Stone_Wall_icon.png",
+      "img": "http://rust-life.com.br/wp-content/uploads/2015/11/High_External_Stone_Wall_icon.png",
       "item": "High External Stone Wall",
       "sell": "2500"
     },
     "High External Wooden Gate": {
       "buy": "3000",
-      "img": "http://vignette2.wikia.nocookie.net/play-rust/images/5/53/High_External_Wooden_Gate_icon.png",
+      "img": "http://rust-life.com.br/wp-content/uploads/2015/11/High_External_Wooden_Gate_icon.png",
       "item": "High External Wooden Gate",
       "sell": "1500"
     },
     "High External Wooden Wall": {
       "buy": "3000",
-      "img": "http://vignette3.wikia.nocookie.net/play-rust/images/9/96/High_External_Wooden_Wall_icon.png",
+      "img": "http://rust-life.com.br/wp-content/uploads/2015/11/High_External_Wooden_Wall_icon.png",
       "item": "High External Wooden Wall",
       "sell": "15"
     },
@@ -360,7 +384,7 @@
     },
     "Holosight": {
       "buy": "9900",
-      "img": "http://vignette4.wikia.nocookie.net/play-rust/images/4/45/Holosight_icon.png",
+      "img": "http://rust-life.com.br/wp-content/uploads/2015/11/Holosight_icon.png",
       "item": "Holosight",
       "sell": "1"
     },
@@ -418,6 +442,12 @@
       "item": "Jacket",
       "sell": "8"
     },
+    "Jacket bp": {
+      "buy": "9500",
+      "img": "",
+      "item": "Jacket bp",
+      "sell": "0"
+    },
     "Land Mine": {
       "buy": "40",
       "img": "http://vignette3.wikia.nocookie.net/play-rust/images/8/83/Land_Mine_icon.png/revision/latest/scale-to-width-down/100?cb=20150702222020",
@@ -438,7 +468,7 @@
     },
     "Large Furnace": {
       "buy": "45000",
-      "img": "http://vignette3.wikia.nocookie.net/play-rust/images/e/ee/Large_Furnace_icon.png",
+      "img": "http://rust-life.com.br/wp-content/uploads/2015/11/Large_Furnace_icon.png",
       "item": "Large Furnace",
       "sell": "1000"
     },
@@ -462,7 +492,7 @@
     },
     "Large Wood Box": {
       "buy": "4000",
-      "img": "http://vignette1.wikia.nocookie.net/play-rust/images/b/b2/Large_Wood_Box_icon.png",
+      "img": "http://rust-life.com.br/wp-content/uploads/2015/11/Large_Wood_Box_icon.png",
       "item": "Large Wood Box",
       "sell": "200"
     },
@@ -514,9 +544,15 @@
       "item": "Medical Syringe",
       "sell": "8"
     },
+    "Medical Syringe bp": {
+      "buy": "3500",
+      "img": "",
+      "item": "Medical Syringe bp",
+      "sell": "0"
+    },
     "Metal Barricade": {
       "buy": "5000",
-      "img": "http://vignette3.wikia.nocookie.net/play-rust/images/b/bb/Metal_Barricade_icon.png",
+      "img": "http://rust-life.com.br/wp-content/uploads/2015/11/Metal_Barricade_icon.png",
       "item": "Metal Barricade",
       "sell": "2500"
     },
@@ -540,7 +576,7 @@
     },
     "Mining Quarry": {
       "buy": "340000",
-      "img": "http://vignette1.wikia.nocookie.net/play-rust/images/b/b8/Mining_Quarry_icon.png",
+      "img": "http://rust-life.com.br/wp-content/uploads/2015/11/Mining_Quarry_icon.png",
       "item": "Mining Quarry",
       "sell": "8"
     },
@@ -556,11 +592,23 @@
       "item": "Pick Axe",
       "sell": "8"
     },
+    "Pick Axe bp": {
+      "buy": "9500",
+      "img": "",
+      "item": "Pick Axe bp",
+      "sell": "0"
+    },
     "Pistol Bullet": {
       "buy": "310",
-      "img": "http://vignette2.wikia.nocookie.net/play-rust/images/c/c8/9mm_Ammo_%28Legacy%29_icon.png",
+      "img": "http://www.proforma.net.br/wp-content/uploads/2015/11/Pistol_Bullet_icon.png",
       "item": "Pistol Bullet",
       "sell": "8"
+    },
+    "Pistol Bullet bp": {
+      "buy": "9500",
+      "img": "",
+      "item": "Pistol Bullet bp",
+      "sell": "0"
     },
     "Pump Jack": {
       "buy": "440000",
@@ -588,7 +636,7 @@
     },
     "Reinforced Window Bars": {
       "buy": "2500",
-      "img": "http://vignette1.wikia.nocookie.net/play-rust/images/e/eb/Reinforced_Window_Bars_icon.png",
+      "img": "http://rust-life.com.br/wp-content/uploads/2015/11/Reinforced_Window_Bars_icon.png",
       "item": "Reinforced Window Bars",
       "sell": "1"
     },
@@ -642,19 +690,19 @@
     },
     "Semi-Automatic Pistol": {
       "buy": "1000",
-      "img": "http://vignette2.wikia.nocookie.net/play-rust/images/6/6b/Semi-Automatic_Pistol_icon.png",
+      "img": "http://rust-life.com.br/wp-content/uploads/2015/11/Semi-Automatic_Pistol_icon.png",
       "item": "Semi-Automatic Pistol",
       "sell": "8"
     },
     "Silencer": {
       "buy": "15900",
-      "img": "http://vignette3.wikia.nocookie.net/play-rust/images/9/9f/Silencer_icon.png",
+      "img": "http://rust-life.com.br/wp-content/uploads/2015/11/Silencer_icon.png",
       "item": "Silencer",
       "sell": "1"
     },
     "Small Oil Refinery": {
       "buy": "18000",
-      "img": "http://vignette2.wikia.nocookie.net/play-rust/images/a/ac/Small_Oil_Refinery_icon.png",
+      "img": "http://rust-life.com.br/wp-content/uploads/2015/11/Small_Oil_Refinery_icon.png",
       "item": "Small Oil Refinery",
       "sell": "900"
     },
@@ -678,7 +726,7 @@
     },
     "Stone Barricade": {
       "buy": "1250",
-      "img": "http://vignette2.wikia.nocookie.net/play-rust/images/c/cc/Stone_Barricade_icon.png",
+      "img": "http://rust-life.com.br/wp-content/uploads/2015/11/Stone_Barricade_icon.png",
       "item": "Stone Barricade",
       "sell": "650"
     },
@@ -706,6 +754,12 @@
       "item": "wood",
       "sell": "0.28"
     },
+    "Wood Armor Pants bp": {
+      "buy": "9500",
+      "img": "",
+      "item": "Wood Armor Pants bp",
+      "sell": "0"
+    },
     "Wooden Window Bars": {
       "buy": "40",
       "img": "http://vignette4.wikia.nocookie.net/play-rust/images/2/27/Wooden_Window_Bars_icon.png/revision/latest/scale-to-width-down/100?cb=20151106231407",
@@ -726,148 +780,25 @@
     }
   },
   "Shop - Shop List": {
-    "1442550611": {
+    "1722119523": {
       "buy": [
+        "Auto Turret bp",
         "Holosight pb",
         "Large Wood Box bp",
         "Large Medkit bp",
-        "Custom SMG bp"
+        "Custom SMG bp",
+        "Hatchet bp",
+        "Pick Axe bp",
+        "Medical Syringe bp",
+        "Bucket Helmet bp",
+        "Jacket bp",
+        "Bone Armor Pants bp",
+        "Wood Armor Pants bp",
+        "Pistol Bullet bp"
       ],
       "description": "Você está atualmente com R$ {0} para gastar em nossa Loja de Blueprint",
-      "name": "<white>[ <orange>Loja de Blueprint Rust-Life<end> ]<end>",
+      "name": "Acesse nossa loja Virtual em: www.rust-life.com.br",
       "sell": []
-    },
-    "1495080730": {
-      "buy": [
-        "Holosight",
-        "Silencer",
-        "Semi-Automatic Pistol",
-        "Custom SMG",
-        "Assault Rifle",
-        "Bolt Action Rifle",
-        "F1 Grenade",
-        "5.56 Rifle Ammo",
-        "Pistol Bullet",
-        "Auto Turret"
-      ],
-      "description": "Você está atualmente com R$ {0} para gastar em nossa Loja de Armas",
-      "name": "<white>[ <orange>Loja de Armas Rust-Life<end> ]<end>",
-      "sell": [
-        "Holosight",
-        "Silencer",
-        "Semi-Automatic Pistol",
-        "Custom SMG",
-        "Assault Rifle",
-        "Bolt Action Rifle",
-        "F1 Grenade",
-        "5.56 Rifle Ammo",
-        "Pistol Bullet",
-        "Auto Turret"
-      ]
-    },
-    "2128425991": {
-      "buy": [
-        "Metal Window Bars",
-        "High External Wooden Wall",
-        "High External Stone Wall",
-        "High External Wooden Gate",
-        "High External Stone Gate",
-        "Reinforced Window Bars",
-        "Metal Barricade",
-        "Barbed Wooden Barricade",
-        "Stone Barricade",
-        "Large Furnace",
-        "Small Oil Refinery",
-        "Large Wood Box",
-        "Salvaged Shelves",
-        "Survey Charge",
-        "XL Picture Frame",
-        "XXL Picture Frame",
-        "Large Banner Hanging",
-        "Large Banner on pole",
-        "Hatchet",
-        "Pick Axe"
-      ],
-      "description": "Você está atualmente com R$ {0} para gastar em nossa Loja de Armas",
-      "name": "<white>[ <orange>Loja de Construção Rust-Life<end> ]<end>",
-      "sell": [
-        "Metal Window Bars",
-        "High External Wooden Wall",
-        "High External Stone Wall",
-        "High External Wooden Gate",
-        "High External Stone Gate",
-        "Reinforced Window Bars",
-        "Metal Barricade",
-        "Barbed Wooden Barricade",
-        "Stone Barricade",
-        "Large Furnace",
-        "Small Oil Refinery",
-        "Large Wood Box",
-        "Salvaged Shelves",
-        "Survey Charge",
-        "XL Picture Frame",
-        "XXL Picture Frame",
-        "Large Banner Hanging",
-        "Large Banner on pole",
-        "Hatchet",
-        "Pick Axe"
-      ]
-    },
-    "5050186": {
-      "buy": [
-        "Holosight",
-        "Silencer",
-        "Semi-Automatic Pistol",
-        "Custom SMG",
-        "Assault Rifle",
-        "Bolt Action Rifle",
-        "F1 Grenade",
-        "5.56 Rifle Ammo",
-        "Pistol Bullet",
-        "Auto Turret"
-      ],
-      "description": "Você está atualmente com R$ {0} para gastar em nossa Loja de Armas",
-      "name": "<white>[ <orange>Loja de Armas Rust-Life<end> ]<end>",
-      "sell": [
-        "Holosight",
-        "Silencer",
-        "Semi-Automatic Pistol",
-        "Custom SMG",
-        "Assault Rifle",
-        "Bolt Action Rifle",
-        "F1 Grenade",
-        "5.56 Rifle Ammo",
-        "Pistol Bullet",
-        "Auto Turret"
-      ]
-    },
-    "824020328": {
-      "buy": [
-        "Holosight",
-        "Silencer",
-        "Semi-Automatic Pistol ",
-        "Custom SMG",
-        "Assault Rifle",
-        "Bolt Action Rifle",
-        "F1 Grenade",
-        "5.56 Rifle Ammo",
-        "Pistol Bullet",
-        "Auto Turret"
-      ],
-      "description": "Você está atualmente com R$ {0} para gastar em nossa Loja",
-      "name": "<white>[ <orange>Loja de Armas Rust-Life<end> ]<end>",
-      "sell": [
-        "Holosight",
-        "Silencer",
-        "Semi-Automatic Pistol",
-        "Custom SMG",
-        "Assault Rifle",
-        "Bolt Action Rifle",
-        "F1 Grenade",
-        "5.56 Rifle Ammo",
-        "Pistol Bullet",
-        "Auto Turret"
-      ]
     },
     "chat": {
       "buy": [
