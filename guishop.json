@@ -35,10 +35,10 @@
       "sell": "8"
     },
     "Animal Fat": {
-      "buy": "440",
+      "buy": "1840",
       "img": "http://vignette1.wikia.nocookie.net/play-rust/images/d/d5/Animal_Fat_icon.png",
       "item": "Animal Fat",
-      "sell": "228"
+      "sell": "2"
     },
     "Anti-Radiation Pills": {
       "buy": "20",
@@ -204,7 +204,7 @@
     },
     "Cloth": {
       "buy": "810",
-      "img": "http://vignette1.wikia.nocookie.net/play-rust/images/f/f7/Cloth_icon.png",
+      "img": "http://rust-life.com.br/wp-content/uploads/2015/11/Cloth_icon.png",
       "item": "Cloth",
       "sell": "21"
     },
@@ -338,7 +338,7 @@
       "buy": "3000",
       "img": "http://vignette3.wikia.nocookie.net/play-rust/images/9/96/High_External_Wooden_Wall_icon.png",
       "item": "High External Wooden Wall",
-      "sell": "1500"
+      "sell": "15"
     },
     "High Quality Metal": {
       "buy": "10",
@@ -473,10 +473,10 @@
       "sell": "0"
     },
     "Leather": {
-      "buy": "810",
+      "buy": "1210",
       "img": "http://vignette2.wikia.nocookie.net/play-rust/images/9/9a/Leather_icon.png",
       "item": "Leather",
-      "sell": "220"
+      "sell": "2"
     },
     "Leather Gloves": {
       "buy": "10",
@@ -497,10 +497,10 @@
       "sell": "8"
     },
     "Low Grade Fuel": {
-      "buy": "8440",
+      "buy": "4500",
       "img": "http://vignette4.wikia.nocookie.net/play-rust/images/2/26/Low_Grade_Fuel_icon.png",
       "item": "Low Grade Fuel",
-      "sell": "100"
+      "sell": "1"
     },
     "M249": {
       "buy": "4500000",
@@ -509,8 +509,8 @@
       "sell": "0"
     },
     "Medical Syringe": {
-      "buy": "30",
-      "img": "http://vignette3.wikia.nocookie.net/play-rust/images/9/99/medical_syringe_icon.png/revision/latest/scale-to-width-down/100?cb=20151106061059",
+      "buy": "1430",
+      "img": "http://vignette3.wikia.nocookie.net/play-rust/images/9/99/Medical_Syringe_icon.png/revision/latest/scale-to-width-down/100?cb=20151106061059",
       "item": "Medical Syringe",
       "sell": "8"
     },
@@ -589,8 +589,8 @@
     "Reinforced Window Bars": {
       "buy": "2500",
       "img": "http://vignette1.wikia.nocookie.net/play-rust/images/e/eb/Reinforced_Window_Bars_icon.png",
-      "item": "Wooden Barricade",
-      "sell": "1250"
+      "item": "Reinforced Window Bars",
+      "sell": "1"
     },
     "Revolver": {
       "buy": "800",
@@ -684,9 +684,9 @@
     },
     "stones": {
       "buy": "30",
-      "img": "http://vignette4.wikia.nocookie.net/play-rust/images/8/85/Stones_icon.png",
+      "img": "http://rust-life.com.br/wp-content/uploads/2015/11/Stones_icon.png",
       "item": "stones",
-      "sell": "0.15"
+      "sell": "0.45"
     },
     "Survey Charge": {
       "buy": "3950",
@@ -702,9 +702,9 @@
     },
     "wood": {
       "buy": "25",
-      "img": "http://vignette4.wikia.nocookie.net/play-rust/images/f/f2/Wood_icon.png",
+      "img": "http://rust-life.com.br/wp-content/uploads/2015/11/Wood_icon.png",
       "item": "wood",
-      "sell": "0.18"
+      "sell": "0.28"
     },
     "Wooden Window Bars": {
       "buy": "40",
@@ -907,7 +907,8 @@
         "Large Banner Hanging",
         "Large Banner on pole",
         "Hatchet",
-        "Pick Axe"
+        "Pick Axe",
+        "Medical Syringe"
       ],
       "description": "Você está atualmente com R$ {0} para gastar em nossa Loja",
       "name": "Acesse nossa loja Virtual em: www.rust-life.com.br",
@@ -948,7 +949,8 @@
         "Large Banner Hanging",
         "Large Banner on pole",
         "Hatchet",
-        "Pick Axe"
+        "Pick Axe",
+        "Medical Syringe"
       ]
     }
   }
