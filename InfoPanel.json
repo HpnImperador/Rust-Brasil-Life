@@ -27,10 +27,12 @@
   },
   "Messages": [
     "Seja Bem Vindo!",
-    "WIPE 19/11/2015 16:40 - Atualização do Rust.",
+    "WIPE 23/11/2015 - Instabilidade no Host.",
     "(INICIANTE) use [/kit starter] kit básico inicial",
     "Acesse a loja /shop.",
-    "Maiores informacoes use /info"
+    "Acesse nossa loja virtual em: rust-life.com.br/",
+    "Evite ser kickado - Maiores informações use /info",
+    "Servidor parceiro: GhostHuntersbr"
   ],
   "Panels": {
     "AirdropEvent": {
