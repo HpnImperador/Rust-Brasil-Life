@@ -49,7 +49,8 @@
                             "",
                             "11. Como o servidor é limitado a 50 players, é proibido guardar vaga,",
                             "jogadores que estiverem afk serão kickados por inatividade.",
-                            ""
+                            "",
+                            "Proibido construir em Geleira."
                         ],
                         "ImageSettings": []
                     },
@@ -115,15 +116,8 @@
                             "/kit starter, comando para receber um kit basico inicial",
                             "Você tem 5 kits, use com sabedoria, não haverá outros.",
                             " ",
-                            "/bsl <numero>, comando para acessar a loja.(NO MOMENTO EM ATUALIZAÇÃO)",
-                            "Mude o número para navegar nas páginas da loja.",
-                            " ",
-                            "/buy 'nome do item' <quantidade>, comando para comprar itens da loja.",
-                            "Ex.: /buy 'caixa grande' 5",
-                            " ",
-                            "Caso queira a BluePrint do item, utilize:",
-                            "/buy 'nome do item_bp' <quantidade>",
-                            "Ex.: /buy 'caixa grande_bp' 1",
+                            "/shop, comando para acessar a loja.",
+                            "Ou acesse nossa loja Virtual em: rust-life.com.br",
                             " ",
                             "/balance, comando para ver seu saldo no jogo",
                             " ",
@@ -179,13 +173,24 @@
                     {
                         "TextLines": [
                             " ",
-                            "Em desenvolvimento",
-                            " ",
-                            "para ver os itens da loja use /bsl {pag}",
+                            "para ver, comprar e vender itens da loja, use /shop",
                             " ",
                             ""
                         ],
-                        "ImageSettings": []
+                        "ImageSettings": [
+						
+						{
+                                "Position": {
+                                    "MinX": 0.5,
+                "MaxX": 1.0,
+                "MinY": 0.5,
+                "MaxY": 1.0
+                                },
+                                "Url": "http://rust-life.com.br/wp-content/uploads/2015/11/Auto_Turret_icon.png",
+                                "TransparencyInPercent": 60
+                            }
+							
+						]
                     }
                 ],
                 "TabButtonAnchor": 4,
@@ -203,24 +208,37 @@
                     {
                         "TextLines": [
                             " ",
-                            "Para informações de como se tornar um VIP, acesse nosso TeamSpeak",
-                            "IP: 187.58.224.15",
+                            "Para informações de como se tornar um VIP, acesse nosso",
+							"TeamSpeak IP: 187.58.224.15",
                             " ",
                             "O que o VIP ganha?",
                             " ",
-                            "O VIP tem Kit especial com armas, muniçao, comida, seringa,",
-                            "kit médico, principais roupas e armaduras",
+                            "O VIP tem Kit especial com armas, muniçao, comida",
+							"seringa, kit médico, as principais roupas e armaduras",
                             "",
-                            "dinheiro na conta do jogo, comandos /crosshair (Mira), /Sil e Slot VIP reservado",
-                            " ",
-                            "Procure o ADM no servidor do TeamSpeak acima para mais informações.",
+                            "dinheiro na conta do jogo, comandos /crosshair (Mira)",
+							"/Sil e Slot VIP reservado",
+                            "Veja os Pacotes Vips acesse: www.rust-life.com.br",
+                            "Procure o ADM no servidor do TeamSpeak acima",
+							"para mais informações.",
                             " ",
                             " ",
                             "Obrigado por jogar conosco!",
                             "Equipe Rust-Life Brasil",
                             " "
                         ],
-                        "ImageSettings": []
+                        "ImageSettings": [
+						{
+                                "Position": {
+                                    "MinX": 0.5,
+                "MaxX": 1.0,
+                "MinY": 0.5,
+                "MaxY": 1.0
+                                },
+                                "Url": "http://rust-life.com.br/wp-content/uploads/2015/11/Cupom40.png",
+                                "TransparencyInPercent": 60
+                            }
+							]
                     }
                 ],
                 "TabButtonAnchor": 4,
