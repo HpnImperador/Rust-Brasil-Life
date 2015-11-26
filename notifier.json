@@ -1,0 +1,124 @@
+{
+	"ADVERTS": [
+		"SEJA BEM VINDO!",
+		"ATENÇÃO!!! DESCULPEM OS TRANSTRORNOS, ESTAMOS SENDO ATACADOS POR OUTROS DOIS SERVER [BR] POR DDos.",
+		"O SERVER POSSUI SISTEMA MONETARIO, VC RECEBE DINHEIRO, POR FARMAR, MATAR PLAYER ETC.",
+		"ACESSE A LOJA /shop - LOJA DE ARMAS - CONSTRUÇÃO - BP",
+		"ATENÇÃO!!! DESCULPEM OS TRANSTRORNOS, ESTAMOS SENDO ATACADOS POR OUTROS DOIS SERVER [BR] POR DDos.",
+		"USE NOSSO TS PUBLICO - 187.58.224.15 Solicite a criação da Sala",
+		"ATENÇÃO!!! CONSTRUÇÕES NAS GELEIRAS SERÃO AUTOMATICAMENTE DESTRUIDAS.",
+		"ACESSE A LOJA /shop - LOJA DE ARMAS - CONSTRUÇÃO - BP",
+		"VC PODER COMPRAR E VENDER ITENS. ACESSE A LOJA /shop - OU NAS LOJAS FISICAS",
+		"SLOT VIP CONTATE ADM NO TS 187.58.224.15 - VIP+GRANA+KIT-SLOT",
+		"ACESSE A LOJA /shop - LOJA DE ARMAS - CONSTRUÇÃO - BP",
+		"ATENÇÃO!!! CONSTRUÇÕES NAS GELEIRAS SERÃO AUTOMATICAMENTE DESTRUIDAS.",
+		"ATENÇÃO!!! DESCULPEM OS TRANSTRORNOS, ESTAMOS SENDO ATACADOS POR OUTROS DOIS SERVER [BR] POR DDos.",
+		"PARA MAIORES INFORMAÇÕES DIGITEM /INFO",
+		"ACESSE A LOJA /shop - LOJA DE ARMAS - CONSTRUÇÃO - BP"
+	],
+	"COLORS": {
+		"ADVERTS": "silver",
+		"BOARDS TITLE": "silver",
+		"JOIN MESSAGE": "silver",
+		"LEAVE MESSAGE": "silver",
+		"MOTD": "silver",
+		"PREFIX": "#00EEEE",
+		"SCHEDULED MESSAGES": "silver",
+		"SYSTEM": "white",
+		"WELCOME MESSAGE": "silver"
+	},
+	"COMMANDS": {
+		"ADMINS LIST": "admins",
+		"ADVERTS COMMAND": "adverts",
+		"MAP LINK": "map",
+		"MOTD": "motd",
+		"PLAYERS LIST": "players",
+		"PLAYERS ONLINE": "online",
+		"PLUGINS LIST": "plugins",
+		"RULES": [
+			"rules",
+			"regras",
+			"regles"
+		]
+	},
+	"CONFIG_VERSION": 5.91,
+	"MESSAGES": {
+		"ADMINS JOIN MESSAGE": "<#ADFF64>{username}<end> Entrou no server.",
+		"ADMINS LEAVE MESSAGE": "<#ADFF64>{username}<end> Saiu do server.",
+		"ADMINS LIST DESC": "<orange>/admins<end> <grey>-<end> Lista<cyan>Admins<end> no serer server.",
+		"ADMINS LIST TITLE": "ADMINS ONLINE",
+		"ADMINS ONLINE": "Tem <cyan>{admins} Admins<end> online.",
+		"ADVERTS DESC": "<orange>/adverts<end> <grey>-<end> Allows <cyan>Admins<end> to change the adverts interval ( i.g: /adverts 5 )",
+		"ADVERTS INTERVAL CHANGED": "Adverts interval changed to <lime>{minutes}<end> minutes",
+		"AIRDROP CALLED": "An <yellow>Airdrop<end> is coming, will drop at <lime>{location}<end> coordinates.",
+		"CHECK CONSOLE": "Check the console (press F1) for more info.",
+		"HELI CALLED": "A <yellow>Patrol Helicopter<end> is coming!",
+		"JOIN MESSAGE": "<lime>{username}<end> entrou no server.",
+		"LEAVE MESSAGE": "<lime>{username}<end> Saiu do server.",
+		"MAP LINK": "SAcesse o mapa do Server aqui: <lime>http://169.57.141.167:28415/map.jpg<end>",
+		"MAP LINK DESC": "<orange>/map<end> <grey>-<end> http://169.57.141.167:28415/map.jpg",
+		"NO ADMINS": "Nenhum <cyan>Adm<end> online.",
+		"NO LANG": "Error, <lime>{args}<end> Linguagem não suportada.",
+		"NO RULES": "Error, no rules found, contact the <cyan>Admins<end>.",
+		"PLAYERS LIST DESC": "<orange>/players<end> <grey>-<end> Listagem dos players no server.",
+		"PLAYERS LIST TITLE": "",
+		"PLAYERS ONLINE": "",
+		"PLAYERS ONLINE DESC": "",
+		"PLAYERS ONLINE TITLE": "",
+		"PLAYERS STATS": "",
+		"PLUGINS LIST DESC": "",
+		"PLUGINS LIST TITLE": "",
+		"RULES DESC": "",
+		"RULES TITLE": "",
+		"SYNTAX ERROR": "Syntax Error: {syntax}"
+	},
+	"MOTD": "Seja bem Vindo!",
+	"RULES": {
+		"PT": [
+			"Usar cheats e totalmente proibido.",
+			"Respeita todos os jogadores.",
+			"Evita spam no chat.",
+			"Nao abuses de bugs ou exploits."
+		]
+	},
+	"SCHEDULED MESSAGES": {
+		"00:00": [
+			"It is now <lime>{localtime}<end> of <lime>{localdate}<end>"
+		],
+		"12:00": [
+			"It is now <lime>{localtime}<end> of <lime>{localdate}<end>"
+		]
+	},
+	"SETTINGS": {
+		"ADVERTS INTERVAL": 12,
+		"ANNOUNCE AIRDROPS": false,
+		"ANNOUNCE PATROL HELICOPTERS": false,
+		"BROADCAST TO CONSOLE": true,
+		"DIFFER ADMINS JOIN/LEAVE MESSAGE": false,
+		"ENABLE ADMINS LIST": false,
+		"ENABLE ADVERTS": true,
+		"ENABLE ADVERTS COMMAND": true,
+		"ENABLE JOIN MESSAGE": true,
+		"ENABLE LEAVE MESSAGE": true,
+		"ENABLE MAP LINK": true,
+		"ENABLE MOTD": true,
+		"ENABLE PLAYERS DEFAULT COLORS": false,
+		"ENABLE PLAYERS LIST": true,
+		"ENABLE PLAYERS ONLINE": true,
+		"ENABLE PLUGINS LIST": false,
+		"ENABLE RULES": true,
+		"ENABLE SCHEDULED MESSAGES": true,
+		"ENABLE WELCOME MESSAGE": false,
+		"HIDE ADMINS": false,
+		"MOTD INTERVAL": 120,
+		"MOTD PREFIX": "[ <yellow>MOTD<end> ]",
+		"PLAYERS LIST ON CHAT": true,
+		"PLAYERS LIST ON CONSOLE": false,
+		"PREFIX": "<white><end> <cyan> <end> <white><end>",
+		"RULES LANGUAGE": "PT"
+	},
+	"WELCOME MESSAGE": [
+		"<size=17>Seja bem Vindo <lime>{username}<end></size>",
+		"<orange><size=20>•</size><end> Use /info <orange>/help<end> para outros comandos"
+	]
+}
