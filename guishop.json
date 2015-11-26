@@ -46,12 +46,6 @@
       "item": "Anti-Radiation Pills",
       "sell": "5"
     },
-    "Apple": {
-      "buy": "2",
-      "img": "http://vignette2.wikia.nocookie.net/play-rust/images/d/dc/apple_icon.png/revision/latest/scale-to-width-down/100?cb=20150405103640",
-      "item": "Apple",
-      "sell": "1"
-    },
     "Armored Door": {
       "buy": "40",
       "img": "http://vignette2.wikia.nocookie.net/play-rust/images/b/bc/armored_door_icon.png/revision/latest/scale-to-width-down/100?cb=20151106231419",
@@ -736,6 +730,12 @@
       "item": "stones",
       "sell": "0.45"
     },
+    "Supply Signal": {
+      "buy": "250000",
+      "img": "http://vignette3.wikia.nocookie.net/play-rust/images/2/24/Supply_Signal_icon.png/revision/latest/scale-to-width-down/100?cb=20151106071621",
+      "item": "Supply Signal",
+      "sell": "1"
+    },
     "Survey Charge": {
       "buy": "3950",
       "img": "http://vignette2.wikia.nocookie.net/play-rust/images/9/9a/Survey_Charge_icon.png",
@@ -843,6 +843,7 @@
         "Hatchet",
         "Pick Axe",
         "Medical Syringe",
+        "Supply Signal",
         "Auto Turret bp",
         "Holosight pb",
         "Large Wood Box bp",
@@ -900,7 +901,8 @@
         "Large Banner on pole",
         "Hatchet",
         "Pick Axe",
-        "Medical Syringe"
+        "Medical Syringe",
+        "Supply Signal"
       ]
     }
   }
