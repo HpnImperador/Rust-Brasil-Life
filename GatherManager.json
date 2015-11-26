@@ -36,13 +36,12 @@
       "Cloth": 5.0,
       "*": 5.0
     },
-    "MiningQuarryResourceTickRate": 5.0,
+    "MiningQuarryResourceTickRate": 10.0,
     "PickupResourceModifiers": {
-      "Stones": 5.0,
-      "*": 5.0
+       "*": 5.0
     },
     "QuarryResourceModifiers": {
-      "Stones": 5.0,
+      "Stones": 10.0,
       "*": 5.0
     },
     "SurveyResourceModifiers": {
