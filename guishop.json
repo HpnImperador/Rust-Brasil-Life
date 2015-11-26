@@ -17,13 +17,13 @@
   "Message - Sold": "Você vendeu com sucesso {0}x {1}",
   "Shop - Shop Categories": {
     "12 Gauge Buckshot": {
-      "buy": "10",
-      "img": "http://vignette1.wikia.nocookie.net/play-rust/images/2/2f/12_gauge_buckshot_icon.png/revision/latest/scale-to-width-down/100?cb=20151106061114",
+      "buy": "910",
+      "img": "http://vignette1.wikia.nocookie.net/play-rust/images/2/2f/12_Gauge_Buckshot_icon.png/revision/latest/scale-to-width-down/100?cb=20151106061114",
       "item": "12 Gauge Buckshot",
       "sell": "8"
     },
     "12 Gauge Slug": {
-      "buy": "",
+      "buy": "910",
       "img": "http://vignette3.wikia.nocookie.net/play-rust/images/1/1a/12_gauge_slug_icon.png/revision/latest/scale-to-width-down/100?cb=20151106061838",
       "item": "12 Gauge Slug",
       "sell": "8"
@@ -72,7 +72,7 @@
     },
     "Auto Turret bp": {
       "buy": "3500000",
-      "img": "",
+      "img": "http://rust-life.com.br/wp-content/uploads/2015/11/Auto_Turret_icon.png",
       "item": "Auto Turret bp",
       "sell": "8"
     },
@@ -138,7 +138,7 @@
     },
     "Bone Armor Pants bp": {
       "buy": "9500",
-      "img": "",
+      "img": "http://rust-life.com.br/wp-content/uploads/2015/11/Bone_Armor_Pants_icon.png",
       "item": "Bone Armor Pants bp",
       "sell": "0"
     },
@@ -168,7 +168,7 @@
     },
     "Bucket Helmet bp": {
       "buy": "3500",
-      "img": "",
+      "img": "http://www.proforma.net.br/wp-content/uploads/2015/11/Bucket_Helmet_icon.png",
       "item": "Bucket Helmet bp",
       "sell": "0"
     },
@@ -306,7 +306,7 @@
     },
     "Hatchet bp": {
       "buy": "9500",
-      "img": "",
+      "img": "http://rust-life.com.br/wp-content/uploads/2015/11/Hatchet_icon.png",
       "item": "Hatchet bp",
       "sell": "0"
     },
@@ -546,7 +546,7 @@
     },
     "Medical Syringe bp": {
       "buy": "3500",
-      "img": "",
+      "img": "http://vignette3.wikia.nocookie.net/play-rust/images/9/99/Medical_Syringe_icon.png/revision/latest/scale-to-width-down/100?cb=20151106061059",
       "item": "Medical Syringe bp",
       "sell": "0"
     },
@@ -594,7 +594,7 @@
     },
     "Pick Axe bp": {
       "buy": "9500",
-      "img": "",
+      "img": "http://rust-life.com.br/wp-content/uploads/2015/11/Pick_Axe_icon.png",
       "item": "Pick Axe bp",
       "sell": "0"
     },
@@ -606,7 +606,7 @@
     },
     "Pistol Bullet bp": {
       "buy": "9500",
-      "img": "",
+      "img": "http://www.proforma.net.br/wp-content/uploads/2015/11/Pistol_Bullet_icon.png",
       "item": "Pistol Bullet bp",
       "sell": "0"
     },
@@ -617,8 +617,8 @@
       "sell": "8"
     },
     "Pump Shotgun": {
-      "buy": "3000",
-      "img": "http://vignette3.wikia.nocookie.net/play-rust/images/6/60/pump_shotgun_icon.png/revision/latest/scale-to-width-down/100?cb=20151106060736",
+      "buy": "12000",
+      "img": "http://vignette3.wikia.nocookie.net/play-rust/images/6/60/Pump_Shotgun_icon.png/revision/latest/scale-to-width-down/100?cb=20151106060736",
       "item": "Pump Shotgun",
       "sell": "8"
     },
@@ -756,7 +756,7 @@
     },
     "Wood Armor Pants bp": {
       "buy": "9500",
-      "img": "",
+      "img": "http://rust-life.com.br/wp-content/uploads/2015/11/Wood_Armor_Pants_icon.png",
       "item": "Wood Armor Pants bp",
       "sell": "0"
     },
@@ -809,6 +809,9 @@
         "Leather",
         "Animal Fat",
         "Low Grade Fuel",
+        "Pump Shotgun",
+        "12 Gauge Slug",
+        "12 Gauge Buckshot",
         "Holosight",
         "Silencer",
         "Semi-Automatic Pistol",
@@ -839,7 +842,20 @@
         "Large Banner on pole",
         "Hatchet",
         "Pick Axe",
-        "Medical Syringe"
+        "Medical Syringe",
+        "Auto Turret bp",
+        "Holosight pb",
+        "Large Wood Box bp",
+        "Large Medkit bp",
+        "Custom SMG bp",
+        "Hatchet bp",
+        "Pick Axe bp",
+        "Medical Syringe bp",
+        "Bucket Helmet bp",
+        "Jacket bp",
+        "Bone Armor Pants bp",
+        "Wood Armor Pants bp",
+        "Pistol Bullet bp"
       ],
       "description": "Você está atualmente com R$ {0} para gastar em nossa Loja",
       "name": "Acesse nossa loja Virtual em: www.rust-life.com.br",
@@ -851,6 +867,9 @@
         "Leather",
         "Animal Fat",
         "Low Grade Fuel",
+        "Pump Shotgun",
+        "12 Gauge Slug",
+        "12 Gauge Buckshot",
         "Holosight",
         "Silencer",
         "Semi-Automatic Pistol",
