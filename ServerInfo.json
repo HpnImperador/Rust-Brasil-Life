@@ -1,337 +1,304 @@
 {
-    "settings": {
-        "Tabs": [
-            {
-                "ButtonText": "Regras Gerais",
-                "HeaderText": "Estas são algumas das regras que devem ser seguidas no servidor",
-                "Pages": [
-                    {
-                        "TextLines": [
-                            "",
-                            "1. É proibido, insultar, xingar ou usar qualquer tipo de assédio a outros jogadores.",
-                            "Isso resultará em chat-mute.",
-                            "",
-                            "2. Não faça spam de qualquer forma, de spam para bate-papo / tpa spam, etc.",
-                            "Isto irá resultar em uma advertência, depois em proibições temporárias.",
-                            "",
-                            "3. Não explorar falhas e bugs do jogo, isso irá resultar em uma proibição.",
-                            "Se você encontrar um bugs ou falhas, por favor informe-nos.",
-                            "",
-                            "4. Nunca forneça sua senha! Os membros da STAFF não precisa de sua senha!",
-                            "Se alguma vez tiver problemas com alguém tentando obter sua senha,",
-                            "por favor denuncie contatando o Admin.",
-                            "",
-                            "5. Não use contas hackeadas. Não utilize programas facilitadores e outras",
-                            "modificações. Isso resultará banimento",
-                            "",
-                            "6. É proibido pedir qualquer tipo de auxilio aos membros da staff.",
-                            "Ex.: teleport, itens, mudar horário on game",
-                            ""
-                        ],
-                        "ImageSettings": []
-                    },
-                    {
-                        "TextLines": [
-                            "",
-                            "",
-                            "7. Não faça propaganda de outros servidores dentro do nosso servidor.",
-                            "Sua ID-Steam e IP serão banido permanentemente do servidor sem recursos.",
-                            "",
-                            "8. Não desrespeitar os membros da STAFF, a punição é uma advertência,",
-                            "a segunda proibição temporária e seu chat mutado, a terceira proibição",
-                            "de ofensa é kickado do server.",
-                            "",
-                            "9. Não hackear outras contas de usuários. Isso resultará em banimento",
-                            "permanentemente do servidor. Este é um delito grave e não é tolerado.",
-                            "",
-                            "10. Não abuse com facções ou Clans grandes e fortes, por matar outros",
-                            "jogadores várias vezes de propósito. Isto irá resultar em uma proibição.",
-                            "",
-                            "11. Como o servidor é limitado a 50 players, é proibido guardar vaga,",
-                            "jogadores que estiverem afk serão kickados por inatividade.",
-                            "",
-                            "Proibido construir em Geleira."
-                        ],
-                        "ImageSettings": []
-                    },
-                    {
-                        "TextLines": [
-                            "",
-                            "_______________________________________________________________________________",
-                            "Nenhum membro da staff irá usar a sua autoridade ou comandos de adm enquanto",
-                            "estiver logado como player, jogando normalmente. Caso isso ocorra, envie denuncia",
-                            "aos outros membros da STAFF.",
-                            "",
-                            "E lembrem-se, isto é apenas um jogo. DIVIRTAM-SE",
-                            "",
-                            "Equipe Rust-Life Brasil",
-                            ""
-                        ],
-                        "ImageSettings": []
-                    }
-                ],
-                "TabButtonAnchor": 4,
-                "TabButtonFontSize": 16,
-                "HeaderAnchor": 0,
-                "HeaderFontSize": 20,
-                "TextFontSize": 16,
-                "TextAnchor": 3,
-                "OxideGroup": ""
-            },
-            {
-                "ButtonText": "Iniciantes",
-                "HeaderText": "Informações básicas para Iniciantes",
-                "Pages": [
-                    {
-                        "TextLines": [
-                            " ",
-                            "Todo iniciante neste server recebe uma quantia na conta (ver saldo /balance)",
-                            "",
-                            "Ele é protegido pelo sistema, não sofrendo ataques nem podendo atacar",
-                            "Para usar seu kit básico use no chat o seguinte comando:",
-                            "/kit starter, comando para receber um kit basico inicial",
-                            "Você tem 5 kits, use com sabedoria, não haverá outros.",
-                            "",
-                            "Equipe Rust-Life Brasil",
-                            ""
-                        ],
-                        "ImageSettings": []
-                    }
-                ],
-                "TabButtonAnchor": 4,
-                "TabButtonFontSize": 16,
-                "HeaderAnchor": 0,
-                "HeaderFontSize": 20,
-                "TextFontSize": 16,
-                "TextAnchor": 3,
-                "OxideGroup": ""
-            },
-            {
-                "ButtonText": "Comandos",
-                "HeaderText": "Informações de como usar os Comandos",
-                "Pages": [
-                    {
-                        "TextLines": [
-                            " ",
-                            "/kit starter, comando para receber um kit basico inicial",
-                            "Você tem 5 kits, use com sabedoria, não haverá outros.",
-                            " ",
-                            "/shop, comando para acessar a loja.",
-                            "Ou acesse nossa loja Virtual em: rust-life.com.br",
-                            " ",
-                            "/balance, comando para ver seu saldo no jogo",
-                            " ",
-                            "/transfer 'nome do player' <quantidade>, comando para realizar transferência de dinheiro.",
-                            " ",
-                            "/tpr 'nome do player', comando para pedir teleporte para outro player",
-                            "/tpa, comando para aceitar o teleporte feito por outro player",
-                            " ",
-                            "/ad <tempo> - definir o tempo para fechar as portas. (Ex.: /ad 5) - o tempo é de 5~30",
-                            "/ad -desligar fechamento automático das portas."
-                        ],
-                        "ImageSettings": []
-                    },
-                    {
-                        "TextLines": [
-                            " ",
-                            "/sethome 'nome ou numero da home', comando para salvar local como sua casa",
-                            "/home 'nome ou numero da home', comando para se teleportar para sua casa",
-                            " ",
-                            "/listhomes, comando mostra quais homes você já tem salvas",
-                            "/removehome 'nome da home', comando para deletar uma casa salva",
-                            " ",
-                            "/pm 'nome do player', comando para falar privado com outro player",
-                            "/r, responde mensagem privada para o ultimo PM realizado ou recebido",
-                            " ",
-                            "/ping, comando para visualizar seu PING no servidor.",
-                            " ",
-                            "/voteday, comando para aceitar a votação para pular a noite.",
-                            " ",
-                            "/remove, comando para retirar construções ou objetos onde você tenha permissão para construir.",
-                            "Para utilizar esse comando é necessário não ter nenhum item na mão e ter material para pagar a retirada.",
-                            " ",
-                            "/clan, Crie o seu próprio clan e convide seus amigos.",
-                            "",
-                            "Equipe Rust-Life Brasil",
-                            ""
-                        ],
-                        "ImageSettings": []
-                    }
-                ],
-                "TabButtonAnchor": 4,
-                "TabButtonFontSize": 16,
-                "HeaderAnchor": 0,
-                "HeaderFontSize": 20,
-                "TextFontSize": 16,
-                "TextAnchor": 3,
-                "OxideGroup": ""
-            },
-            {
-                "ButtonText": "Loja",
-                "HeaderText": "Itens da Loja",
-                "Pages": [
-                    {
-                        "TextLines": [
-                            " ",
-                            "para ver, comprar e vender itens da loja, use /shop",
-                            " ",
-                            ""
-                        ],
-                        "ImageSettings": [
-						
-						{
-                                "Position": {
-                                    "MinX": 0.5,
-                "MaxX": 1.0,
-                "MinY": 0.5,
-                "MaxY": 1.0
-                                },
-                                "Url": "http://rust-life.com.br/wp-content/uploads/2015/11/Auto_Turret_icon.png",
-                                "TransparencyInPercent": 60
-                            }
-							
-						]
-                    }
-                ],
-                "TabButtonAnchor": 4,
-                "TabButtonFontSize": 16,
-                "HeaderAnchor": 0,
-                "HeaderFontSize": 20,
-                "TextFontSize": 16,
-                "TextAnchor": 3,
-                "OxideGroup": ""
-            },
-            {
-                "ButtonText": "VIP",
-                "HeaderText": "Torne-se VIP e ajude o servidor",
-                "Pages": [
-                    {
-                        "TextLines": [
-                            " ",
-                            "Para informações de como se tornar um VIP, acesse nosso",
-							"TeamSpeak IP: 187.58.224.15",
-                            " ",
-                            "O que o VIP ganha?",
-                            " ",
-                            "O VIP tem Kit especial com armas, muniçao, comida",
-							"seringa, kit médico, as principais roupas e armaduras",
-                            "",
-                            "dinheiro na conta do jogo, comandos /crosshair (Mira)",
-							"/Sil e Slot VIP reservado",
-                            "Veja os Pacotes Vips acesse: www.rust-life.com.br",
-                            "Procure o ADM no servidor do TeamSpeak acima",
-							"para mais informações.",
-                            " ",
-                            " ",
-                            "Obrigado por jogar conosco!",
-                            "Equipe Rust-Life Brasil",
-                            " "
-                        ],
-                        "ImageSettings": [
-						{
-                                "Position": {
-                                    "MinX": 0.5,
-                "MaxX": 1.0,
-                "MinY": 0.5,
-                "MaxY": 1.0
-                                },
-                                "Url": "http://rust-life.com.br/wp-content/uploads/2015/11/Cupom40.png",
-                                "TransparencyInPercent": 60
-                            }
-							]
-                    }
-                ],
-                "TabButtonAnchor": 4,
-                "TabButtonFontSize": 16,
-                "HeaderAnchor": 0,
-                "HeaderFontSize": 20,
-                "TextFontSize": 16,
-                "TextAnchor": 3,
-                "OxideGroup": ""
-            },
-            {
-                "ButtonText": "Atualizações",
-                "HeaderText": "Informações sobre Wipe/Atualizações",
-                "Pages": [
-                    {
-                        "TextLines": [
-                            "",
-                            "Não é um patch, mas o primeiro olhar para o M249,",
-                            "uma arma tão poderosa que só pode ser obtida ao",
-                            "destruir um helicóptero.",
-                            " ",
-                            " ",
-                            "Para informações acesse:",
-                            " ",
-                            "http://playrust.com/devblog-86/",
-                            " ",
-                            "Atualização prevista para dia 19/11/2015.",
-                            " ",
-                            "E provável wipe do server. ",
-                            "",
-                            "Equipe Rust-Life Brasil",
-                            ""
-                        ],
-                        "ImageSettings": [
-                            {
-                                "Position": {
-                                    "MinX": 0.5,
-                                    "MaxX": 1,
-                                    "MinY": 0.5,
-                                    "MaxY": 1
-                                },
-                                "Url": "http://www.proforma.net.br/wp-content/uploads/2015/11/gunny1.jpg",
-                                "TransparencyInPercent": 100
-                            }
-                        ]
-                    }
-                ],
-                "TabButtonAnchor": 4,
-                "TabButtonFontSize": 16,
-                "HeaderAnchor": 0,
-                "HeaderFontSize": 20,
-                "TextFontSize": 16,
-                "TextAnchor": 3,
-                "OxideGroup": ""
-            }
-        ],
-        "ShowInfoOnPlayerInit": true,
-        "TabToOpenByDefault": 0,
-        "Position": {
-            "MinX": 0.15,
-            "MaxX": 0.9,
-            "MinY": 0.2,
-            "MaxY": 0.9
-        },
-        "BackgroundImage": {
-            "Enabled": true,
-            "Position": {
-                "MinX": 0,
-                "MaxX": 1,
-                "MinY": 0,
-                "MaxY": 1
-            },
-            "Url": "http://www.proforma.net.br/wp-content/uploads/2015/11/textured-backgrounds.jpg",
-            "TransparencyInPercent": 20
-        },
-        "ActiveButtonColor": "#000000",
-        "InactiveButtonColor": "#7F7F7FFF",
-        "CloseButtonColor": "#7F7F7FFF",
-        "NextPageButtonColor": "#7F7F7FFF",
-        "PrevPageButtonColor": "#7F7F7FFF",
-        "BackgroundColor": "#000000FF",
-        "HelpButton": {
-            "IsEnabled": false,
-            "Text": "Help",
-            "Position": {
-                "MinX": 0,
-                "MaxX": 0.05,
-                "MinY": 0.1,
-                "MaxY": 0.14
-            },
-            "Color": "#7F7F7FFF",
-            "FontSize": 18
-        },
-        "UpgradedConfig": true
-    }
+	"settings": {
+		"Tabs": [{
+			"ButtonText": "Regras Gerais",
+			"HeaderText": "Estas são algumas das regras que devem ser seguidas no servidor",
+			"Pages": [{
+				"TextLines": [
+					"",
+					"1. É proibido, insultar, xingar ou usar qualquer tipo de assédio a outros jogadores.",
+					"Isso resultará em chat-mute.",
+					"",
+					"2. Não faça spam de qualquer forma, de spam para bate-papo / tpa spam, etc.",
+					"Isto irá resultar em uma advertência, depois em proibições temporárias.",
+					"",
+					"3. Não explorar falhas e bugs do jogo, isso irá resultar em uma proibição.",
+					"Se você encontrar um bugs ou falhas, por favor informe-nos.",
+					"",
+					"4. Nunca forneça sua senha! Os membros da STAFF não precisa de sua senha!",
+					"Se alguma vez tiver problemas com alguém tentando obter sua senha,",
+					"por favor denuncie contatando o Admin.",
+					"",
+					"5. Não use contas hackeadas. Não utilize programas facilitadores e outras",
+					"modificações. Isso resultará banimento",
+					"",
+					"6. É proibido pedir qualquer tipo de auxilio aos membros da staff.",
+					"Ex.: teleport, itens, mudar horário on game",
+					""
+				],
+				"ImageSettings": []
+			}, {
+				"TextLines": [
+					"",
+					"",
+					"7. Não faça propaganda de outros servidores dentro do nosso servidor.",
+					"Sua ID-Steam e IP serão banido permanentemente do servidor sem recursos.",
+					"",
+					"8. Não desrespeitar os membros da STAFF, a punição é uma advertência,",
+					"a segunda proibição temporária e seu chat mutado, a terceira proibição",
+					"de ofensa é kickado do server.",
+					"",
+					"9. Não hackear outras contas de usuários. Isso resultará em banimento",
+					"permanentemente do servidor. Este é um delito grave e não é tolerado.",
+					"",
+					"10. Não abuse com facções ou Clans grandes e fortes, por matar outros",
+					"jogadores várias vezes de propósito. Isto irá resultar em uma proibição.",
+					"",
+					"11. Como o servidor é limitado a 50 players, é proibido guardar vaga,",
+					"jogadores que estiverem afk serão kickados por inatividade.",
+					"",
+					"Proibido construir em Geleira."
+				],
+				"ImageSettings": []
+			}, {
+				"TextLines": [
+					"",
+					"_______________________________________________________________________________",
+					"Nenhum membro da staff irá usar a sua autoridade ou comandos de adm enquanto",
+					"estiver logado como player, jogando normalmente. Caso isso ocorra, envie denuncia",
+					"aos outros membros da STAFF.",
+					"",
+					"E lembrem-se, isto é apenas um jogo. DIVIRTAM-SE",
+					"",
+					"Equipe Rust-Life Brasil - rust-life.com.br",
+					""
+				],
+				"ImageSettings": []
+			}],
+			"TabButtonAnchor": 4,
+			"TabButtonFontSize": 16,
+			"HeaderAnchor": 0,
+			"HeaderFontSize": 20,
+			"TextFontSize": 16,
+			"TextAnchor": 3,
+			"OxideGroup": ""
+		}, {
+			"ButtonText": "Iniciantes",
+			"HeaderText": "Informações básicas para Iniciantes",
+			"Pages": [{
+				"TextLines": [
+					" ",
+					"Todo iniciante neste server recebe uma quantia na conta (ver saldo /balance)",
+					"",
+					"Ele é protegido pelo sistema, não sofrendo ataques nem podendo atacar",
+					"Para usar seu kit básico use no chat o seguinte comando:",
+					"/kit starter, comando para receber um kit basico inicial",
+					"Você tem 5 kits, use com sabedoria, não haverá outros.",
+					"",
+					"Equipe Rust-Life Brasil - rust-life.com.br",
+					""
+				],
+				"ImageSettings": []
+			}],
+			"TabButtonAnchor": 4,
+			"TabButtonFontSize": 16,
+			"HeaderAnchor": 0,
+			"HeaderFontSize": 20,
+			"TextFontSize": 16,
+			"TextAnchor": 3,
+			"OxideGroup": ""
+		}, {
+			"ButtonText": "Comandos",
+			"HeaderText": "Informações de como usar os Comandos",
+			"Pages": [{
+				"TextLines": [
+					" ",
+					"/kit starter, comando para receber um kit basico inicial",
+					"Você tem 5 kits, use com sabedoria, não haverá outros.",
+					" ",
+					"/shop, comando para acessar a loja.",
+					"Ou acesse nossa loja Virtual em: rust-life.com.br",
+					" ",
+					"/balance, comando para ver seu saldo no jogo",
+					" ",
+					"/transfer 'nome do player' <quantidade>, comando para realizar transferência de dinheiro.",
+					" ",
+					"/tpr 'nome do player', comando para pedir teleporte para outro player",
+					"/tpa, comando para aceitar o teleporte feito por outro player",
+					" ",
+					"/ad <tempo> - definir o tempo para fechar as portas. (Ex.: /ad 5) - o tempo é de 5~30",
+					"/ad -desligar fechamento automático das portas."
+				],
+				"ImageSettings": []
+			}, {
+				"TextLines": [
+					" ",
+					"/sethome 'nome ou numero da home', comando para salvar local como sua casa",
+					"/home 'nome ou numero da home', comando para se teleportar para sua casa",
+					" ",
+					"/listhomes, comando mostra quais homes você já tem salvas",
+					"/removehome 'nome da home', comando para deletar uma casa salva",
+					" ",
+					"/pm 'nome do player', comando para falar privado com outro player",
+					"/r, responde mensagem privada para o ultimo PM realizado ou recebido",
+					" ",
+					"/ping, comando para visualizar seu PING no servidor.",
+					" ",
+					"/voteday, comando para aceitar a votação para pular a noite.",
+					" ",
+					"/remove, comando para retirar construções ou objetos onde você tenha permissão para construir.",
+					"Para utilizar esse comando é necessário não ter nenhum item na mão e ter material para pagar a retirada.",
+					" ",
+					"/clan, Crie o seu próprio clan e convide seus amigos.",
+					"",
+					"Equipe Rust-Life Brasil - rust-life.com.br",
+					""
+				],
+				"ImageSettings": []
+			}],
+			"TabButtonAnchor": 4,
+			"TabButtonFontSize": 16,
+			"HeaderAnchor": 0,
+			"HeaderFontSize": 20,
+			"TextFontSize": 16,
+			"TextAnchor": 3,
+			"OxideGroup": ""
+		}, {
+			"ButtonText": "Loja",
+			"HeaderText": "Itens da Loja",
+			"Pages": [{
+				"TextLines": [
+					" ",
+					"para ver, comprar e vender itens da loja, use /shop",
+					" ",
+					" "
+				],
+				"ImageSettings": [
+
+					{
+						"Position": {
+							"MinX": 0.5,
+							"MaxX": 1.0,
+							"MinY": 0.5,
+							"MaxY": 1.0
+						},
+						"Url": "http://rust-life.com.br/wp-content/uploads/2015/11/Auto_Turret_icon.png",
+						"TransparencyInPercent": 60
+					}
+
+				]
+			}],
+			"TabButtonAnchor": 4,
+			"TabButtonFontSize": 16,
+			"HeaderAnchor": 0,
+			"HeaderFontSize": 20,
+			"TextFontSize": 16,
+			"TextAnchor": 3,
+			"OxideGroup": ""
+		}, {
+			"ButtonText": "VIP",
+			"HeaderText": "Torne-se VIP e ajude o servidor",
+			"Pages": [{
+				"TextLines": [
+					" ",
+					"Para informações de como se tornar um VIP, acesse nosso",
+					"TeamSpeak IP: 187.58.224.15",
+					" ",
+					"O que o VIP ganha?",
+					" ",
+					"O VIP tem Kit especial com armas, muniçao, comida",
+					"seringa, kit médico, as principais roupas e armaduras",
+					"",
+					"dinheiro na conta do jogo, comandos /crosshair (Mira)",
+					"/Sil e Slot VIP reservado",
+					"Veja os Pacotes Vips acesse: www.rust-life.com.br",
+					"Procure o ADM no servidor do TeamSpeak acima",
+					"para mais informações.",
+					" ",
+					" ",
+					"Obrigado por jogar conosco!",
+					"Equipe Rust-Life Brasil - rust-life.com.br",
+					" "
+				],
+				"ImageSettings": [{
+					"Position": {
+						"MinX": 0.5,
+						"MaxX": 1.0,
+						"MinY": 0.5,
+						"MaxY": 1.0
+					},
+					"Url": "http://rust-life.com.br/wp-content/uploads/2015/11/Cupom40.png",
+					"TransparencyInPercent": 60
+				}]
+			}],
+			"TabButtonAnchor": 4,
+			"TabButtonFontSize": 16,
+			"HeaderAnchor": 0,
+			"HeaderFontSize": 20,
+			"TextFontSize": 16,
+			"TextAnchor": 3,
+			"OxideGroup": ""
+		}, {
+			"ButtonText": "Atualizações",
+			"HeaderText": "Informações sobre Wipe/Atualizações",
+			"Pages": [{
+				"TextLines": [
+					"",
+					"Para informações acesse:",
+					" ",
+					"http://playrust.com/devblog-86/",
+					" ",
+					"Atualização prevista para dia 28/11/2015.",
+					" ",
+					"Equipe Rust-Life Brasil - rust-life.com.br",
+					""
+				],
+				"ImageSettings": [{
+					"Position": {
+						"MinX": 0.5,
+						"MaxX": 1,
+						"MinY": 0.5,
+						"MaxY": 1
+					},
+					"Url": "http://www.proforma.net.br/wp-content/uploads/2015/11/gunny1.jpg",
+					"TransparencyInPercent": 100
+				}]
+			}],
+			"TabButtonAnchor": 4,
+			"TabButtonFontSize": 16,
+			"HeaderAnchor": 0,
+			"HeaderFontSize": 20,
+			"TextFontSize": 16,
+			"TextAnchor": 3,
+			"OxideGroup": ""
+		}],
+		"ShowInfoOnPlayerInit": true,
+		"TabToOpenByDefault": 0,
+		"Position": {
+			"MinX": 0.15,
+			"MaxX": 0.9,
+			"MinY": 0.2,
+			"MaxY": 0.9
+		},
+		"BackgroundImage": {
+			"Enabled": true,
+			"Position": {
+				"MinX": 0,
+				"MaxX": 1,
+				"MinY": 0,
+				"MaxY": 1
+			},
+			"Url": "http://www.proforma.net.br/wp-content/uploads/2015/11/textured-backgrounds.jpg",
+			"TransparencyInPercent": 20
+		},
+		"ActiveButtonColor": "#000000",
+		"InactiveButtonColor": "#7F7F7FFF",
+		"CloseButtonColor": "#7F7F7FFF",
+		"NextPageButtonColor": "#7F7F7FFF",
+		"PrevPageButtonColor": "#7F7F7FFF",
+		"BackgroundColor": "#000000FF",
+		"HelpButton": {
+			"IsEnabled": false,
+			"Text": "Help",
+			"Position": {
+				"MinX": 0,
+				"MaxX": 0.05,
+				"MinY": 0.1,
+				"MaxY": 0.14
+			},
+			"Color": "#7F7F7FFF",
+			"FontSize": 18
+		},
+		"UpgradedConfig": true
+	}
 }
