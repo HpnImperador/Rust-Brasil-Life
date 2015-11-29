@@ -1,0 +1,77 @@
+{
+	"COLORS": {
+		"PREFIX": "#00EEEE",
+		"SYSTEM": "white"
+	},
+	"COMMANDS": {
+		"PLAYER RESET": "resetme",
+		"RANK": "rank",
+		"TOP": "top"
+	},
+	"CONFIG_VERSION": 2.3,
+	"LISTS": {
+		"ANIMALS": "Animais sacrificados",
+		"ARROWS": "flechas disparadas",
+		"BARRELS": "Baris destruídos",
+		"BUILT": "Estruturas de construção",
+		"BULLETS": "Balas disparadas",
+		"CRAFTED": "Itens artesanais",
+		"DEATHS": "Mortes",
+		"DEMOLISHED": "Estruturas Demolidas",
+		"DISTANCE": "Distância",
+		"EXPLOSIVES": "Explosivos Usados",
+		"HEALED": "Times Healed",
+		"HELIS": "helicópteros Destruídos",
+		"KDR": "Abates / Mortes",
+		"NPCKILLS": "Human NPC Kills",
+		"PVPKILLS": "PVP Kills",
+		"REPAIRED": "estruturas Reparadas",
+		"RESOURCES": "Recursos adquiridos",
+		"ROCKETS": "Tiros de Bazuka",
+		"SDR": "Suicídios/Kills",
+		"SLEEPERS": "Dormindo",
+		"SUICIDES": "Suicídios",
+		"UPGRADED": "Estruturas arrumadas",
+		"WOUNDED": "Ferrido"
+	},
+	"MESSAGES": {
+		"ADMIN TELL RESET": "{player} dados foram resetados.",
+		"CHECK CONSOLE NOTE": "Check the console (press F1) for more info.",
+		"DATA RESET": "Database has been reset.",
+		"DATA SAVED": "Database has been saved.",
+		"LIST NOT FOUND": "No lists have been found with the given name",
+		"MULTI PLAYERS FOUND": "Found more than one Player with that name.",
+		"NO PLAYERS FOUND": "No Players found with that name.",
+		"NO PLAYERS TO LIST": "There are no valid Players to be listed on Top {list} List",
+		"PLAYER DATA RESET": "Your rank has been reset.",
+		"PLAYER RESET DESC": "<orange>/resetme<end> <grey>-<end> Allows player to reset own data",
+		"RANK DESC": "<orange>/rank<end> - Shows player rank information",
+		"RANK INFO": "Info do seu Ranking",
+		"TOP DESC": "<orange>/top [list name]<end> <grey>-<end> Mostra a top lista, ou qualquer outra lista de mortes, kdr, etc..",
+		"TOP TITLE": "Top {list} List",
+		"TOP3 ADVERT": "<lime>{list}<end> Top 3: <lightblue>{top}<end>"
+	},
+	"SETTINGS": {
+		"ANNOUNCE DATABASE RESET": true,
+		"AUTO-SAVE INTERVAL": 30,
+		"BROADCAST TO CONSOLE": true,
+		"ENABLE AUTO-SAVE": true,
+		"ENABLE PLAYER RESET": true,
+		"ENABLE RANK": true,
+		"ENABLE RESET DATABASE": true,
+		"ENABLE TOP": true,
+		"ENABLE TOP3 ADVERT": true,
+		"LISTS MAX PLAYERS": 10,
+		"PREFIX": "<white>[ <orange>RANK-ME<end> ]<end>",
+		"SHOW RANK IN CHAT": true,
+		"SHOW RANK IN CONSOLE": false,
+		"SHOW TOP IN CHAT": true,
+		"SHOW TOP IN CONSOLE": false,
+		"TOP3 ADVERT INTERVAL": 15,
+		"USE SEPARATOR LINES": true
+	},
+	"STRINGS": {
+		"NAME": "Name",
+		"RANK": "Posição no Rank"
+	}
+}
