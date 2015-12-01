@@ -1,0 +1,232 @@
+{
+  "drop_config": {
+    "limit_airdrops": true,
+    "limit_count": 3,
+    "airdrop_event": false,
+    "airdrop_timer": 30,
+    "airdrop_speed": 40,
+    "control_loot": true,
+    "draw_arrow": false,
+    "arrow_length": 15,
+    "arrow_duration": 60,
+    "arrow_size": 4,
+    "remove_orignal_loot": false
+  },
+  "loot_list": {
+    "capacity": 18,
+    "fill_capacity": true,
+    "list": [
+      {
+        "name": "weapon",
+        "count": 2,
+        "blueprint": false,
+        "items_list": [	
+
+{
+            "name": "crude.oil",
+            "chance": 40,
+            "min_amount": 1,
+            "max_amount": 1
+          },
+	{
+            "name": "explosives",
+            "chance": 40,
+            "min_amount": 1,
+            "max_amount": 10
+          },
+{
+            "name": "grenade.f1",
+            "chance": 40,
+            "min_amount": 1,
+            "max_amount": 6
+          },
+{
+            "name": "jacket.snow",
+            "chance": 40,
+            "min_amount": 1,
+            "max_amount": 1
+          },
+	{
+            "name": "large.furnace",
+            "chance": 40,
+            "min_amount": 1,
+            "max_amount": 1
+          },
+{
+            "name": "largemedkit",
+            "chance": 40,
+            "min_amount": 10,
+            "max_amount": 41
+          },
+{
+            "name": "lowgradefuel",
+            "chance": 40,
+            "min_amount": 10,
+            "max_amount": 400
+          },
+{
+            "name": "metal.facemask",
+            "chance": 40,
+            "min_amount": 1,
+            "max_amount": 1
+          },
+	{
+            "name": "metal.fragments",
+            "chance": 40,
+            "min_amount": 10,
+            "max_amount": 1000
+          },
+		{
+            "name": "metal.plate.torso",
+            "chance": 40,
+            "min_amount": 1,
+            "max_amount": 1
+          },
+		{
+            "name": "mining.quarry",
+            "chance": 40,
+            "min_amount": 1,
+            "max_amount": 1
+          },
+		{
+            "name": "pistol.semiauto",
+            "chance": 40,
+            "min_amount": 1,
+            "max_amount": 1
+          },
+		  {
+            "name": "riot.helmet",
+            "chance": 40,
+            "min_amount": 1,
+            "max_amount": 1
+          },	
+		{
+            "name": "smg.thompson",
+            "chance": 40,
+            "min_amount": 1,
+            "max_amount": 1
+          },{
+            "name": "autoturret",
+            "chance": 40,
+            "min_amount": 1,
+            "max_amount": 1
+          },
+		
+		{
+            "name": "cctv.camera",
+            "chance": 40,
+            "min_amount": 1,
+            "max_amount": 1
+          },
+		  
+		  {
+            "name": "targeting.computer",
+            "chance": 40,
+            "min_amount": 1,
+            "max_amount": 1
+          },
+		  
+		  
+		  {
+            "name": "tool.camera",
+            "chance": 40,
+            "min_amount": 1,
+            "max_amount": 1
+          },
+		  
+		  
+		  {
+            "name": "sign.hanging",
+            "chance": 40,
+            "min_amount": 1,
+            "max_amount": 1
+          },
+		  
+		  
+		  {
+            "name": "sign.hanging.banner.large",
+            "chance": 40,
+            "min_amount": 1,
+            "max_amount": 1
+          },
+		  
+		  
+		  {
+            "name": "surveycharge",
+            "chance": 40,
+            "min_amount": 10,
+            "max_amount": 200
+          },
+          {
+            "name": "rifle.ak",
+            "chance": 40,
+            "min_amount": 1,
+            "max_amount": 1
+          },
+          {
+            "name": "smg.2",
+            "chance": 35,
+            "min_amount": 1,
+            "max_amount": 1
+          },
+          {
+            "name": "rifle.bolt",
+            "chance": 35,
+            "min_amount": 1,
+            "max_amount": 1
+          }
+        ]
+      },
+      {
+        "name": "blueprint",
+        "count": 2,
+        "blueprint": true,
+        "items_list": [
+          {
+            "name": "lantern",
+            "chance": 20,
+            "min_amount": 1,
+            "max_amount": 1
+          },
+          {
+            "name": "box.wooden.large",
+            "chance": 15,
+            "min_amount": 1,
+            "max_amount": 1
+          }
+        ]
+      },
+      {
+        "name": "ammo",
+        "count": 2,
+        "blueprint": false,
+        "items_list": [
+			{
+            "name": "ammo.rocket.basic",
+            "chance": 40,
+            "min_amount": 2,
+            "max_amount": 10
+          },
+		  {
+            "name": "ammo.rifle",
+            "chance": 40,
+            "min_amount": 41,
+            "max_amount": 100
+          },
+          {
+            "name": "ammo.rifle",
+            "chance": 45,
+            "min_amount": 40,
+            "max_amount": 100
+          },
+          {
+            "name": "ammo.pistol",
+            "chance": 50,
+            "min_amount": 30,
+            "max_amount": 150
+          }
+        ]
+      }
+    ]
+  }
+}
