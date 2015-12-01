@@ -35,7 +35,7 @@
       "sell": "8"
     },
     "Animal Fat": {
-      "buy": "1840",
+      "buy": "2040",
       "img": "http://vignette1.wikia.nocookie.net/play-rust/images/d/d5/Animal_Fat_icon.png",
       "item": "Animal Fat",
       "sell": "2"
@@ -208,6 +208,12 @@
       "item": "Can of Tuna",
       "sell": "8"
     },
+    "CCTV Camera": {
+      "buy": "450000",
+      "img": "http://vignette2.wikia.nocookie.net/play-rust/images/2/24/CCTV_Camera_icon.png",
+      "item": "CCTV Camera",
+      "sell": "8"
+    },
     "Chocolate Bar": {
       "buy": "13",
       "img": "http://vignette1.wikia.nocookie.net/play-rust/images/4/45/chocolate_bar_icon.png/revision/latest/scale-to-width-down/100?cb=20151106061914",
@@ -245,8 +251,8 @@
       "sell": "7"
     },
     "Crude Oil": {
-      "buy": "10",
-      "img": "http://vignette1.wikia.nocookie.net/play-rust/images/3/3c/crude_oil_icon.png/revision/latest/scale-to-width-down/100?cb=20151106054451",
+      "buy": "5050",
+      "img": "http://vignette1.wikia.nocookie.net/play-rust/images/3/3c/Crude_Oil_icon.png/revision/latest/scale-to-width-down/50?cb=20151106054451",
       "item": "Crude Oil",
       "sell": "3"
     },
@@ -521,7 +527,7 @@
       "sell": "8"
     },
     "Low Grade Fuel": {
-      "buy": "4500",
+      "buy": "24500",
       "img": "http://vignette4.wikia.nocookie.net/play-rust/images/2/26/Low_Grade_Fuel_icon.png",
       "item": "Low Grade Fuel",
       "sell": "1"
@@ -533,13 +539,13 @@
       "sell": "0"
     },
     "Medical Syringe": {
-      "buy": "1430",
+      "buy": "3930",
       "img": "http://vignette3.wikia.nocookie.net/play-rust/images/9/99/Medical_Syringe_icon.png/revision/latest/scale-to-width-down/100?cb=20151106061059",
       "item": "Medical Syringe",
       "sell": "8"
     },
     "Medical Syringe bp": {
-      "buy": "3500",
+      "buy": "7500",
       "img": "http://vignette3.wikia.nocookie.net/play-rust/images/9/99/Medical_Syringe_icon.png/revision/latest/scale-to-width-down/100?cb=20151106061059",
       "item": "Medical Syringe bp",
       "sell": "0"
@@ -683,7 +689,7 @@
       "sell": "8"
     },
     "Semi-Automatic Pistol": {
-      "buy": "1000",
+      "buy": "5000",
       "img": "http://rust-life.com.br/wp-content/uploads/2015/11/Semi-Automatic_Pistol_icon.png",
       "item": "Semi-Automatic Pistol",
       "sell": "8"
@@ -731,7 +737,7 @@
       "sell": "0.45"
     },
     "Supply Signal": {
-      "buy": "250000",
+      "buy": "1250000",
       "img": "http://vignette3.wikia.nocookie.net/play-rust/images/2/24/Supply_Signal_icon.png/revision/latest/scale-to-width-down/100?cb=20151106071621",
       "item": "Supply Signal",
       "sell": "1"
@@ -741,6 +747,12 @@
       "img": "http://vignette2.wikia.nocookie.net/play-rust/images/9/9a/Survey_Charge_icon.png",
       "item": "Survey Charge",
       "sell": "1900"
+    },
+    "Targeting Computer": {
+      "buy": "450000",
+      "img": "http://vignette3.wikia.nocookie.net/play-rust/images/0/07/Targeting_Computer_icon.png",
+      "item": "Targeting Computer",
+      "sell": "8"
     },
     "Thompson": {
       "buy": "1500",
@@ -770,12 +782,6 @@
       "buy": "20000",
       "img": "http://vignette2.wikia.nocookie.net/play-rust/images/b/bf/XL_Picture_Frame_icon.png",
       "item": "XL Picture Frame",
-      "sell": "8"
-    },
-    "XXL Picture Frame": {
-      "buy": "35000",
-      "img": "http://vignette1.wikia.nocookie.net/play-rust/images/7/7e/Wooden_Door_icon.png/revision/latest/scale-to-width-down/100?cb=20151106231357",
-      "item": "XXL Picture Frame",
       "sell": "8"
     }
   },
@@ -808,7 +814,7 @@
         "Mining Quarry",
         "Leather",
         "Animal Fat",
-        "Low Grade Fuel",
+        "Crude Oil",
         "Pump Shotgun",
         "12 Gauge Slug",
         "12 Gauge Buckshot",
@@ -822,6 +828,8 @@
         "5.56 Rifle Ammo",
         "Pistol Bullet",
         "Auto Turret",
+        "Camera",
+        "Targeting Computer",
         "Metal Window Bars",
         "High External Wooden Wall",
         "High External Stone Wall",
@@ -867,7 +875,7 @@
         "Mining Quarry",
         "Leather",
         "Animal Fat",
-        "Low Grade Fuel",
+        "Crude Oil",
         "Pump Shotgun",
         "12 Gauge Slug",
         "12 Gauge Buckshot",
@@ -881,6 +889,8 @@
         "5.56 Rifle Ammo",
         "Pistol Bullet",
         "Auto Turret",
+        "Camera",
+        "Targeting Computer",
         "Metal Window Bars",
         "High External Wooden Wall",
         "High External Stone Wall",
