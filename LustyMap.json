@@ -1,0 +1,41 @@
+{
+  "CompassStrings": {
+    "E": "East",
+    "Head": "Heading:",
+    "N": "North",
+    "NE": "North East",
+    "NW": "North West",
+    "S": "South",
+    "SE": "South East",
+    "SW": "South West",
+    "W": "West"
+  },
+  "LustyMap": {
+    "Compass": true,
+    "Debug": false,
+    "Left": true,
+    "MapComplexURL": "http://lustyrust.co.uk/img/lustyplugins/map/",
+    "MapMode": false,
+    "MapSize": "4000",
+    "MapURL": "http://169.57.141.167:28615/map.jpg",
+    "Minimap": true,
+    "StartOpen": true
+  },
+  "TextStrings": {
+    "AlignCommit": "Minimap has been set to the <color=#00ff00ff>{0}</color>.",
+    "CompassCommand": "<color=#00ff00ff>/map compass <true|false></color> - Enables or disables the minimap compass.",
+    "CompassCommit": "Minimap compass has been <color=#00ff00ff>{0}</color>.",
+    "ComplexCommand": "<color=#00ff00ff>/map complex <url to map parts></color> - Sets the located to the map parts for complex mode.",
+    "ComplexCommit": "Map Complex URL has been set to: <color=#00ff00ff>{0}</color>",
+    "InvalidSyntex": "Invalid syntex! usage: ",
+    "MinimapCommand": "<color=#00ff00ff>/map minimap <true|false|left|right></color> - Enables, disables or sets the default alignment for the minimap.",
+    "MinimapCommit": "Minimap has been <color=#00ff00ff>{0}</color> for all players.",
+    "ModeCommand": "<color=#00ff00ff>/map mode <true|false></color> - Enables or disables complex mode.",
+    "ModeCommit": "Complex mode has been <color=#00ff00ff>{0}</color>.",
+    "OpenCommit": "Minimap will be <color=#00ff00ff>{0}</color> by default.",
+    "StartCommand": "<color=#00ff00ff>/map startopen <true|false></color> - Sets the default state for the minimap.",
+    "UnknownCommand": "Unknown command, type <color=#00ff00ff>/map help</color> for a list of commands.",
+    "UrlCommand": "<color=#00ff00ff>/map url <url to map image></color> - Sets the map image, used as the background image.",
+    "UrlCommit": "Map URL has been set to: <color=#00ff00ff>{0}</color>"
+  }
+}
