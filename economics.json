@@ -1,0 +1,31 @@
+{
+  "Admin_Auth_LvL": 2,
+  "CleanBase": true,
+  "StartMoney": 1000.0,
+  "Transfer_Fee": 0.01,
+  "Messages": {
+    "ChatName": "[Economy]",
+    "NoPermission": "No Permission!",
+    "NoPlayer": "No Player Found!",
+    "New_Player_Balance": "New player balance: {0}",
+    "Syntax_Error": "Syntax Error! /{0} <name/steamid> <money>",
+    "Withdraw_Error": "'{0}' has not enough money!",
+    "My_Balance": "Your Balance: {0}",
+    "Balance": "Player Balance: {0}",
+    "Transfer_Money_Error": "You do not have enough money!",
+    "Transfer_Negative_Error": "Money can not be negative!",
+    "Transfer_Error": "You can not transfer money yourself!",
+    "Transfer_Success": "You have successfully transferred money to '{0}'!",
+    "Transfer_Success_To": "'{0}' has transferred money to you! Check your balance '/balance'!",
+    "Save_Success": "Economics data saved!",
+    "Help1": "/balance - check your balance",
+    "Help2": "/transfer <name> <money> - transfer [money] to [name] player for small fee"
+  },
+  "Commands": {
+    "Balance": "balance",
+    "Deposit": "deposit",
+    "SetMoney": "setmoney",
+    "Transfer": "transfer",
+    "Withdraw": "withdraw"
+  }
+}
