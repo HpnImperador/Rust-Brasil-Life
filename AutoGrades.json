@@ -1,0 +1,26 @@
+{
+	"Block Construct and Refund": true,
+	"Language": "en",
+	"Messages": {
+		"en": {
+			"BGRADE_NOPERM": "<color='#DD0000'>Você não tem acesso ao pacote VIP.</color>",
+			"BGRADE_NORES": "<color='#DD0000'>Não há recursos suficientes para construção e atualização.</color>",
+			"BGRADE_NORES2": "<color='#DD0000'>Não há recursos suficientes para a atualização.</color>",
+			"BGRADE_HELP": "Comandos do Auto Grade:",
+			"BGRADE_1": "<color='#00DD00'>/bgrade 1</color> - atualização automática para Madeira",
+			"BGRADE_2": "<color='#00DD00'>/bgrade 2</color> - atualização automática para Pedra",
+			"BGRADE_3": "<color='#00DD00'>/bgrade 3</color> - atualização automática para Metal",
+			"BGRADE_4": "<color='#00DD00'>/bgrade 4</color> - atualização automática para Blindada",
+			"BGRADE_0": "<color='#00DD00'>/bgrade 0</color> - atualização desativada",
+			"BGRADE_CUR": "Modo atual: <color='#DD0000'>{0}</color>",
+			"BGRADE_SET": "<color='#00DD00'>Você configurou com êxito a atualização automática para <color='#DD0000'>{0}</color>.</color>",
+			"BGRADE_DIS": "<color='#00DD00'>Você <color='#DD0000'>desativou</color> auto update.</color>",
+			"BGRADE_INV": "<color='#DD0000'>Grau bgrade inválido.</color>",
+			"Disabled": "Desativado",
+			"Wood": "Madeira",
+			"Stone": "Pedra",
+			"Metal": "Metal",
+			"TopTier": "Blindagem"
+		}
+	}
+}
