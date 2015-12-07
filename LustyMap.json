@@ -2,13 +2,13 @@
   "CompassStrings": {
     "E": "East",
     "Head": "Heading:",
-    "N": "North",
-    "NE": "North East",
-    "NW": "North West",
-    "S": "South",
-    "SE": "South East",
-    "SW": "South West",
-    "W": "West"
+    "N": "Norte",
+    "NE": "Nordeste",
+    "NW": "Noroeste",
+    "S": "Sul",
+    "SE": "Sudeste",
+    "SW": "Sudoeste",
+    "W": "Oeste"
   },
   "LustyMap": {
     "Compass": true,
@@ -16,8 +16,8 @@
     "Left": true,
     "MapComplexURL": "http://lustyrust.co.uk/img/lustyplugins/map/",
     "MapMode": false,
-    "MapSize": "4000",
-    "MapURL": "http://169.57.141.167:28615/map.jpg",
+    "MapSize": "5000",
+    "MapURL": "http://rust-life.com.br/wp-content/uploads/2015/12/map.jpg",
     "Minimap": true,
     "StartOpen": true
   },
