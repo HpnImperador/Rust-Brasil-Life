@@ -1,12 +1,12 @@
 {
-  "BasePayout": 1.0,
+  "BasePayout": 0.5,
   "PayoutAmount": 150.0,
   "PayoutInterval": 600,
   "PayoutMessage": "Você recebeu R$ {amount} por jogar neste server!",
-  "ReceivedForPlaying": "Você recebeu R$ {amount} para jogar ativamente!",
+  "ReceivedForPlaying": "Você recebeu R$ {amount} por jogar ativamente!",
   "ReceivedForTimeAlive": "Você recebeu R$ {amount} por manter-se vivo por {time}!",
   "ReceivedWelcomeBonus": "Você recebeu R$ {amount} como um bônus de bem-vindo!",
   "TimeAliveBonus": true,
-  "TimeAliveMultiplier": 1.0,
+  "TimeAliveMultiplier": 0.5,
   "WelcomeBonus": 500.0
 }
