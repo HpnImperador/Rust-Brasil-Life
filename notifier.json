@@ -1,17 +1,30 @@
 {
 	"ADVERTS": [
 		"SEJA BEM VINDO!",
+        "WIPE de MAPA Forçado 03/12 & 18/12 - Atualização do Rust.",
+		"ATENÇÃO! Use o chat se necessário - evite ser mutado",
 		"O SERVER POSSUI SISTEMA MONETARIO, VC PODE COMPRAR E VENDER ITENS NA LOJA /shop",
 		"ACESSE A LOJA /shop - LOJA DE ARMAS - CONSTRUÇÃO - BP",
+        "TEMOS UM BANCO DE ITENS /bank - rust-life.com.br",
 		"USE NOSSO TS PUBLICO - 187.58.224.15 Solicite a criação da Sala",
-		"ATENÇÃO!!! CONSTRUÇÕES NAS GELEIRAS SERÃO AUTOMATICAMENTE DESTRUIDAS.",
+		"QUEM USA PROGRAMAS PRA ATACAR SERVIDORES É COMO BANDIDO-REGISTRE SUA INDIGNAÇÃO EM (rust-life.com.br/?p=445)",
+        "ATENÇÃO!!! CONSTRUÇÕES FORA do MAPA (TERRA) SERÃO AUTOMATICAMENTE DESTRUIDAS.",
+        "ATENÇÃO!!! CONSTRUÇÕES ABANDONADAS DE NIVEL ZERO (PALHA) SÃO DESTRUÍDAS EM 4HS",
 		"ACESSE A LOJA /shop - LOJA DE ARMAS - CONSTRUÇÃO - BP",
+        "WIPE de MAPA Forçado 03/12 & 18/12 - Atualização do Rust.",
 		"VC PODER COMPRAR E VENDER ITENS. ACESSE A LOJA /shop - OU NOSSA LOJA VIRTUAL RUST-LIFE.COM.BR",
 		"SLOT VIP CONTATE ADM NO TS 187.58.224.15 - OU ACESSE RUST-LIFE.COM.BR",
+		"TEMOS UM BANCO DE ITENS /bank - rust-life.com.br",
+        "ACESSE A LOJA /shop - LOJA DE ARMAS - CONSTRUÇÃO - BP",
+		"QUEM USA PROGRAMAS PRA ATACAR SERVIDORES É COMO BANDIDO-REGISTRE SUA INDIGNAÇÃO EM (rust-life.com.br/?p=445)",
+        "ATENÇÃO!!! CONSTRUÇÕES FORA do MAPA (TERRA) SERÃO AUTOMATICAMENTE DESTRUIDAS.",        
+		"ATENÇÃO!!! CONSTRUÇÕES ABANDONADAS DE NIVEL ZERO (PALHA) SÃO DESTRUÍDAS EM 4HS",
+        "PARA MAIORES INFORMAÇÕES DIGITEM /INFO",
 		"ACESSE A LOJA /shop - LOJA DE ARMAS - CONSTRUÇÃO - BP",
-		"ATENÇÃO!!! CONSTRUÇÕES NAS GELEIRAS SERÃO AUTOMATICAMENTE DESTRUIDAS.",
-		"PARA MAIORES INFORMAÇÕES DIGITEM /INFO",
-		"ACESSE A LOJA /shop - LOJA DE ARMAS - CONSTRUÇÃO - BP"
+        "ITENS ESPECIAIS, BP, VIP ACESSE: rust-life.com.br",
+        "TEMOS UM BANCO DE ITENS /bank - rust-life.com.br",
+        "WIPE de MAPA Forçado 03/12 & 18/12 - Atualização do Rust.",
+		"Level e Ranking - /stats - /rank"
 	],
 	"COLORS": {
 		"ADVERTS": "silver",
@@ -28,7 +41,7 @@
 		"ADMINS LIST": "admins",
 		"ADVERTS COMMAND": "adverts",
 		"MAP LINK": "map",
-		"MOTD": "motd",
+		"MOTD": ">",
 		"PLAYERS LIST": "players",
 		"PLAYERS ONLINE": "online",
 		"PLUGINS LIST": "plugins",
@@ -52,7 +65,7 @@
 		"HELI CALLED": "A <yellow>Patrol Helicopter<end> is coming!",
 		"JOIN MESSAGE": "<lime>{username}<end> entrou no server.",
 		"LEAVE MESSAGE": "<lime>{username}<end> Saiu do server.",
-		"MAP LINK": "SAcesse o mapa do Server aqui: <lime>http://169.57.141.167:28415/map.jpg<end>",
+		"MAP LINK": "Acesse o mapa do Server aqui: <lime>http://169.57.141.167:28415/map.jpg<end>",
 		"MAP LINK DESC": "<orange>/map<end> <grey>-<end> http://169.57.141.167:28415/map.jpg",
 		"NO ADMINS": "Nenhum <cyan>Adm<end> online.",
 		"NO LANG": "Error, <lime>{args}<end> Linguagem não suportada.",
@@ -73,8 +86,8 @@
 	"RULES": {
 		"PT": [
 			"Usar cheats e totalmente proibido.",
-			"Respeita todos os jogadores.",
-			"Evita spam no chat.",
+			"Respeite todos os jogadores.",
+			"Evite spam no chat.",
 			"Nao abuses de bugs ou exploits."
 		]
 	},
@@ -87,7 +100,7 @@
 		]
 	},
 	"SETTINGS": {
-		"ADVERTS INTERVAL": 5,
+		"ADVERTS INTERVAL": 2,
 		"ANNOUNCE AIRDROPS": false,
 		"ANNOUNCE PATROL HELICOPTERS": false,
 		"BROADCAST TO CONSOLE": true,
