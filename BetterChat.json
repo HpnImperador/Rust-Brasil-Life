@@ -10,7 +10,7 @@
 		"Permission": "color_pro",
 		"Rank": 2,
 		"TextColor": "white",
-		"Title": "[Pro]",
+		"Title": "Rebelde",
 		"TitleColor": "lime"
 	},
 	"Regular": {
@@ -20,7 +20,7 @@
 		"Permission": "color_regular",
 		"Rank": 2,
 		"TextColor": "white",
-		"Title": "[Regular]",
+		"Title": "Civil",
 		"TitleColor": "lime"
 	},
 	"mod": {
