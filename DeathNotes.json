@@ -1,211 +1,205 @@
 {
-    "Animals": {
-        "Bear": "Urso",
-        "Boar": "Javali",
-        "Chicken": "Galinha",
-        "Horse": "Cavalo",
-        "Stag": "Veado",
-        "Wolf": "Lobo"
-    },
-    "Attackers": {
-        "Autoturret_deployed": "Autoturret_deployed",
-        "Bear": "Urso",
-        "Bear Trap": "Armadilha de urso",
-        "Boar": "Javali",
-        "Chicken": "Galinha",
-        "Fireball_small": "Fireball_small",
-        "High External Stone Wall": "Parede Externa Alta de Pedra",
-        "High External Wooden Wall": "Parede Externa Alta de Madeira",
-        "Horse": "Cavalo",
-        "Landmine": "mina terrestre",
-        "Metal Barricade": "Barricada de metal",
-        "Spikes.floor": "Espinhos",
-        "Stag": "Veado",
-        "Wired Wooden Barricade": "Barricada de madeira",
-        "Wolf": "Lobo",
-        "Wooden Barricade": "Barricada de madeira"
-    },
-    "Bodyparts": {
-        "Chest": "Torso",
-        "Groin": "Virilha",
-        "Head": "Cabeça",
-        "Hip": "Hip",
-        "Jaw": "Jaw",
-        "Left Arm": "Braço esquerdo",
-        "Left Eye": "Olho esquerdo",
-        "Left Foot": "Pé esquerdo",
-        "Left Forearm": "Ante-braço esquerdo",
-        "Left Hand": "Mão esquerda",
-        "Left Knee": "Joelho esquerdo",
-        "Left Shoulder": "Ombro esquerdo",
-        "Left Toe": "Dedo do Pé",
-        "Lower Spine": "Lower Spine",
-        "Neck": "Pescoço",
-        "Pelvis": "Pelvis",
-        "Right Arm": "Braço direito",
-        "Right Forearm": "Ante-braço direito",
-        "Right Hand": "Mão direita",
-        "Right Knee": "Joelho direito",
-        "Right Shoulder": "Ombro direito",
-        "Right Toe": "Dedo do Pé",
-        "Stomach": "Estomago",
-        "Unknown Bodypart": "alguma parte do corpo"
-    },
-    "Colors": {
-        "Animal": "#4B75FF",
-        "Attacker": "#4B75FF",
-        "Bodypart": "#4B75FF",
-        "Distance": "#4B75FF",
-        "Message": "#E0E0E0",
-        "Prefix": "grey",
-        "Victim": "#4B75FF",
-        "Weapon": "#4B75FF"
-    },
-    "Messages": {
-        "Animal Death": [
-            "{attacker} matou um {victim} com {weapon} de {distance}m."
-        ],
-        "Arrow": [
-            "{attacker} Matou {victim} com uma flexa de {distance}m, acertou {bodypart}."
-        ],
-        "Arrow Sleep": [
-            "{attacker} Matou {victim} com uma flexa de {distance}m, enquanto ele dormia."
-        ],
-        "Barricade": [
-            "{victim} died stuck on a {attacker}."
-        ],
-        "Bite": [
-            "O {attacker} Matou {victim}."
-        ],
-        "Bite Sleep": [
-            "O {attacker} Matou {victim}, enquanto ele dormia."
-        ],
-        "Bleeding": [
-            "{victim} sangrou até a morte."
-        ],
-        "Blunt": [
-            "{attacker} Matou {victim} com {weapon} e acertou o {bodypart}."
-        ],
-        "Blunt Sleep": [
-            "{attacker} Matou {victim} com {weapon}, enquanto ele dormia."
-        ],
-        "Bullet": [
-            "{attacker} Matou {victim} com {weapon}, e acertou o(a) {bodypart} de {distance}m."
-        ],
-        "Bullet Sleep": [
-            "{attacker} Matou {victim}, enquanto ele dormia. (no(a) {bodypart} com {weapon}, de {distance}m)"
-        ],
-        "Cold": [
-            "{victim} congelou até a morte."
-        ],
-        "Drowned": [
-            "{victim} pensou que sania nadar."
-        ],
-        "Explosion": [
-            "{victim} foi explodido por {attacker} com {weapon}."
-        ],
-        "Explosion Sleep": [
-            "{victim} estava sonhando enquanto ele foi explodido por {attacker} com {weapon}."
-        ],
-        "Fall": [
-            "{victim} caiu para a morte."
-        ],
-        "Generic": [
-            "{victim} morreu."
-        ],
-        "Heat": [
-            "{victim} morreu queimado."
-        ],
-        "Helicopter": [
-            "{victim} foi abatido por um {attacker}."
-        ],
-        "Hunger": [
-            "{victim} morreu de fome."
-        ],
-        "Poison": [
-            "{victim} morreu por envenenamento."
-        ],
-        "Radiation": [
-            "{victim} não sabia que radiação matava."
-        ],
-        "Slash": [
-            "{attacker} fatiou {victim} em pedassos com {weapon} acertando o {bodypart}."
-        ],
-        "Slash Sleep": [
-            "{attacker} esfaqueou {victim}, enquanto ele dormia."
-        ],
-        "Stab": [
-            "{attacker} esfaqueou {victim} até a morte com um {weapon} e acertou {bodypart}."
-        ],
-        "Stab Sleep": [
-            "{attacker} stabbed {victim}, while he slept."
-        ],
-        "Suicide": [
-            "{victim} cometeu suicídio."
-        ],
-        "Thirst": [
-            "{victim} morreu desidratado."
-        ],
-        "Trap": [
-            "{victim} pisou em uma {attacker}."
-        ],
-        "Unknown": [
-            "{victim} morreu por uma razão desconhecida."
-        ]
-    },
-    "Settings": {
-        "Broadcast To Chat": true,
-        "Broadcast To Console": true,
-        "Enable Kill Reproducing !THIS DOES NOT HAVE ANY FUNCTION YET!": false,
-        "Message In Radius": false,
-        "Message Radius": 300,
-        "Plugin Icon": "76561198206240711",
-        "Prefix": "NOTA DE MORTE<color=white>:</color> ",
-        "Show Animal Deaths": false,
-        "Show Animal Kills": true,
-        "Show Barricade Deaths": true,
-        "Show Explosion Deaths": true,
-        "Show Metabolism Deaths": true,
-        "Show Player Kills": true,
-        "Show Suicides": true,
-        "Show Trap Deaths": true,
-        "Use Popup Notifications": false
-    },
-    "Weapons": {
-        "Assault Rifle": "AK",
-        "Beancan Grenade": "Granada de feijão",
-        "Bolt Action Rifle": "Bolt",
-        "Bone Club": "Clava de Osso",
-        "Bone Knife": "Faca de Osso",
-        "Crossbow": "Besta",
-        "Custom SMG": "SubMetralhadora",
-        "Eoka Pistol": "Pistola Eoka",
-        "F1 Grenade": "Granada",
-        "Hatchet": "Machado",
-        "Hunting Bow": "Arco",
-        "Longsword": "Espada",
-        "Mace": "Clava",
-        "Machete": "Machete",
-        "Pick Axe": "Picareta",
-        "Pump Shotgun": "Escopeta Caseira",
-        "Revolver": "Revolver",
-        "Rock": "Pedra",
-        "Rocket Launcher": "Bazuca",
-        "Salvaged Axe": "Machado",
-        "Salvaged Cleaver": "Cutelo",
-        "Salvaged Hammer": "Martelo",
-        "Salvaged Icepick": "Picareta de Gelo",
-        "Salvaged Sword": "Salvaged Sword",
-        "Semi-Automatic Pistol": "Pistola",
-        "Stone Hatchet": "Machado",
-        "Stone Pick Axe": "Picareta",
-        "Stone Spear": "Lança",
-        "Survey Charge": "Explosivo de Pesquisa",
-        "Thompson": "Thompson",
-        "Timed Explosive Charge": "C4",
-        "Torch": "Tocha",
-        "Unknown Weapon": "Arma desconhecida",
-        "Waterpipe Shotgun": "Shotgun",
-        "Wooden Spear": "lança de madeira"
-    }
+  "Animals": {
+    "Bear": "Urso",
+    "Boar": "Javali",
+    "Chicken": "Galinha",
+    "Horse": "Cavalo",
+    "Stag": "Veado",
+    "Wolf": "Lobo"
+  },
+  "Attackers": {},
+  "Bodyparts": {
+    "Chest": "Torso",
+    "Groin": "Virilha",
+    "Head": "Cabeça",
+    "Hip": "Quadril",
+    "Jaw": "Mandíbula",
+    "Left Arm": "Braço esquerdo",
+    "Left Eye": "Olho esquerdo",
+    "Left Foot": "Pé esquerdo",
+    "Left Forearm": "Ante-braço esquerdo",
+    "Left Hand": "Mão esquerda",
+    "Left Knee": "Joelho esquerdo",
+    "Left Ring Finger": "Dedo anelar esquerdo",
+    "Left Shoulder": "Ombro esquerdo",
+    "Left Toe": "Dedo do Pé",
+    "Lower Spine": "Espinha dorsal",
+    "Neck": "Pescoço",
+    "Pelvis": "Pelvis",
+    "Right Arm": "Braço direito",
+    "Right Eye": "Olho direito",
+    "Right Foot": "Pé direito",
+    "Right Forearm": "Ante-braço direito",
+    "Right Hand": "Mão direita",
+    "Right Knee": "Joelho direito",
+    "Right Shoulder": "Ombro direito",
+    "Right Toe": "Dedo do Pé",
+    "Stomach": "Estomago",
+    "Unknown Bodypart": "alguma parte do corpo"
+  },
+  "Colors": {
+    "Animal": "#FF9900",
+    "Attacker": "#FF9900",
+    "Bodypart": "#FF9900",
+    "Distance": "#FF9900",
+    "Message": "#FF9900",
+    "Prefix": "#FF0000",
+    "Victim": "#FF9900",
+    "Weapon": "#FF9900"
+  },
+  "Messages": {
+    "Animal Death": [
+      "{attacker} matou um {victim} com {weapon} de {distance}m."
+    ],
+    "Arrow": [
+      "{attacker} Matou {victim} com uma flexa de {distance}m, acertou {bodypart}."
+    ],
+    "Arrow Sleep": [
+      "{attacker} Matou {victim} com uma flexa de {distance}m, enquanto ele dormia."
+    ],
+    "AutoTurret": [
+      "A {attacker} defendeu sua casa contra {victim}."
+    ],
+    "Barricade": [
+      "{victim} died stuck on a {attacker}."
+    ],
+    "Bite": [
+      "O {attacker} Matou {victim}."
+    ],
+    "Bite Sleep": [
+      "O {attacker} Matou {victim}, enquanto ele dormia."
+    ],
+    "Bleeding": [
+      "{victim} sangrou até a morte."
+    ],
+    "Blunt": [
+      "{attacker} Matou {victim} com {weapon} e acertou o {bodypart}."
+    ],
+    "Blunt Sleep": [
+      "{attacker} Matou {victim} com {weapon}, enquanto ele dormia."
+    ],
+    "Bullet": [
+      "{attacker} Matou {victim} com {weapon}, e acertou o(a) {bodypart} de {distance}m."
+    ],
+    "Bullet Sleep": [
+      "{attacker} Matou {victim}, enquanto ele dormia. (no(a) {bodypart} com {weapon}, de {distance}m)"
+    ],
+    "Cold": [
+      "{victim} congelou até a morte."
+    ],
+    "Drowned": [
+      "{victim} pensou que sania nadar."
+    ],
+    "Explosion": [
+      "{victim} foi explodido por {attacker} com {weapon}."
+    ],
+    "Explosion Sleep": [
+      "{victim} estava sonhando enquanto ele foi explodido por {attacker} com {weapon}."
+    ],
+    "Fall": [
+      "{victim} caiu para a morte."
+    ],
+    "Generic": [
+      "{victim} morreu."
+    ],
+    "Heat": [
+      "{victim} morreu queimado."
+    ],
+    "Helicopter": [
+      "{victim} foi abatido por um {attacker}."
+    ],
+    "Helicopter Death": [
+      "{victim} foi abatido."
+    ],
+    "Hunger": [
+      "{victim} morreu de fome."
+    ],
+    "Poison": [
+      "{victim} morreu por envenenamento."
+    ],
+    "Radiation": [
+      "{victim} não sabia que radiação matava."
+    ],
+    "Slash": [
+      "{attacker} fatiou {victim} em pedassos com {weapon} acertando o {bodypart}."
+    ],
+    "Slash Sleep": [
+      "{attacker} esfaqueou {victim}, enquanto ele dormia."
+    ],
+    "Stab": [
+      "{attacker} esfaqueou {victim} até a morte com um {weapon} e acertou {bodypart}."
+    ],
+    "Stab Sleep": [
+      "{attacker} stabbed {victim}, while he slept."
+    ],
+    "Suicide": [
+      "{victim} cometeu suicídio."
+    ],
+    "Thirst": [
+      "{victim} morreu desidratado."
+    ],
+    "Trap": [
+      "{victim} pisou em uma {attacker}."
+    ],
+    "Unknown": [
+      "{victim} morreu por uma razão desconhecida."
+    ]
+  },
+  "Settings": {
+    "Broadcast To Chat": true,
+    "Broadcast To Console": true,
+    "Enable Kill Reproducing !THIS DOES NOT HAVE ANY FUNCTION YET!": true,
+    "Message In Radius": false,
+    "Message Radius": 300,
+    "Plugin Icon": "76561198206240711",
+    "Prefix": "NOTA DE MORTE<color=white>:</color> ",
+    "Show Animal Deaths": false,
+    "Show Animal Kills": false,
+    "Show Barricade Deaths": true,
+    "Show Explosion Deaths": true,
+    "Show Metabolism Deaths": false,
+    "Show Player Kills": true,
+    "Show Suicides": true,
+    "Show Trap Deaths": false,
+    "Use Popup Notifications": false
+  },
+  "Weapons": {
+    "Assault Rifle": "AK",
+    "Beancan Grenade": "Granada de feijão",
+    "Bolt Action Rifle": "Bolt",
+    "Bone Club": "Clava de Osso",
+    "Bone Knife": "Faca de Osso",
+    "Crossbow": "Besta",
+    "Custom SMG": "SubMetralhadora",
+    "Eoka Pistol": "Pistola Eoka",
+    "F1 Grenade": "Granada",
+    "Hatchet": "Machado",
+    "Hunting Bow": "Arco",
+    "Longsword": "Espada",
+    "M249": "M249",
+    "Mace": "Clava",
+    "Machete": "Machete",
+    "Pick Axe": "Picareta",
+    "Pump Shotgun": "Escopeta Caseira",
+    "Revolver": "Revolver",
+    "Rock": "Pedra",
+    "Rocket Launcher": "Bazuca",
+    "Salvaged Axe": "Machado",
+    "Salvaged Cleaver": "Cutelo",
+    "Salvaged Hammer": "Martelo",
+    "Salvaged Icepick": "Picareta de Gelo",
+    "Salvaged Sword": "Salvaged Sword",
+    "Semi-Automatic Pistol": "Pistola",
+    "Semi-Automatic Rifle": "Rifle Semi-Automatico",
+    "Stone Hatchet": "Machado",
+    "Stone Pick Axe": "Picareta",
+    "Stone Spear": "Lança",
+    "Survey Charge": "Explosivo de Pesquisa",
+    "Thompson": "Thompson",
+    "Timed Explosive Charge": "C4",
+    "Torch": "Tocha",
+    "Unknown Weapon": "Arma desconhecida",
+    "Waterpipe Shotgun": "Shotgun",
+    "Wooden Spear": "lança de madeira"
+  }
 }
